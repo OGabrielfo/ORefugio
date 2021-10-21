@@ -1,0 +1,4016 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 99,
+    "major": 4,
+    "minor": 0,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": false,
+    "folderProject": true,
+    "orientation": "landscape",
+    "packageName": "com.example.gamename",
+    "pixelsRounding": false,
+    "projectUuid": "e56a7dc4-3e99-408c-8e7d-a74fb1377ee6",
+    "scaleMode": "linear",
+    "sizeOnStartupMode": "adaptWidth",
+    "useDeprecatedZeroAsDefaultZOrder": true,
+    "useExternalSourceFiles": false,
+    "version": "0.1.0",
+    "name": "O Refúgio",
+    "author": "",
+    "windowWidth": 1920,
+    "windowHeight": 1080,
+    "latestCompilationDirectory": "C:\\Users\\Gabrielfo\\Documents\\GDevelop projects\\ORefugio\\ORefugio-alpha-0.0.4",
+    "maxFPS": 60,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {},
+    "loadingScreen": {
+      "backgroundColor": 0,
+      "backgroundFadeInDuration": 0.2,
+      "backgroundImageResourceName": "",
+      "gdevelopLogoStyle": "light",
+      "logoAndProgressFadeInDuration": 0.2,
+      "logoAndProgressLogoFadeInDelay": 0.2,
+      "minDuration": 1.5,
+      "progressBarColor": 16777215,
+      "progressBarHeight": 20,
+      "progressBarMaxWidth": 200,
+      "progressBarMinWidth": 40,
+      "progressBarWidthPercent": 30,
+      "showGDevelopSplash": true,
+      "showProgressBar": true
+    },
+    "authorIds": [],
+    "extensionProperties": [],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Player/gaya_idle_01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Player\\gaya_idle_01.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Player/gaya_idle_02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Player\\gaya_idle_02.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Player/gaya_idle_03.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Player\\gaya_idle_03.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Player/gaya_walk_01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Player\\gaya_walk_01.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Player/gaya_walk_02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Player\\gaya_walk_02.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Player/gaya_walk_03.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Player\\gaya_walk_03.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Player/gaya_walk_04.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Player\\gaya_walk_04.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Player/gaya_walk_05.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Player\\gaya_walk_05.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Player/gaya_jump_01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Player\\gaya_jump_01.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Player/gaya_jump_02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Player\\gaya_jump_02.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Player/gaya_idle_b_01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Player\\gaya_idle_b_01.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Player/gaya_idle_b_02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Player\\gaya_idle_b_02.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Player/gaya_idle_b_03.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Player\\gaya_idle_b_03.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Elements/Lata de Lixo - Esconderijo - 01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Elements\\Lata de Lixo - Esconderijo - 01.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Elements/Lata de Lixo - Esconderijo - 02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Elements\\Lata de Lixo - Esconderijo - 02.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Elements/Lata de Lixo - Esconderijo - 03.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Elements\\Lata de Lixo - Esconderijo - 03.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Elements/Lata de Lixo - Esconderijo - 04.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Elements\\Lata de Lixo - Esconderijo - 04.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Elements/Lata de Lixo - Esconderijo - 05.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Elements\\Lata de Lixo - Esconderijo - 05.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Elements/Lata de Lixo - Esconderijo - 06.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Elements\\Lata de Lixo - Esconderijo - 06.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Stage 1/Sky.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Stage 1\\Sky.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Stage 1/Dunas.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Stage 1\\Dunas.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewFile-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewFile-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Stage 1/fase 1 - 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Stage 1\\fase 1 - 1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Stage 1/fase 1 - 2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Stage 1\\fase 1 - 2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Stage 1/fase 1 - 3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Stage 1\\fase 1 - 3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Stage 1/fase 1 - 4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Stage 1\\fase 1 - 4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Stage 1/fase 1 - 3 - cerca.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Stage 1\\fase 1 - 3 - cerca.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Stage 1/predios.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Stage 1\\predios.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Stage 1/PocaRadioativa 01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Stage 1\\PocaRadioativa 01.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Stage 1/PocaRadioativa 02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Stage 1\\PocaRadioativa 02.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Stage 1/PocaRadioativa 03.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Stage 1\\PocaRadioativa 03.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Stage 1/PocaRadioativa 04.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Stage 1\\PocaRadioativa 04.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Stage 1/PocaRadioativa 05.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Stage 1\\PocaRadioativa 05.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Stage 1/PocaRadioativa 06.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Stage 1\\PocaRadioativa 06.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Stage 1/fase 1 - 0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Stage 1\\fase 1 - 0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewFile-1-0.png",
+        "kind": "image",
+        "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"New Animation\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":12,\\\"height\\\":64,\\\"width\\\":64,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAgElEQVR4Xu3XgREAIAwCMbr/0DrIxxE4S45721v4nQD8ACegA8IdOCVIAQpQgAIUCCeAQQxiEIMYDCNgDGEQgxjEIAYxGE4AgxjEIAYxGEbAGsQgBjGIQQxiMJwABjGIQQxiMIyANYhBDGIQgxjEYDgBDGIQgxjEYBgBaxCDdQY/DZh/wQWzPgkAAAAASUVORK5CYII=\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 2\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAABj0lEQVR4Xu2Y2w6EIAxE5f8/mo2sGEBw2zW9COOjwbRzmJZi2BZ/wuL6NwCAAxYngBJY3ABogigBlMDiBFACixsApwBKACWwOAGUgIEB4iCmyWZoBT1Fx9jXH0KVilZe4sdgUjsSPXJfAUMchGSAyBXeAjlASOYo5oDH4jMMaQgSdC/idxFUN/TWSkJQA0DpBbn2W1jTAMi2Hgg8W8D0AEo3NMdfgjAdgF1UKfTOAb1e8foSeDptvg3A4eLRxMvDISk+OZOXDmv17Sww6vhlBGnx0gCSE0pBZX33AHQaouQGpdTEA3ybel0OrVDNrn8Zt1mm5i/ulkE57Y2mRA37azjg7zsBAHz/D4iXqHQAOIB6C7T4F6BhscoBP2571R1guh7QCDrBEN/zzx/iF2o9gCh0BIYoh79MGkA5Dbax8nREfc9XR/hCAwAhDbslAGDH3kdkOMDHPthlAQfYsfcRGQ7wsQ92WcABdux9RIYDfOyDXRZwgB17H5HhAB/7YJcFHGDH3kdkOMDHPthlsbwDPpZvn0FXkN0iAAAAAElFTkSuQmCC\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[\\\"\\\"]}}\",\"name\":\"NewFile\",\"paths\":[\"C:\\\\Users\\\\gabriel.gsilva40\\\\Desktop\\\\atividades e Jogo\\\\ORefugio\\\\NewFile-1-0.png\"],\"singleFrame\":true}}",
+        "name": "NewFile-1-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject-1-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject-1-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "CutScene/00 - Inicio.mp4",
+        "kind": "video",
+        "metadata": "",
+        "name": "CutScene\\00 - Inicio.mp4",
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Player/gaya_walk_06.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Player\\gaya_walk_06.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Player/gaya_walk_07.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Player\\gaya_walk_07.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Player/gaya_walk_08.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Player\\gaya_walk_08.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Player/gaya_walk_09.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Player\\gaya_walk_09.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Player/gaya_walk_10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Player\\gaya_walk_10.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Player/gaya_ walk_b_01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Player\\gaya_ walk_b_01.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Player/gaya_ walk_b_02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Player\\gaya_ walk_b_02.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Player/gaya_ walk_b_03.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Player\\gaya_ walk_b_03.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Player/gaya_fall_01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Player\\gaya_fall_01.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Player/gaya_fall_02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Player\\gaya_fall_02.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Menu/Fundo.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Menu\\Fundo.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Menu/Config.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Menu\\Config.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Menu/Config-press.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Menu\\Config-press.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Menu/Continue.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Menu\\Continue.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Menu/Continue-press.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Menu\\Continue-press.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Menu/Creditos.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Menu\\Creditos.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Menu/Creditos-press.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Menu\\Creditos-press.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Menu/NovoJogo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Menu\\NovoJogo.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Menu/NovoJogo-press.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Menu\\NovoJogo-press.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Menu/Continue-PB.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Menu\\Continue-PB.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/GameOver/TELA GAME OVER.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\GameOver\\TELA GAME OVER.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "Audio/Music/the_field_of_dreams.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Audio\\Music\\the_field_of_dreams.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "Audio/Effect/completetask_0.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Audio\\Effect\\completetask_0.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "Audio/Music/a_skeletons_in_the_closet.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Audio\\Music\\a_skeletons_in_the_closet.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "Audio/Music/caravan.ogg.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Audio\\Music\\caravan.ogg.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Menu/LogoORefugio-01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Menu\\LogoORefugio-01.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Menu/LogoORefugio-02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Menu\\LogoORefugio-02.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Menu/LogoORefugio-03.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Menu\\LogoORefugio-03.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Menu/LogoORefugio-04.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Menu\\LogoORefugio-04.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Menu/LogoORefugio-05.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Menu\\LogoORefugio-05.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Menu/LogoORefugio-06.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Menu\\LogoORefugio-06.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Menu/LogoORefugio-07.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Menu\\LogoORefugio-07.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Menu/LogoORefugio-08.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Menu\\LogoORefugio-08.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Menu/LogoORefugio-09.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Menu\\LogoORefugio-09.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Menu/LogoORefugio-10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Menu\\LogoORefugio-10.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Menu/LogoORefugio-11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Menu\\LogoORefugio-11.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Menu/LogoORefugio-12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Menu\\LogoORefugio-12.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Menu/LogoORefugio-13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Menu\\LogoORefugio-13.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Menu/LogoORefugio-14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Menu\\LogoORefugio-14.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Savepoint/savepointdes.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Savepoint\\savepointdes.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Savepoint/savepointativ01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Savepoint\\savepointativ01.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Savepoint/savepointativ02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Savepoint\\savepointativ02.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Savepoint/savepointativ03.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Savepoint\\savepointativ03.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Savepoint/savepointativ04.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Savepoint\\savepointativ04.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Savepoint/savepointativ05.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Savepoint\\savepointativ05.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Savepoint/savepointativ06.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Savepoint\\savepointativ06.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Savepoint/savepointativ07.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Savepoint\\savepointativ07.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Enemies/Shadow/Sombras 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Enemies\\Shadow\\Sombras 1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Enemies/Shadow/Sombras 2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Enemies\\Shadow\\Sombras 2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Enemies/Shadow/Sombras 3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Enemies\\Shadow\\Sombras 3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Enemies/Shadow/Sombras 4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Enemies\\Shadow\\Sombras 4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Enemies/Shadow/Sombras 5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Enemies\\Shadow\\Sombras 5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Enemies/Shadow/Sombras 6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Enemies\\Shadow\\Sombras 6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Enemies/Shadow/Sombras 7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Enemies\\Shadow\\Sombras 7.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Enemies/Shadow/Sombras 8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Enemies\\Shadow\\Sombras 8.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Stage 1/Esqueleto1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Stage 1\\Esqueleto1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Stage 1/Esqueleto2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Stage 1\\Esqueleto2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Stage 1/Esqueleto3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Stage 1\\Esqueleto3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Stage 1/Cranio1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Stage 1\\Cranio1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Stage 1/Cranio2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Stage 1\\Cranio2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Stage 1/Cranio3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Stage 1\\Cranio3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Animais/cachorro.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Animais\\cachorro.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Stage 1/parte debaixo predio.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Stage 1\\parte debaixo predio.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/NPCs/npc 3 vs 2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\NPCs\\npc 3 vs 2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/NPCs/npc 3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\NPCs\\npc 3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Stage 1/frente predio.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Stage 1\\frente predio.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Stage 1/fundo predio.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Stage 1\\fundo predio.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Stage 1/elemento tijolo a mostra.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Stage 1\\elemento tijolo a mostra.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Stage 1/Bloco areia - Pequeno.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Stage 1\\Bloco areia - Pequeno.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Stage 1/Bloco conc pontinha.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Stage 1\\Bloco conc pontinha.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Stage 1/bloco conc quina esq cima - Pequeno.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Stage 1\\bloco conc quina esq cima - Pequeno.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Stage 1/Bloco concreto reto cima - Pequeno.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Stage 1\\Bloco concreto reto cima - Pequeno.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Stage 1/Bloco ferro plataforma.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Stage 1\\Bloco ferro plataforma.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Stage 1/Bloco ferro ponta.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Stage 1\\Bloco ferro ponta.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Stage 1/Bloco ferro ponta2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Stage 1\\Bloco ferro ponta2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Stage 1/Bloco terra - Pequeno.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Stage 1\\Bloco terra - Pequeno.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Stage 1/Blococoncmeio - Pequeno.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Stage 1\\Blococoncmeio - Pequeno.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Stage 1/FundoTexto.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Stage 1\\FundoTexto.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Creditos/creditos.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Creditos\\creditos.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Creditos/Esqueleto2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Creditos\\Esqueleto2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Creditos/Cranio3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Creditos\\Cranio3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Creditos/Cranio2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Creditos\\Cranio2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Creditos/Esqueleto3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Creditos\\Esqueleto3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Creditos/Esqueleto1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Creditos\\Esqueleto1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Creditos/npc 3 vs 2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Creditos\\npc 3 vs 2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Creditos/npc 3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Creditos\\npc 3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Creditos/Cranio1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Creditos\\Cranio1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/SplashScreen/Splash Screen.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\SplashScreen\\Splash Screen.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Level Design - Fase 2.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Level Design - Fase 2.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Animais/gato.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Animais\\gato.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/HUD/HUDVida01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\HUD\\HUDVida01.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/HUD/HUDVida02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\HUD\\HUDVida02.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/HUD/HUDVida03.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\HUD\\HUDVida03.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Creditos/npc2-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Creditos\\npc2-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Creditos/npc2-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Creditos\\npc2-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Creditos/npc2-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Creditos\\npc2-3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Creditos/npc1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Creditos\\npc1-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Creditos/npc1-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Creditos\\npc1-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Creditos/npc1-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Creditos\\npc1-3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/NPCs/npc2-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\NPCs\\npc2-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/NPCs/npc2-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\NPCs\\npc2-2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/NPCs/npc2-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\NPCs\\npc2-3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/NPCs/npc1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\NPCs\\npc1-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/NPCs/npc1-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\NPCs\\npc1-2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/NPCs/npc1-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\NPCs\\npc1-3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "Audio/Effect/steps in wood floor.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Audio\\Effect\\steps in wood floor.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "Audio/Effect/gmae.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Audio\\Effect\\gmae.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "Audio/Effect/Impact.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Audio\\Effect\\Impact.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "Audio/Music/Insistent.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Audio\\Music\\Insistent.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "Audio/Effect/zipclick.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Audio\\Effect\\zipclick.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Config/creditos.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Config\\creditos.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Config/Cranio2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Config\\Cranio2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Stage 2/ConcrPontaExt.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Stage 2\\ConcrPontaExt.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Stage 2/ConcrPontaInt.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Stage 2\\ConcrPontaInt.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Stage 2/ConcrSup.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Stage 2\\ConcrSup.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Stage 2/TerraSup.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Stage 2\\TerraSup.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Stage 2/TerraPontaExt.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Stage 2\\TerraPontaExt.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Stage 2/TerraPontaInt.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Stage 2\\TerraPontaInt.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Stage 2/ConcrPontaIntRad.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Stage 2\\ConcrPontaIntRad.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Stage 2/ConcrPontaExtRad.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Stage 2\\ConcrPontaExtRad.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Stage 2/ConcrSupRad.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Stage 2\\ConcrSupRad.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Stage 2/CanoPontaEsq.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Stage 2\\CanoPontaEsq.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Stage 2/CanoPontaDir.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Stage 2\\CanoPontaDir.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Stage 2/CanoMeio.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Stage 2\\CanoMeio.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Stage 2/BlocoMadeiraMeio.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Stage 2\\BlocoMadeiraMeio.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Stage 2/BlocoMadeiraDir.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Stage 2\\BlocoMadeiraDir.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Stage 2/BlocoMadeiraEsq.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Stage 2\\BlocoMadeiraEsq.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Stage 2/Poste.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Stage 2\\Poste.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Enemies/Life Root/snakeSlime.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Enemies\\Life Root\\snakeSlime.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Enemies/Life Root/snakeSlime_ani.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Enemies\\Life Root\\snakeSlime_ani.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Enemies/Life Root/raiz viva aberta.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Enemies\\Life Root\\raiz viva aberta.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Enemies/Life Root/raiz viva fechada.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Enemies\\Life Root\\raiz viva fechada.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Enemies/Life Root/raiz viva meio.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Enemies\\Life Root\\raiz viva meio.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Stage 2/Background02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Stage 2\\Background02.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Stage 2/Background01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Stage 2\\Background01.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Enemies/Life Root/espinhos01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Enemies\\Life Root\\espinhos01.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Enemies/Life Root/espinhos02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Enemies\\Life Root\\espinhos02.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Enemies/Life Root/espinhos03.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Enemies\\Life Root\\espinhos03.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Stage 2/fundoraiz.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Stage 2\\fundoraiz.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Enemies/Spider/Aranha01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Enemies\\Spider\\Aranha01.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Enemies/Spider/Aranha02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Enemies\\Spider\\Aranha02.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Enemies/Spider/Aranha03.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Enemies\\Spider\\Aranha03.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Stage 2/TijolosMeio.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Stage 2\\TijolosMeio.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Stage 2/TijolosCanto.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Stage 2\\TijolosCanto.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Stage 2/Escada.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Stage 2\\Escada.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Stage 2/TampaBoeiro.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Stage 2\\TampaBoeiro.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Level Design - Fase 3.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Level Design - Fase 3.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Elements/arbusto.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Elements\\arbusto.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Stage 3/Platforma2Left.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Stage 3\\Platforma2Left.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Stage 3/Platforma2Centro.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Stage 3\\Platforma2Centro.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Stage 3/Platforma2Right.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Stage 3\\Platforma2Right.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Stage 3/ChaoMeio.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Stage 3\\ChaoMeio.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Stage 3/ChaoCanto.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Stage 3\\ChaoCanto.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Stage 3/ChaoCantoInt.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Stage 3\\ChaoCantoInt.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Stage 3/ChaoInt.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Stage 3\\ChaoInt.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Stage 3/ParedeMusgo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Stage 3\\ParedeMusgo.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Elements/arbusto01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Elements\\arbusto01.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Elements/arbusto02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Elements\\arbusto02.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Elements/arbusto03.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Elements\\arbusto03.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Elements/arbusto04.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Elements\\arbusto04.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Stage 3/FundoFloresta2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Stage 3\\FundoFloresta2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Stage 3/FundoFloresta0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Stage 3\\FundoFloresta0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Stage 3/FundoFloresta1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Stage 3\\FundoFloresta1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Stage 3/FundoFlorestaArbusto0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Stage 3\\FundoFlorestaArbusto0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Stage 3/plataformaflor.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Stage 3\\plataformaflor.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Stage 3/ArbustoFrente.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Stage 3\\ArbustoFrente.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Stage 3/ArbustoFundo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Stage 3\\ArbustoFundo.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Transicao.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Transicao.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Stage 1/CanoFundo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Stage 1\\CanoFundo.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Stage 1/CanoFrente.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Stage 1\\CanoFrente.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/FinalProv.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\FinalProv.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "TiroGalhoProv-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "TiroGalhoProv-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Enemies/Sentinel/SentinelWalk_000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Enemies\\Sentinel\\SentinelWalk_000.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Enemies/Sentinel/SentinelWalk_001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Enemies\\Sentinel\\SentinelWalk_001.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Enemies/Sentinel/SentinelWalk_002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Enemies\\Sentinel\\SentinelWalk_002.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Enemies/Sentinel/SentinelWalk_003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Enemies\\Sentinel\\SentinelWalk_003.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Enemies/Sentinel/SentinelWalk_004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Enemies\\Sentinel\\SentinelWalk_004.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Enemies/Sentinel/SentinelWalk_005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Enemies\\Sentinel\\SentinelWalk_005.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Enemies/Sentinel/SentinelWalk_006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Enemies\\Sentinel\\SentinelWalk_006.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Enemies/Sentinel/SentinelWalk_007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Enemies\\Sentinel\\SentinelWalk_007.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Enemies/Sentinel/SentinelWalk_008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Enemies\\Sentinel\\SentinelWalk_008.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Enemies/Sentinel/SentinelWalk_009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Enemies\\Sentinel\\SentinelWalk_009.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Enemies/Sentinel/SentinelWalk_010.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Enemies\\Sentinel\\SentinelWalk_010.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Enemies/Sentinel/SentinelWalk_011.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Enemies\\Sentinel\\SentinelWalk_011.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Enemies/Sentinel/SentinelWalk_012.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Enemies\\Sentinel\\SentinelWalk_012.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Enemies/Sentinel/SentinelWalk_013.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Enemies\\Sentinel\\SentinelWalk_013.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Enemies/Sentinel/SentinelWalk_014.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Enemies\\Sentinel\\SentinelWalk_014.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Enemies/Sentinel/SentinelWalk_015.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Enemies\\Sentinel\\SentinelWalk_015.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Enemies/Sentinel/SentinelWalk_016.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Enemies\\Sentinel\\SentinelWalk_016.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Enemies/Sentinel/SentinelWalk_017.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Enemies\\Sentinel\\SentinelWalk_017.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Enemies/Sentinel/SentinelWalk_018.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Enemies\\Sentinel\\SentinelWalk_018.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Enemies/Sentinel/SentinelWalk_019.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Enemies\\Sentinel\\SentinelWalk_019.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Enemies/Sentinel/SentinelWalk_020.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Enemies\\Sentinel\\SentinelWalk_020.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Enemies/Sentinel/SentinelWalk_021.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Enemies\\Sentinel\\SentinelWalk_021.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Enemies/Sentinel/TiroGalho.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Enemies\\Sentinel\\TiroGalho.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Stage 1/OutdoorExplosivo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Stage 1\\OutdoorExplosivo.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Stage 3/Elementos/costela.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Stage 3\\Elementos\\costela.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Stage 3/Elementos/espadasaojorge.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Stage 3\\Elementos\\espadasaojorge.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Stage 3/Elementos/palmeira.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Stage 3\\Elementos\\palmeira.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Stage 3/Elementos/planta coracao.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Stage 3\\Elementos\\planta coracao.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Stage 3/Elementos/plantaflor.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Stage 3\\Elementos\\plantaflor.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Stage 3/Elementos/samambaia.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Stage 3\\Elementos\\samambaia.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Audio/Effect/QuedaNoChao.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Audio\\Effect\\QuedaNoChao.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": false
+      },
+      {
+        "file": "Audio/Effect/QuedaNoChao2.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Audio\\Effect\\QuedaNoChao2.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "Audio/Effect/AndandoMato.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Audio\\Effect\\AndandoMato.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "Audio/Effect/AndandoCimento.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Audio\\Effect\\AndandoCimento.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "Audio/Effect/AndandoTerra.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Audio\\Effect\\AndandoTerra.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "Audio/Effect/Jump.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Audio\\Effect\\Jump.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "Audio/Effect/PocaRadioativa.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Audio\\Effect\\PocaRadioativa.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "Audio/Music/MysteryBazaar_fase1.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Audio\\Music\\MysteryBazaar_fase1.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "Audio/Music/MystOnTheMoor_fase2.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Audio\\Music\\MystOnTheMoor_fase2.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "Audio/Music/MagicForest_fase3.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Audio\\Music\\MagicForest_fase3.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "Audio/Effect/SentinelaAnda.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Audio\\Effect\\SentinelaAnda.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      }
+    ],
+    "resourceFolders": []
+  },
+  "objects": [
+    {
+      "height": 32,
+      "name": "FundoPauseMenu",
+      "tags": "",
+      "texture": "Graphics\\Stages\\Config\\creditos.jpg",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "name": "VolumeGeralPauseMenu",
+      "tags": "",
+      "type": "PrimitiveDrawing::Drawer",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "DraggableSliderControl",
+          "type": "DraggableSliderControl::DraggableSliderControl",
+          "ThumbShape": "circle",
+          "ThumbWidth": 20,
+          "ThumbHeight": 20,
+          "ThumbColor": " ",
+          "ThumbOpacity": 255,
+          "TrackWidth": 400,
+          "TrackHeight": 4,
+          "InactiveTrackColor": "",
+          "InactiveTrackOpacity": 96,
+          "ActiveTrackColor": "255;41;41",
+          "ActiveTrackOpacity": 255,
+          "HaloRadius": 24,
+          "HaloOpacityHover": 32,
+          "HaloOpacityClick": 64,
+          "IsBeingDragged": false,
+          "Value": 0,
+          "ThumbOffset": 0,
+          "RoundedTrack": false,
+          "NeedRedraw": true,
+          "IsHovered": false,
+          "WasHovered": false
+        }
+      ],
+      "fillOpacity": 255,
+      "outlineSize": 1,
+      "outlineOpacity": 255,
+      "fillColor": {
+        "b": 207,
+        "g": 255,
+        "r": 210
+      },
+      "outlineColor": {
+        "b": 41,
+        "g": 41,
+        "r": 255
+      },
+      "absoluteCoordinates": false,
+      "clearBetweenFrames": true
+    },
+    {
+      "name": "VolumeMusicaPauseMenu",
+      "tags": "",
+      "type": "PrimitiveDrawing::Drawer",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "DraggableSliderControl",
+          "type": "DraggableSliderControl::DraggableSliderControl",
+          "ThumbShape": "circle",
+          "ThumbWidth": 20,
+          "ThumbHeight": 20,
+          "ThumbColor": " ",
+          "ThumbOpacity": 255,
+          "TrackWidth": 400,
+          "TrackHeight": 4,
+          "InactiveTrackColor": "",
+          "InactiveTrackOpacity": 96,
+          "ActiveTrackColor": "255;41;41",
+          "ActiveTrackOpacity": 255,
+          "HaloRadius": 24,
+          "HaloOpacityHover": 32,
+          "HaloOpacityClick": 64,
+          "IsBeingDragged": false,
+          "Value": 0,
+          "ThumbOffset": 0,
+          "RoundedTrack": false,
+          "NeedRedraw": true,
+          "IsHovered": false,
+          "WasHovered": false
+        }
+      ],
+      "fillOpacity": 255,
+      "outlineSize": 1,
+      "outlineOpacity": 255,
+      "fillColor": {
+        "b": 207,
+        "g": 255,
+        "r": 210
+      },
+      "outlineColor": {
+        "b": 41,
+        "g": 41,
+        "r": 255
+      },
+      "absoluteCoordinates": false,
+      "clearBetweenFrames": true
+    },
+    {
+      "name": "VolumeEfeitosPauseMenu",
+      "tags": "",
+      "type": "PrimitiveDrawing::Drawer",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "DraggableSliderControl",
+          "type": "DraggableSliderControl::DraggableSliderControl",
+          "ThumbShape": "circle",
+          "ThumbWidth": 20,
+          "ThumbHeight": 20,
+          "ThumbColor": " ",
+          "ThumbOpacity": 255,
+          "TrackWidth": 400,
+          "TrackHeight": 4,
+          "InactiveTrackColor": "",
+          "InactiveTrackOpacity": 96,
+          "ActiveTrackColor": "255;41;41",
+          "ActiveTrackOpacity": 255,
+          "HaloRadius": 24,
+          "HaloOpacityHover": 32,
+          "HaloOpacityClick": 64,
+          "IsBeingDragged": false,
+          "Value": 0,
+          "ThumbOffset": 0,
+          "RoundedTrack": false,
+          "NeedRedraw": true,
+          "IsHovered": false,
+          "WasHovered": false
+        }
+      ],
+      "fillOpacity": 255,
+      "outlineSize": 1,
+      "outlineOpacity": 255,
+      "fillColor": {
+        "b": 207,
+        "g": 255,
+        "r": 210
+      },
+      "outlineColor": {
+        "b": 41,
+        "g": 41,
+        "r": 255
+      },
+      "absoluteCoordinates": false,
+      "clearBetweenFrames": true
+    },
+    {
+      "name": "VoltaraoMenuPauseMenu",
+      "tags": "Textos",
+      "type": "BBText::BBText",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "content": {
+        "text": "[outline=black][shadow=Black][b]Voltar ao menu[/b][/shadow][/outline]",
+        "opacity": 255,
+        "fontSize": 80,
+        "visible": true,
+        "color": "#ffffff",
+        "fontFamily": "Arial",
+        "align": "center",
+        "wordWrap": true
+      }
+    },
+    {
+      "name": "ContinuarPauseMenu",
+      "tags": "Textos",
+      "type": "BBText::BBText",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "content": {
+        "text": "[outline=black][shadow=Black][b]Continuar[/b][/shadow][/outline]",
+        "opacity": 255,
+        "fontSize": 80,
+        "visible": true,
+        "color": "#ffffff",
+        "fontFamily": "Arial",
+        "align": "center",
+        "wordWrap": true
+      }
+    },
+    {
+      "name": "VolumePauseMenu",
+      "tags": "Textos",
+      "type": "BBText::BBText",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "content": {
+        "text": "[outline=black][shadow=Black][b]Volume[/b][/shadow][/outline]",
+        "opacity": 255,
+        "fontSize": 80,
+        "visible": true,
+        "color": "#ffffff",
+        "fontFamily": "Arial",
+        "align": "center",
+        "wordWrap": true
+      }
+    },
+    {
+      "name": "GeralPauseMenu",
+      "tags": "Textos",
+      "type": "BBText::BBText",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "content": {
+        "text": "[outline=black][shadow=Black][b]Geral[/b][/shadow][/outline]",
+        "opacity": 255,
+        "fontSize": 60,
+        "visible": true,
+        "color": "#ffffff",
+        "fontFamily": "Arial",
+        "align": "center",
+        "wordWrap": true
+      }
+    },
+    {
+      "name": "MusicaPauseMenu",
+      "tags": "Textos",
+      "type": "BBText::BBText",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "content": {
+        "text": "[outline=black][shadow=Black][b]Música[/b][/shadow][/outline]",
+        "opacity": 255,
+        "fontSize": 60,
+        "visible": true,
+        "color": "#ffffff",
+        "fontFamily": "Arial",
+        "align": "center",
+        "wordWrap": true
+      }
+    },
+    {
+      "name": "EfeitosSonorosPauseMenu",
+      "tags": "Textos",
+      "type": "BBText::BBText",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "content": {
+        "text": "[outline=black][shadow=Black][b]Efeitos[/b][/shadow][/outline]",
+        "opacity": 255,
+        "fontSize": 60,
+        "visible": true,
+        "color": "#ffffff",
+        "fontFamily": "Arial",
+        "align": "center",
+        "wordWrap": true
+      }
+    },
+    {
+      "name": "Player",
+      "tags": "Player e NPCs",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "Invul",
+          "type": "string",
+          "value": "0"
+        },
+        {
+          "name": "Pulando",
+          "type": "string",
+          "value": "0"
+        },
+        {
+          "name": "Vida",
+          "type": "string",
+          "value": "50"
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Health",
+          "type": "Health::Health",
+          "Health": 50,
+          "DamageCooldown": 1,
+          "MaxHealth": 50,
+          "IsJustDamaged": false,
+          "CooldownActive": false
+        },
+        {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior",
+          "slopeMaxAngle": 89,
+          "ignoreDefaultControls": false,
+          "jumpSpeed": 800,
+          "acceleration": 1500,
+          "canGrabPlatforms": false,
+          "deceleration": 1500,
+          "gravity": 1000,
+          "maxFallingSpeed": 700,
+          "maxSpeed": 250,
+          "roundCoordinates": true,
+          "xGrabTolerance": 10,
+          "yGrabOffset": 0
+        }
+      ],
+      "animations": [
+        {
+          "name": "Idle",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.1667,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Graphics\\Player\\gaya_idle_01.png",
+                  "points": [
+                    {
+                      "name": "Frente",
+                      "x": 135,
+                      "y": 140
+                    },
+                    {
+                      "name": "Costas",
+                      "x": 60,
+                      "y": 140
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 80,
+                        "y": 80
+                      },
+                      {
+                        "x": 110,
+                        "y": 40
+                      },
+                      {
+                        "x": 110,
+                        "y": 190
+                      },
+                      {
+                        "x": 80,
+                        "y": 190
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Graphics\\Player\\gaya_idle_02.png",
+                  "points": [
+                    {
+                      "name": "Frente",
+                      "x": 135,
+                      "y": 140
+                    },
+                    {
+                      "name": "Costas",
+                      "x": 60,
+                      "y": 140
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 80,
+                        "y": 80
+                      },
+                      {
+                        "x": 110,
+                        "y": 40
+                      },
+                      {
+                        "x": 110,
+                        "y": 190
+                      },
+                      {
+                        "x": 80,
+                        "y": 190
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Graphics\\Player\\gaya_idle_03.png",
+                  "points": [
+                    {
+                      "name": "Frente",
+                      "x": 135,
+                      "y": 140
+                    },
+                    {
+                      "name": "Costas",
+                      "x": 60,
+                      "y": 140
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 80,
+                        "y": 80
+                      },
+                      {
+                        "x": 110,
+                        "y": 40
+                      },
+                      {
+                        "x": 110,
+                        "y": 190
+                      },
+                      {
+                        "x": 80,
+                        "y": 190
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Graphics\\Player\\gaya_idle_02.png",
+                  "points": [
+                    {
+                      "name": "Frente",
+                      "x": 135,
+                      "y": 140
+                    },
+                    {
+                      "name": "Costas",
+                      "x": 60,
+                      "y": 140
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 80,
+                        "y": 80
+                      },
+                      {
+                        "x": 110,
+                        "y": 40
+                      },
+                      {
+                        "x": 110,
+                        "y": 190
+                      },
+                      {
+                        "x": 80,
+                        "y": 190
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "CIdle",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.1667,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Graphics\\Player\\gaya_idle_b_01.png",
+                  "points": [
+                    {
+                      "name": "Frente",
+                      "x": 135,
+                      "y": 140
+                    },
+                    {
+                      "name": "Costas",
+                      "x": 60,
+                      "y": 140
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 80,
+                        "y": 170
+                      },
+                      {
+                        "x": 160,
+                        "y": 110
+                      },
+                      {
+                        "x": 160,
+                        "y": 190
+                      },
+                      {
+                        "x": 80,
+                        "y": 190
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Graphics\\Player\\gaya_idle_b_02.png",
+                  "points": [
+                    {
+                      "name": "Frente",
+                      "x": 135,
+                      "y": 140
+                    },
+                    {
+                      "name": "Costas",
+                      "x": 60,
+                      "y": 140
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 80,
+                        "y": 170
+                      },
+                      {
+                        "x": 160,
+                        "y": 110
+                      },
+                      {
+                        "x": 160,
+                        "y": 190
+                      },
+                      {
+                        "x": 80,
+                        "y": 190
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Graphics\\Player\\gaya_idle_b_03.png",
+                  "points": [
+                    {
+                      "name": "Frente",
+                      "x": 135,
+                      "y": 140
+                    },
+                    {
+                      "name": "Costas",
+                      "x": 60,
+                      "y": 140
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 80,
+                        "y": 170
+                      },
+                      {
+                        "x": 160,
+                        "y": 110
+                      },
+                      {
+                        "x": 160,
+                        "y": 190
+                      },
+                      {
+                        "x": 80,
+                        "y": 190
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Graphics\\Player\\gaya_idle_b_02.png",
+                  "points": [
+                    {
+                      "name": "Frente",
+                      "x": 135,
+                      "y": 140
+                    },
+                    {
+                      "name": "Costas",
+                      "x": 60,
+                      "y": 140
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 80,
+                        "y": 170
+                      },
+                      {
+                        "x": 160,
+                        "y": 110
+                      },
+                      {
+                        "x": 160,
+                        "y": 190
+                      },
+                      {
+                        "x": 80,
+                        "y": 190
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Walk",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.06,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Graphics\\Player\\gaya_walk_01.png",
+                  "points": [
+                    {
+                      "name": "Frente",
+                      "x": 135,
+                      "y": 140
+                    },
+                    {
+                      "name": "Costas",
+                      "x": 60,
+                      "y": 140
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 80,
+                        "y": 80
+                      },
+                      {
+                        "x": 110,
+                        "y": 40
+                      },
+                      {
+                        "x": 110,
+                        "y": 190
+                      },
+                      {
+                        "x": 80,
+                        "y": 190
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Graphics\\Player\\gaya_walk_02.png",
+                  "points": [
+                    {
+                      "name": "Frente",
+                      "x": 135,
+                      "y": 140
+                    },
+                    {
+                      "name": "Costas",
+                      "x": 60,
+                      "y": 140
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 80,
+                        "y": 80
+                      },
+                      {
+                        "x": 110,
+                        "y": 40
+                      },
+                      {
+                        "x": 110,
+                        "y": 190
+                      },
+                      {
+                        "x": 80,
+                        "y": 190
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Graphics\\Player\\gaya_walk_03.png",
+                  "points": [
+                    {
+                      "name": "Frente",
+                      "x": 135,
+                      "y": 140
+                    },
+                    {
+                      "name": "Costas",
+                      "x": 60,
+                      "y": 140
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 80,
+                        "y": 80
+                      },
+                      {
+                        "x": 110,
+                        "y": 40
+                      },
+                      {
+                        "x": 110,
+                        "y": 190
+                      },
+                      {
+                        "x": 80,
+                        "y": 190
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Graphics\\Player\\gaya_walk_04.png",
+                  "points": [
+                    {
+                      "name": "Frente",
+                      "x": 135,
+                      "y": 140
+                    },
+                    {
+                      "name": "Costas",
+                      "x": 60,
+                      "y": 140
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 80,
+                        "y": 80
+                      },
+                      {
+                        "x": 110,
+                        "y": 40
+                      },
+                      {
+                        "x": 110,
+                        "y": 190
+                      },
+                      {
+                        "x": 80,
+                        "y": 190
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Graphics\\Player\\gaya_walk_05.png",
+                  "points": [
+                    {
+                      "name": "Frente",
+                      "x": 135,
+                      "y": 140
+                    },
+                    {
+                      "name": "Costas",
+                      "x": 60,
+                      "y": 140
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 80,
+                        "y": 80
+                      },
+                      {
+                        "x": 110,
+                        "y": 40
+                      },
+                      {
+                        "x": 110,
+                        "y": 190
+                      },
+                      {
+                        "x": 80,
+                        "y": 190
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Graphics\\Player\\gaya_walk_06.png",
+                  "points": [
+                    {
+                      "name": "Frente",
+                      "x": 135,
+                      "y": 140
+                    },
+                    {
+                      "name": "Costas",
+                      "x": 60,
+                      "y": 140
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 80,
+                        "y": 80
+                      },
+                      {
+                        "x": 110,
+                        "y": 40
+                      },
+                      {
+                        "x": 110,
+                        "y": 190
+                      },
+                      {
+                        "x": 80,
+                        "y": 190
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Graphics\\Player\\gaya_walk_07.png",
+                  "points": [
+                    {
+                      "name": "Frente",
+                      "x": 135,
+                      "y": 140
+                    },
+                    {
+                      "name": "Costas",
+                      "x": 60,
+                      "y": 140
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 80,
+                        "y": 80
+                      },
+                      {
+                        "x": 110,
+                        "y": 40
+                      },
+                      {
+                        "x": 110,
+                        "y": 190
+                      },
+                      {
+                        "x": 80,
+                        "y": 190
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Graphics\\Player\\gaya_walk_08.png",
+                  "points": [
+                    {
+                      "name": "Frente",
+                      "x": 135,
+                      "y": 140
+                    },
+                    {
+                      "name": "Costas",
+                      "x": 60,
+                      "y": 140
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 80,
+                        "y": 80
+                      },
+                      {
+                        "x": 110,
+                        "y": 40
+                      },
+                      {
+                        "x": 110,
+                        "y": 190
+                      },
+                      {
+                        "x": 80,
+                        "y": 190
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "CWalk",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Graphics\\Player\\gaya_ walk_b_01.png",
+                  "points": [
+                    {
+                      "name": "Frente",
+                      "x": 135,
+                      "y": 140
+                    },
+                    {
+                      "name": "Costas",
+                      "x": 60,
+                      "y": 140
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 80,
+                        "y": 170
+                      },
+                      {
+                        "x": 160,
+                        "y": 110
+                      },
+                      {
+                        "x": 160,
+                        "y": 190
+                      },
+                      {
+                        "x": 80,
+                        "y": 190
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Graphics\\Player\\gaya_ walk_b_02.png",
+                  "points": [
+                    {
+                      "name": "Frente",
+                      "x": 135,
+                      "y": 140
+                    },
+                    {
+                      "name": "Costas",
+                      "x": 60,
+                      "y": 140
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 80,
+                        "y": 170
+                      },
+                      {
+                        "x": 160,
+                        "y": 110
+                      },
+                      {
+                        "x": 160,
+                        "y": 190
+                      },
+                      {
+                        "x": 80,
+                        "y": 190
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Graphics\\Player\\gaya_ walk_b_03.png",
+                  "points": [
+                    {
+                      "name": "Frente",
+                      "x": 135,
+                      "y": 140
+                    },
+                    {
+                      "name": "Costas",
+                      "x": 60,
+                      "y": 140
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 80,
+                        "y": 170
+                      },
+                      {
+                        "x": 160,
+                        "y": 110
+                      },
+                      {
+                        "x": 160,
+                        "y": 190
+                      },
+                      {
+                        "x": 80,
+                        "y": 190
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Jump",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Graphics\\Player\\gaya_jump_01.png",
+                  "points": [
+                    {
+                      "name": "Frente",
+                      "x": 135,
+                      "y": 140
+                    },
+                    {
+                      "name": "Costas",
+                      "x": 60,
+                      "y": 140
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 80,
+                        "y": 80
+                      },
+                      {
+                        "x": 110,
+                        "y": 40
+                      },
+                      {
+                        "x": 110,
+                        "y": 190
+                      },
+                      {
+                        "x": 80,
+                        "y": 190
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Graphics\\Player\\gaya_jump_02.png",
+                  "points": [
+                    {
+                      "name": "Frente",
+                      "x": 135,
+                      "y": 140
+                    },
+                    {
+                      "name": "Costas",
+                      "x": 60,
+                      "y": 140
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 80,
+                        "y": 80
+                      },
+                      {
+                        "x": 110,
+                        "y": 40
+                      },
+                      {
+                        "x": 110,
+                        "y": 190
+                      },
+                      {
+                        "x": 80,
+                        "y": 190
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Fall",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.20000000298023224,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Graphics\\Player\\gaya_fall_01.png",
+                  "points": [
+                    {
+                      "name": "Frente",
+                      "x": 135,
+                      "y": 140
+                    },
+                    {
+                      "name": "Costas",
+                      "x": 60,
+                      "y": 140
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 80,
+                        "y": 80
+                      },
+                      {
+                        "x": 110,
+                        "y": 40
+                      },
+                      {
+                        "x": 110,
+                        "y": 190
+                      },
+                      {
+                        "x": 80,
+                        "y": 190
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Graphics\\Player\\gaya_fall_02.png",
+                  "points": [
+                    {
+                      "name": "Frente",
+                      "x": 135,
+                      "y": 140
+                    },
+                    {
+                      "name": "Costas",
+                      "x": 60,
+                      "y": 140
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 80,
+                        "y": 80
+                      },
+                      {
+                        "x": 110,
+                        "y": 40
+                      },
+                      {
+                        "x": 110,
+                        "y": 190
+                      },
+                      {
+                        "x": 80,
+                        "y": 190
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "objectsGroups": [],
+  "variables": [
+    {
+      "name": "SavePointFase",
+      "type": "string",
+      "value": "0"
+    },
+    {
+      "name": "FaseSaveX",
+      "type": "string",
+      "value": "0"
+    },
+    {
+      "name": "FaseSaveY",
+      "type": "string",
+      "value": "0"
+    },
+    {
+      "name": "Continue",
+      "type": "string",
+      "value": "0"
+    },
+    {
+      "name": "VolumeMusica",
+      "type": "string",
+      "value": "100"
+    },
+    {
+      "name": "VolumeEfeitos",
+      "type": "string",
+      "value": "100"
+    },
+    {
+      "name": "Animal1",
+      "type": "string",
+      "value": "0"
+    },
+    {
+      "name": "Animal2",
+      "type": "string",
+      "value": "0"
+    },
+    {
+      "name": "Animal3",
+      "type": "string",
+      "value": "0"
+    },
+    {
+      "name": "Animais",
+      "type": "string",
+      "value": "0"
+    },
+    {
+      "name": "GamePause",
+      "type": "string",
+      "value": "0"
+    }
+  ],
+  "layouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/splashscreen"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/menuprincipal"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/menuload"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/menuconfigs"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/creditos"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/cutscene01"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/stage1"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/stage2"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/stage3"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/cutscenefinal_bom"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/cutscenefinal_ruim"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/gameover"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/stage1old"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/teststage"
+    }
+  ],
+  "externalEvents": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/player"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/enemyshadow"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/enemyspider"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/enemyliveroots"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/enemysentinel"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/escarbusto"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/esclixo"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/pausemenu"
+    }
+  ],
+  "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/firebullet"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/health"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/sinemovement"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/draggableslidercontrol"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/autotyping"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/parallax"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/timedbackandforthmovement"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/animatedbackandforthmovement"
+    }
+  ],
+  "externalLayouts": [],
+  "externalSourceFiles": []
+}

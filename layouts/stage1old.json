@@ -1,0 +1,6036 @@
+{
+  "b": 209,
+  "disableInputWhenNotFocused": true,
+  "mangledName": "Stage1Old",
+  "name": "Stage1Old",
+  "oglFOV": 90,
+  "oglZFar": 500,
+  "oglZNear": 1,
+  "r": 209,
+  "standardSortMethod": true,
+  "stopSoundsOnStartup": true,
+  "title": "",
+  "v": 209,
+  "uiSettings": {
+    "grid": false,
+    "gridType": "rectangular",
+    "gridWidth": 32,
+    "gridHeight": 32,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridColor": 10401023,
+    "gridAlpha": 0.8,
+    "snap": false,
+    "zoomFactor": 0.31,
+    "windowMask": false
+  },
+  "objectsGroups": [
+    {
+      "name": "Plataformas",
+      "objects": [
+        {
+          "name": "PlataformaComum"
+        },
+        {
+          "name": "PlataformaAtrav"
+        },
+        {
+          "name": "PlataformaFundo"
+        }
+      ]
+    },
+    {
+      "name": "Colisores",
+      "objects": [
+        {
+          "name": "IdentificadorDeColisao"
+        },
+        {
+          "name": "IdentificadorDeMorte"
+        }
+      ]
+    },
+    {
+      "name": "Grafico",
+      "objects": [
+        {
+          "name": "Background2"
+        },
+        {
+          "name": "Background1"
+        },
+        {
+          "name": "Fase1"
+        },
+        {
+          "name": "Fase2"
+        },
+        {
+          "name": "Fase3"
+        },
+        {
+          "name": "Fase4"
+        },
+        {
+          "name": "Fase3Cerca"
+        },
+        {
+          "name": "Fase0"
+        },
+        {
+          "name": "Background0"
+        }
+      ]
+    },
+    {
+      "name": "ObjetosDeCena",
+      "objects": [
+        {
+          "name": "Player"
+        },
+        {
+          "name": "EscLixo"
+        },
+        {
+          "name": "PocaRadioativa"
+        }
+      ]
+    }
+  ],
+  "variables": [
+    {
+      "name": "GameZoom",
+      "type": "string",
+      "value": ""
+    },
+    {
+      "name": "Back0Zoom",
+      "type": "string",
+      "value": ""
+    },
+    {
+      "name": "Back1Zoom",
+      "type": "string",
+      "value": ""
+    },
+    {
+      "name": "Back2Zoom",
+      "type": "string",
+      "value": ""
+    },
+    {
+      "name": "SavePointX",
+      "type": "string",
+      "value": ""
+    },
+    {
+      "name": "SavePointY",
+      "type": "string",
+      "value": ""
+    }
+  ],
+  "instances": [
+    {
+      "angle": 2.1047,
+      "customSize": true,
+      "height": 70,
+      "layer": "Game",
+      "locked": false,
+      "name": "PlataformaComum",
+      "persistentUuid": "1a92917e-cc9d-43c4-9334-b0f4413647d7",
+      "width": 936,
+      "x": -5139,
+      "y": 1046,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "locked": false,
+      "name": "PlataformaComum",
+      "persistentUuid": "cd472295-c414-4e65-8d2e-63163515a6ba",
+      "width": 4634,
+      "x": 15962,
+      "y": 1059,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 737,
+      "layer": "Game",
+      "locked": false,
+      "name": "PlataformaComum",
+      "persistentUuid": "4a31441b-ac75-4bc3-b6c5-9a84486266e2",
+      "width": 150,
+      "x": 19967,
+      "y": -66,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 1115,
+      "layer": "Game",
+      "locked": false,
+      "name": "PlataformaComum",
+      "persistentUuid": "3a976af1-6940-478d-80d0-bcd1e2525234",
+      "width": 160,
+      "x": -5139,
+      "y": -73,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "Game",
+      "locked": false,
+      "name": "PlataformaComum",
+      "persistentUuid": "8c253389-9ab4-469d-9a24-cce907da9ef6",
+      "width": 24940,
+      "x": -4978,
+      "y": -64,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 7.73867,
+      "customSize": true,
+      "height": 70,
+      "layer": "Game",
+      "locked": false,
+      "name": "PlataformaComum",
+      "persistentUuid": "f5c70bd4-7ff1-497b-950a-82dd7e103751",
+      "width": 381,
+      "x": 2697,
+      "y": 1047,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": -2.61901,
+      "customSize": true,
+      "height": 70,
+      "layer": "Game",
+      "locked": false,
+      "name": "PlataformaComum",
+      "persistentUuid": "2670db42-ec69-445e-8476-bb58b615360c",
+      "width": 434,
+      "x": 3069,
+      "y": 1064,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": -1.39362,
+      "customSize": true,
+      "height": 70,
+      "layer": "Game",
+      "locked": false,
+      "name": "PlataformaComum",
+      "persistentUuid": "90ca0bf1-9fa1-42f8-ae4e-ff1e4bb16297",
+      "width": 1257,
+      "x": 1060,
+      "y": 1038,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": -0.102937,
+      "customSize": true,
+      "height": 70,
+      "layer": "Game",
+      "locked": false,
+      "name": "PlataformaComum",
+      "persistentUuid": "d79f3e69-1e7f-43b4-9cd0-0bd547a6d2f5",
+      "width": 395,
+      "x": 2311,
+      "y": 1022,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": -17.1227,
+      "customSize": true,
+      "height": 70,
+      "layer": "Game",
+      "locked": false,
+      "name": "PlataformaComum",
+      "persistentUuid": "65d8cc10-6a33-4a19-b74f-806a5d3720b0",
+      "width": 1232,
+      "x": 3273,
+      "y": 899,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": -8.52896,
+      "customSize": true,
+      "height": 70,
+      "layer": "Game",
+      "locked": false,
+      "name": "PlataformaComum",
+      "persistentUuid": "3d254b45-c3ff-4791-995a-456eabab112c",
+      "width": 233,
+      "x": 4469,
+      "y": 702,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": -4.3812,
+      "customSize": true,
+      "height": 70,
+      "layer": "Game",
+      "locked": false,
+      "name": "PlataformaComum",
+      "persistentUuid": "374c3921-9df7-4d9e-abbe-68cb24724580",
+      "width": 424,
+      "x": 4696,
+      "y": 669,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 549,
+      "layer": "Game",
+      "locked": false,
+      "name": "PlataformaComum",
+      "persistentUuid": "79a0dbc9-1515-4e32-9341-228860175e7a",
+      "width": 152,
+      "x": 5080,
+      "y": 543,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 127,
+      "layer": "Game",
+      "locked": false,
+      "name": "PlataformaComum",
+      "persistentUuid": "0438c56b-5d3d-409d-803f-dead6b863d31",
+      "width": 346,
+      "x": 5227,
+      "y": 963,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 35,
+      "layer": "Game",
+      "locked": false,
+      "name": "PlataformaAtrav",
+      "persistentUuid": "7e3f4df5-c480-4728-923b-44f8efc7e072",
+      "width": 108,
+      "x": 5649,
+      "y": 825,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 41,
+      "layer": "Game",
+      "locked": false,
+      "name": "PlataformaComum",
+      "persistentUuid": "21fa887b-797f-411f-a3a1-6ead55c7cd71",
+      "width": 1133,
+      "x": 6076,
+      "y": 607,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 17.5713,
+      "customSize": true,
+      "height": 37,
+      "layer": "Game",
+      "locked": false,
+      "name": "PlataformaComum",
+      "persistentUuid": "60766a7b-7de3-46b4-a039-0f901a0c16c4",
+      "width": 95,
+      "x": 7426,
+      "y": 668,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 44,
+      "layer": "Game",
+      "locked": false,
+      "name": "PlataformaComum",
+      "persistentUuid": "9cc7be30-3492-495d-b9bd-f043c98c5e53",
+      "width": 81,
+      "x": 7592,
+      "y": 677,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 68,
+      "layer": "Game",
+      "locked": false,
+      "name": "PlataformaComum",
+      "persistentUuid": "7894db2a-d7b9-45fb-a420-2f5365859c16",
+      "width": 88,
+      "x": 7733,
+      "y": 737,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 59,
+      "layer": "Game",
+      "locked": false,
+      "name": "PlataformaComum",
+      "persistentUuid": "ffd8c982-0269-464c-82e3-8e19f8f2c3e2",
+      "width": 62,
+      "x": 7875,
+      "y": 681,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 232,
+      "layer": "Game",
+      "locked": false,
+      "name": "PlataformaComum",
+      "persistentUuid": "11f279d2-898e-400a-a59f-5b4b34dc68a2",
+      "width": 70,
+      "x": 8043,
+      "y": 853,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 70,
+      "layer": "Game",
+      "locked": false,
+      "name": "PlataformaComum",
+      "persistentUuid": "04935251-85b5-44dd-a8cc-e4eb5218e746",
+      "width": 453,
+      "x": 8043,
+      "y": 843,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 322,
+      "layer": "Game",
+      "locked": false,
+      "name": "Player",
+      "persistentUuid": "0a73cec8-30a4-4dac-a300-609fd88f1e91",
+      "width": 185,
+      "x": -3748,
+      "y": 634,
+      "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": -33.7263,
+      "customSize": true,
+      "height": 43,
+      "layer": "Game",
+      "locked": false,
+      "name": "PlataformaComum",
+      "persistentUuid": "b3d7ec76-36bd-4472-a0b7-46a441e9873b",
+      "width": 423,
+      "x": 5702,
+      "y": 720,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 1323,
+      "layer": "Background 2",
+      "locked": false,
+      "name": "Background2",
+      "persistentUuid": "c65997ff-1b7c-416c-a64b-73bff45f4a9b",
+      "width": 2405,
+      "x": -1128,
+      "y": -690,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 2382,
+      "layer": "Background 1",
+      "locked": false,
+      "name": "Background1",
+      "persistentUuid": "ebd34792-834e-4a76-b302-802bee50857b",
+      "width": 26112,
+      "x": -5912,
+      "y": -1482,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 266,
+      "layer": "Game",
+      "locked": false,
+      "name": "PlataformaComum",
+      "persistentUuid": "b9513d71-1632-466c-94e4-8d398faa459c",
+      "width": 1501,
+      "x": 5681,
+      "y": 839,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 38.5425,
+      "customSize": true,
+      "height": 70,
+      "layer": "Game",
+      "locked": false,
+      "name": "PlataformaComum",
+      "persistentUuid": "3a8f322d-153c-4e43-9972-4d190ff8713e",
+      "width": 230,
+      "x": 8449,
+      "y": 906,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 94,
+      "layer": "Game",
+      "locked": false,
+      "name": "PlataformaComum",
+      "persistentUuid": "a29b1d4c-1297-4012-b4bb-d6165a86d1ed",
+      "width": 1465,
+      "x": 8646,
+      "y": 964,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 93,
+      "layer": "Game",
+      "locked": false,
+      "name": "PlataformaComum",
+      "persistentUuid": "7e7f2025-bf40-4b08-a606-c8ce3bd7f861",
+      "width": 231,
+      "x": 10290,
+      "y": 960,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": -22.8051,
+      "customSize": true,
+      "height": 70,
+      "layer": "Game",
+      "locked": false,
+      "name": "PlataformaComum",
+      "persistentUuid": "e0d3efe0-b67f-4896-8825-b4eb7d2c428b",
+      "width": 458,
+      "x": 10477,
+      "y": 864,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 198,
+      "layer": "Game",
+      "locked": false,
+      "name": "PlataformaComum",
+      "persistentUuid": "e30fff0a-24ee-4ac1-b577-a2971496d359",
+      "width": 70,
+      "x": 10744,
+      "y": 893,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 305,
+      "layer": "Game",
+      "locked": false,
+      "name": "PlataformaComum",
+      "persistentUuid": "f6292cd5-6d74-421f-8e75-1a1016d108e3",
+      "width": 221,
+      "x": 11114,
+      "y": 765,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 351,
+      "layer": "Game",
+      "locked": false,
+      "name": "PlataformaComum",
+      "persistentUuid": "482c7162-a9b1-41ad-8f7a-21768e6ffefa",
+      "width": 387,
+      "x": 11474,
+      "y": 714,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 35,
+      "layer": "Game",
+      "locked": false,
+      "name": "PlataformaAtrav",
+      "persistentUuid": "b4cf2a94-a2bf-4f66-a45e-5d8a24706f51",
+      "width": 143,
+      "x": 12639,
+      "y": 791,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 357,
+      "layer": "Game",
+      "locked": false,
+      "name": "PlataformaComum",
+      "persistentUuid": "5624966e-da36-4d86-a75e-1edc08518c87",
+      "width": 335,
+      "x": 12795,
+      "y": 725,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 38.2253,
+      "customSize": true,
+      "height": 70,
+      "layer": "Game",
+      "locked": false,
+      "name": "PlataformaComum",
+      "persistentUuid": "fc975b9a-11bf-4a20-8add-b3afe81bdd20",
+      "width": 307,
+      "x": 13076,
+      "y": 812,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 70,
+      "layer": "Game",
+      "locked": false,
+      "name": "PlataformaComum",
+      "persistentUuid": "d3b83d52-e5ed-4d92-af64-61fd09842c0d",
+      "width": 1305,
+      "x": 13325,
+      "y": 899,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": -36.7193,
+      "customSize": true,
+      "height": 70,
+      "layer": "Game",
+      "locked": false,
+      "name": "PlataformaComum",
+      "persistentUuid": "9bc13133-70b1-48e8-a202-cf742ae00199",
+      "width": 382,
+      "x": 14516,
+      "y": 795,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 70,
+      "layer": "Game",
+      "locked": false,
+      "name": "PlataformaComum",
+      "persistentUuid": "ec23c946-cf4f-4378-88ae-44eafe0d9771",
+      "width": 103,
+      "x": 14839,
+      "y": 687,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 36.6499,
+      "customSize": true,
+      "height": 70,
+      "layer": "Game",
+      "locked": false,
+      "name": "PlataformaComum",
+      "persistentUuid": "bc53365f-9e83-4cac-903a-b7d8ea296319",
+      "width": 648,
+      "x": 14856,
+      "y": 874,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 181,
+      "layer": "Game",
+      "locked": false,
+      "name": "PlataformaComum",
+      "persistentUuid": "43b38be4-b67b-4894-bfc0-f00faf75a873",
+      "width": 622,
+      "x": 15908,
+      "y": 908,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 35,
+      "layer": "Game",
+      "locked": false,
+      "name": "PlataformaAtrav",
+      "persistentUuid": "4e85fa62-8c5a-472f-8f1b-743335e9c530",
+      "width": 89,
+      "x": 17171,
+      "y": 758,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 35,
+      "layer": "Game",
+      "locked": false,
+      "name": "PlataformaAtrav",
+      "persistentUuid": "dcd92d25-0b11-49aa-8ddf-7688bc0ad293",
+      "width": 103,
+      "x": 17029,
+      "y": 915,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 35,
+      "layer": "Game",
+      "locked": false,
+      "name": "PlataformaAtrav",
+      "persistentUuid": "64dd28b5-5358-41c8-be46-01c03c0301b3",
+      "width": 326,
+      "x": 16983,
+      "y": 641,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 398,
+      "layer": "Game",
+      "locked": false,
+      "name": "PlataformaComum",
+      "persistentUuid": "065ee729-5144-474a-b969-9f8fe15c2a0f",
+      "width": 23,
+      "x": 17289,
+      "y": 659,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 169,
+      "layer": "Game",
+      "locked": false,
+      "name": "PlataformaComum",
+      "persistentUuid": "e7939d82-12ff-4aab-992d-8af9842c7190",
+      "width": 992,
+      "x": 19600,
+      "y": 915,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 512,
+      "layer": "Game",
+      "locked": false,
+      "name": "PlataformaComum",
+      "persistentUuid": "6fc7c7f4-d82a-457e-93c8-b6ba8ca1dee0",
+      "width": 950,
+      "x": 6168,
+      "y": -5,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 116,
+      "layer": "Game",
+      "locked": false,
+      "name": "IdentificadorDeColisao",
+      "persistentUuid": "c72ad8cc-e735-4e16-87f3-ce965304adb9",
+      "width": 896,
+      "x": 6196,
+      "y": 496,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 870,
+      "layer": "Game",
+      "locked": false,
+      "name": "PlataformaComum",
+      "persistentUuid": "479878b3-8640-419b-ac3f-88a45276e00d",
+      "width": 364,
+      "x": 9537,
+      "y": -7,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 107,
+      "layer": "Game",
+      "locked": false,
+      "name": "IdentificadorDeColisao",
+      "persistentUuid": "83938ba4-bc5b-4dfc-ab46-cf1410abc5aa",
+      "width": 341,
+      "x": 9550,
+      "y": 859,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "Game",
+      "locked": false,
+      "name": "PlataformaAtrav",
+      "persistentUuid": "e80c20b2-5618-4958-adb1-d07018e42022",
+      "width": 59,
+      "x": 7971,
+      "y": 763,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 100,
+      "layer": "Game",
+      "locked": false,
+      "name": "EscLixo",
+      "persistentUuid": "d1416f71-2fc3-4ef3-b3f4-2bab5c6730ad",
+      "width": 67,
+      "x": 13940,
+      "y": 804,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 100,
+      "layer": "Game",
+      "locked": false,
+      "name": "EscLixo",
+      "persistentUuid": "72629acd-0807-45b1-b6a8-5d862e67bc44",
+      "width": 67,
+      "x": 16893,
+      "y": 975,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 100,
+      "layer": "Game",
+      "locked": false,
+      "name": "EscLixo",
+      "persistentUuid": "fbacf2ed-9a62-4ea3-8a58-ff59194f7198",
+      "width": 67,
+      "x": 17955,
+      "y": 973,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 100,
+      "layer": "Game",
+      "locked": false,
+      "name": "EscLixo",
+      "persistentUuid": "b0eabdf5-d602-4d6d-933d-4b6ab68b1e90",
+      "width": 67,
+      "x": 18812,
+      "y": 973,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 70,
+      "layer": "Game",
+      "locked": false,
+      "name": "PlataformaComum",
+      "persistentUuid": "62b5aa02-bf96-4fbb-9402-0b4dca643fa9",
+      "width": 416,
+      "x": 20109,
+      "y": 599,
+      "zOrder": 76,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 387,
+      "layer": "Game",
+      "locked": false,
+      "name": "PlataformaComum",
+      "persistentUuid": "45ef1077-782a-4978-b542-2c71e3aa6a00",
+      "width": 70,
+      "x": 20520,
+      "y": 599,
+      "zOrder": 77,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Game",
+      "locked": false,
+      "name": "PlataformaComum",
+      "persistentUuid": "129042e6-2c11-479e-8bb9-ecf0c509cac3",
+      "width": 0,
+      "x": 7231,
+      "y": 672,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 16.5474,
+      "customSize": true,
+      "height": 25,
+      "layer": "Game",
+      "locked": false,
+      "name": "PlataformaComum",
+      "persistentUuid": "d83b9925-29c9-440c-9dba-254c12285b9b",
+      "width": 82,
+      "x": 10969,
+      "y": 731,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Game",
+      "locked": false,
+      "name": "Fase1",
+      "persistentUuid": "7707b74b-467a-40d6-9042-45ddcdedee7c",
+      "width": 0,
+      "x": -57,
+      "y": 2,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Game",
+      "locked": false,
+      "name": "Fase2",
+      "persistentUuid": "92c49075-5bc3-4b0a-ae7a-52ae5415ec13",
+      "width": 0,
+      "x": 4942,
+      "y": 6,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Game",
+      "locked": false,
+      "name": "Fase3",
+      "persistentUuid": "2b853d54-0b2f-4f34-b490-ad897bc31f42",
+      "width": 0,
+      "x": 9940,
+      "y": 6,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Game",
+      "locked": false,
+      "name": "Fase4",
+      "persistentUuid": "9c656a57-1dd5-4bdf-93f2-b1756cf3cd31",
+      "width": 0,
+      "x": 14939,
+      "y": 6,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 27,
+      "layer": "Game",
+      "locked": false,
+      "name": "PlataformaComum",
+      "persistentUuid": "3060fa4c-af9e-4f3c-a5d3-a969982a16e4",
+      "width": 134,
+      "x": 11990,
+      "y": 938,
+      "zOrder": 82,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": -35.0249,
+      "customSize": true,
+      "height": 27,
+      "layer": "Game",
+      "locked": false,
+      "name": "PlataformaComum",
+      "persistentUuid": "ed3c0831-b2ec-4ffc-8e35-2e6f3e13180e",
+      "width": 85,
+      "x": 12268,
+      "y": 952,
+      "zOrder": 82,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 44.0072,
+      "customSize": true,
+      "height": 27,
+      "layer": "Game",
+      "locked": false,
+      "name": "PlataformaComum",
+      "persistentUuid": "aa9724e5-6906-4dfa-ad78-6945824fa035",
+      "width": 85,
+      "x": 12318,
+      "y": 956,
+      "zOrder": 82,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 6.54039,
+      "customSize": true,
+      "height": 27,
+      "layer": "Game",
+      "locked": false,
+      "name": "PlataformaComum",
+      "persistentUuid": "4b0c2df2-74c3-468d-b794-467fbf449a5b",
+      "width": 134,
+      "x": 12558,
+      "y": 946,
+      "zOrder": 82,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": -4.64797,
+      "customSize": true,
+      "height": 25,
+      "layer": "Game",
+      "locked": false,
+      "name": "PlataformaComum",
+      "persistentUuid": "a8d1ec94-5286-4495-b667-bab847499a67",
+      "width": 276,
+      "x": 15509,
+      "y": 836,
+      "zOrder": 83,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 42,
+      "layer": "Game",
+      "locked": false,
+      "name": "PlataformaComum",
+      "persistentUuid": "381c984b-62f4-496e-bcb3-60192c6d7ad9",
+      "width": 600,
+      "x": 15782,
+      "y": 825,
+      "zOrder": 84,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 206,
+      "layer": "Game",
+      "locked": false,
+      "name": "PlataformaComum",
+      "persistentUuid": "f10bffa7-3939-49fd-8f11-656c2d30226e",
+      "width": 70,
+      "x": 7111,
+      "y": 636,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Game",
+      "locked": false,
+      "name": "Fase3Cerca",
+      "persistentUuid": "7e040ec7-1a5e-47d7-8e9e-8451bddfb4b4",
+      "width": 0,
+      "x": 11438,
+      "y": 413,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 1097,
+      "layer": "Background 0",
+      "locked": false,
+      "name": "Background0",
+      "persistentUuid": "5f71bd28-24f3-40c1-8d91-af634fc06525",
+      "width": 25870,
+      "x": -5685,
+      "y": -347,
+      "zOrder": 85,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": -3.16156,
+      "customSize": true,
+      "height": 70,
+      "layer": "Game",
+      "locked": false,
+      "name": "PlataformaComum",
+      "persistentUuid": "5f1d0390-c0ed-4977-8664-80d4a5d21bdb",
+      "width": 494,
+      "x": -315,
+      "y": 1057,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 166,
+      "layer": "Game",
+      "locked": false,
+      "name": "PocaRadioativa",
+      "persistentUuid": "82b432a4-d78a-46e3-abf0-ae6c0b380d5e",
+      "width": 928,
+      "x": 11862,
+      "y": 940,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Game",
+      "locked": false,
+      "name": "Fase0",
+      "persistentUuid": "b68fe991-1e17-451f-b1c8-c37a736bb775",
+      "width": 0,
+      "x": -5048,
+      "y": 3,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 70,
+      "layer": "Game",
+      "locked": false,
+      "name": "PlataformaComum",
+      "persistentUuid": "ed900b7a-4619-402d-b52f-e9b57a24ff3f",
+      "width": 227,
+      "x": -3293,
+      "y": 1051,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": -0.702865,
+      "customSize": true,
+      "height": 70,
+      "layer": "Game",
+      "locked": false,
+      "name": "PlataformaComum",
+      "persistentUuid": "f765801a-5f9e-448f-b070-1e4edcaa534c",
+      "width": 936,
+      "x": -4225,
+      "y": 1057,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 8.83728,
+      "customSize": true,
+      "height": 70,
+      "layer": "Game",
+      "locked": false,
+      "name": "PlataformaComum",
+      "persistentUuid": "d84af61e-2ce1-4a53-9d30-a891f4864bc1",
+      "width": 224,
+      "x": -1981,
+      "y": 1068,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 70,
+      "layer": "Game",
+      "locked": false,
+      "name": "PlataformaComum",
+      "persistentUuid": "614f0330-5d38-430e-9e2d-a6793d877727",
+      "width": 1610,
+      "x": -1423,
+      "y": 1067,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 70,
+      "layer": "Game",
+      "locked": false,
+      "name": "PlataformaComum",
+      "persistentUuid": "7fb02a05-d54f-4151-bb6b-cab369f40401",
+      "width": 1172,
+      "x": 175,
+      "y": 1044,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": -2.41259,
+      "customSize": true,
+      "height": 70,
+      "layer": "Game",
+      "locked": false,
+      "name": "PlataformaComum",
+      "persistentUuid": "8ca026f8-53d7-4afd-be7a-98b2ade28c2c",
+      "width": 396,
+      "x": -1810,
+      "y": 1075,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": -0.549933,
+      "customSize": true,
+      "height": 70,
+      "layer": "Game",
+      "locked": false,
+      "name": "PlataformaComum",
+      "persistentUuid": "b2d4744b-82b3-43a8-a518-4ec8d78f0555",
+      "width": 631,
+      "x": -2822,
+      "y": 1071,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 5.00304,
+      "customSize": true,
+      "height": 70,
+      "layer": "Game",
+      "locked": false,
+      "name": "PlataformaComum",
+      "persistentUuid": "afe5c7e9-5354-441d-b9cb-c3f99877eb5b",
+      "width": 254,
+      "x": -3070.29,
+      "y": 1062.32,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": -4.04842,
+      "customSize": true,
+      "height": 70,
+      "layer": "Game",
+      "locked": false,
+      "name": "PlataformaComum",
+      "persistentUuid": "a3bfc403-b3d2-49b5-b294-96e8b6898095",
+      "width": 244,
+      "x": -2214,
+      "y": 1060,
+      "zOrder": -1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 113,
+      "layer": "",
+      "locked": false,
+      "name": "IdentificadorDeMorte",
+      "persistentUuid": "63a35da9-1cb0-4714-ba38-c2c5501d251f",
+      "width": 686,
+      "x": 5289,
+      "y": 1181,
+      "zOrder": 87,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 128,
+      "layer": "",
+      "locked": false,
+      "name": "IdentificadorDeMorte",
+      "persistentUuid": "a32d44de-f39d-432b-8e53-0da44b61b218",
+      "width": 1578,
+      "x": 6862,
+      "y": 1175,
+      "zOrder": 88,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 112,
+      "layer": "Game",
+      "locked": false,
+      "name": "PocaRadioativa",
+      "persistentUuid": "2c007291-e1b2-4d7b-9074-9d0664a61290",
+      "width": 186,
+      "x": 10102,
+      "y": 983,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 99,
+      "layer": "Game",
+      "locked": false,
+      "name": "PocaRadioativa",
+      "persistentUuid": "b5e7e8a0-3cc6-4143-b7ad-fe45ecfbbdb9",
+      "width": 296,
+      "x": 10817,
+      "y": 1004,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 158,
+      "layer": "Game",
+      "locked": false,
+      "name": "PocaRadioativa",
+      "persistentUuid": "b2518fd5-0aad-435d-b954-808a7ecb0a13",
+      "width": 143,
+      "x": 11337,
+      "y": 946,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 150,
+      "layer": "Game",
+      "locked": false,
+      "name": "PocaRadioativa",
+      "persistentUuid": "39755b5b-2116-476d-8ecc-b7a2cdeb053b",
+      "width": 559,
+      "x": 15370,
+      "y": 962,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "ShadowCollision1",
+      "persistentUuid": "e552ea63-f304-4027-8acf-affa4c7ffbde",
+      "width": 0,
+      "x": 13667,
+      "y": 834,
+      "zOrder": 89,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Game",
+      "locked": false,
+      "name": "ShadowCollision1",
+      "persistentUuid": "4acd0ec9-0d7e-4d13-af85-d1144d831b18",
+      "width": 0,
+      "x": 13558,
+      "y": 819,
+      "zOrder": 20,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Game",
+      "locked": false,
+      "name": "ShadowCollision2",
+      "persistentUuid": "885aff2b-c6ab-45ab-9a5c-6c0db3f0472e",
+      "width": 0,
+      "x": 14287,
+      "y": 824,
+      "zOrder": 20,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "EnemyShadow1",
+      "persistentUuid": "fd22feee-6751-4069-aabf-441c2393bfc6",
+      "width": 0,
+      "x": 14253,
+      "y": 744,
+      "zOrder": 91,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 162,
+      "layer": "Game",
+      "locked": false,
+      "name": "EnemyShadow1",
+      "persistentUuid": "9c3ba76c-06af-4abc-8c64-58b2308fe1b4",
+      "width": 64,
+      "x": 13811,
+      "y": 713,
+      "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Game",
+      "locked": false,
+      "name": "ShadowCollision1",
+      "persistentUuid": "495d46fe-db1f-4ecb-af9e-b8f178e66985",
+      "width": 0,
+      "x": 18442,
+      "y": 993,
+      "zOrder": 92,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Game",
+      "locked": false,
+      "name": "ShadowCollision2",
+      "persistentUuid": "6542c32d-a207-4359-818d-b05e612acdc3",
+      "width": 0,
+      "x": 19453,
+      "y": 989,
+      "zOrder": 93,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Game",
+      "locked": false,
+      "name": "ShadowCollision1",
+      "persistentUuid": "62577e06-196b-4ddd-9045-4d214d26ff30",
+      "width": 0,
+      "x": 17358,
+      "y": 979,
+      "zOrder": 94,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Game",
+      "locked": false,
+      "name": "ShadowCollision2",
+      "persistentUuid": "948d35a5-1acb-4de9-a6a9-25cf70247cac",
+      "width": 0,
+      "x": 18309,
+      "y": 983,
+      "zOrder": 95,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Game",
+      "locked": false,
+      "name": "EnemyShadow1",
+      "persistentUuid": "edc242c6-57dd-4500-9b9e-4f324202c892",
+      "width": 0,
+      "x": 18136,
+      "y": 974,
+      "zOrder": 96,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Game",
+      "locked": false,
+      "name": "EnemyShadow1",
+      "persistentUuid": "fd64ff87-202d-4a2a-a4a2-8c8df3ff79cf",
+      "width": 0,
+      "x": 19289,
+      "y": 968,
+      "zOrder": 97,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Game",
+      "locked": false,
+      "name": "ShadowCollision1",
+      "persistentUuid": "e49011fa-f18f-4f30-ac1c-1e16bf9df58e",
+      "width": 0,
+      "x": 16577,
+      "y": 986,
+      "zOrder": 98,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Game",
+      "locked": false,
+      "name": "ShadowCollision2",
+      "persistentUuid": "b28fa68c-2e9f-45d9-866b-30470061aa09",
+      "width": 0,
+      "x": 17211,
+      "y": 982,
+      "zOrder": 99,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Game",
+      "locked": false,
+      "name": "EnemyShadow1",
+      "persistentUuid": "ed2fd918-c3d4-4297-bdea-a59280965835",
+      "width": 0,
+      "x": 16705,
+      "y": 968,
+      "zOrder": 100,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 71.6217,
+      "layer": "Game",
+      "locked": false,
+      "name": "Savepoint1",
+      "persistentUuid": "28aec2d1-5291-44c4-88df-0cec48356c50",
+      "width": 71,
+      "x": 4952,
+      "y": 574.378,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 77.8,
+      "layer": "",
+      "locked": false,
+      "name": "PocaRadioativa",
+      "persistentUuid": "44cb001f-9cd0-40c8-a947-0bc1a03c0143",
+      "width": 389,
+      "x": 5431,
+      "y": 1075.2,
+      "zOrder": 101,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 108,
+      "layer": "Game",
+      "locked": false,
+      "name": "Savepoint2",
+      "persistentUuid": "f2933f47-8fba-423a-be40-15aa68449dd9",
+      "width": 107.062,
+      "x": 9928.94,
+      "y": 868,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 82,
+      "layer": "Game",
+      "locked": false,
+      "name": "Savepoint3",
+      "persistentUuid": "e6efc9a2-b605-4f96-9d99-99179587ecd4",
+      "width": 81.2882,
+      "x": 17196.7,
+      "y": 562,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
+  "objects": [
+    {
+      "name": "Player",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "Invul",
+          "type": "string",
+          "value": "0"
+        },
+        {
+          "name": "KnockBack",
+          "type": "string",
+          "value": "0"
+        },
+        {
+          "name": "Vida",
+          "type": "string",
+          "value": "50"
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior",
+          "ignoreDefaultControls": false,
+          "slopeMaxAngle": 89,
+          "jumpSpeed": 800,
+          "acceleration": 1500,
+          "canGrabPlatforms": false,
+          "deceleration": 1500,
+          "gravity": 1000,
+          "maxFallingSpeed": 700,
+          "maxSpeed": 250,
+          "roundCoordinates": true,
+          "xGrabTolerance": 10,
+          "yGrabOffset": 0
+        }
+      ],
+      "animations": [
+        {
+          "name": "Idle",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.12,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Graphics\\Player\\gaya_walk_01.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 490,
+                        "y": 1115
+                      },
+                      {
+                        "x": 710,
+                        "y": 1085
+                      },
+                      {
+                        "x": 650,
+                        "y": 1835
+                      },
+                      {
+                        "x": 420,
+                        "y": 1835
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "CIdle",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Graphics\\Player\\gaya_ walk_b_01.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 715,
+                        "y": 1440
+                      },
+                      {
+                        "x": 935,
+                        "y": 1407.5
+                      },
+                      {
+                        "x": 845,
+                        "y": 1847.5
+                      },
+                      {
+                        "x": 365,
+                        "y": 1852.5
+                      },
+                      {
+                        "x": 405,
+                        "y": 1670
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Walk",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.06,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Graphics\\Player\\gaya_walk_01.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 618.3330078125,
+                        "y": 1054.1700439453125
+                      },
+                      {
+                        "x": 705,
+                        "y": 1808.75
+                      },
+                      {
+                        "x": 490,
+                        "y": 1836.25
+                      },
+                      {
+                        "x": 275,
+                        "y": 1803.75
+                      },
+                      {
+                        "x": 433.3330078125,
+                        "y": 1385.8299560546875
+                      },
+                      {
+                        "x": 438.3330078125,
+                        "y": 1064.1700439453125
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Graphics\\Player\\gaya_walk_02.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 618.3330078125,
+                        "y": 1054.1700439453125
+                      },
+                      {
+                        "x": 705,
+                        "y": 1808.75
+                      },
+                      {
+                        "x": 490,
+                        "y": 1836.25
+                      },
+                      {
+                        "x": 275,
+                        "y": 1803.75
+                      },
+                      {
+                        "x": 433.3330078125,
+                        "y": 1385.8299560546875
+                      },
+                      {
+                        "x": 438.3330078125,
+                        "y": 1064.1700439453125
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Graphics\\Player\\gaya_walk_03.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 618.3330078125,
+                        "y": 1054.1700439453125
+                      },
+                      {
+                        "x": 705,
+                        "y": 1808.75
+                      },
+                      {
+                        "x": 490,
+                        "y": 1836.25
+                      },
+                      {
+                        "x": 275,
+                        "y": 1803.75
+                      },
+                      {
+                        "x": 433.3330078125,
+                        "y": 1385.8299560546875
+                      },
+                      {
+                        "x": 438.3330078125,
+                        "y": 1064.1700439453125
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Graphics\\Player\\gaya_walk_04.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 618.3330078125,
+                        "y": 1054.1700439453125
+                      },
+                      {
+                        "x": 705,
+                        "y": 1808.75
+                      },
+                      {
+                        "x": 490,
+                        "y": 1836.25
+                      },
+                      {
+                        "x": 275,
+                        "y": 1803.75
+                      },
+                      {
+                        "x": 433.3330078125,
+                        "y": 1385.8299560546875
+                      },
+                      {
+                        "x": 438.3330078125,
+                        "y": 1064.1700439453125
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Graphics\\Player\\gaya_walk_05.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 618.3330078125,
+                        "y": 1054.1700439453125
+                      },
+                      {
+                        "x": 705,
+                        "y": 1808.75
+                      },
+                      {
+                        "x": 490,
+                        "y": 1836.25
+                      },
+                      {
+                        "x": 275,
+                        "y": 1803.75
+                      },
+                      {
+                        "x": 433.3330078125,
+                        "y": 1385.8299560546875
+                      },
+                      {
+                        "x": 438.3330078125,
+                        "y": 1064.1700439453125
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Graphics\\Player\\gaya_walk_06.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 618.3330078125,
+                        "y": 1054.1700439453125
+                      },
+                      {
+                        "x": 705,
+                        "y": 1808.75
+                      },
+                      {
+                        "x": 490,
+                        "y": 1836.25
+                      },
+                      {
+                        "x": 275,
+                        "y": 1803.75
+                      },
+                      {
+                        "x": 433.3330078125,
+                        "y": 1385.8299560546875
+                      },
+                      {
+                        "x": 438.3330078125,
+                        "y": 1064.1700439453125
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Graphics\\Player\\gaya_walk_07.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 618.3330078125,
+                        "y": 1054.1700439453125
+                      },
+                      {
+                        "x": 705,
+                        "y": 1808.75
+                      },
+                      {
+                        "x": 490,
+                        "y": 1836.25
+                      },
+                      {
+                        "x": 275,
+                        "y": 1803.75
+                      },
+                      {
+                        "x": 433.3330078125,
+                        "y": 1385.8299560546875
+                      },
+                      {
+                        "x": 438.3330078125,
+                        "y": 1064.1700439453125
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Graphics\\Player\\gaya_walk_08.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 618.3330078125,
+                        "y": 1054.1700439453125
+                      },
+                      {
+                        "x": 705,
+                        "y": 1808.75
+                      },
+                      {
+                        "x": 490,
+                        "y": 1836.25
+                      },
+                      {
+                        "x": 275,
+                        "y": 1803.75
+                      },
+                      {
+                        "x": 433.3330078125,
+                        "y": 1385.8299560546875
+                      },
+                      {
+                        "x": 438.3330078125,
+                        "y": 1064.1700439453125
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Graphics\\Player\\gaya_walk_09.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 618.3330078125,
+                        "y": 1054.1700439453125
+                      },
+                      {
+                        "x": 705,
+                        "y": 1808.75
+                      },
+                      {
+                        "x": 490,
+                        "y": 1836.25
+                      },
+                      {
+                        "x": 275,
+                        "y": 1803.75
+                      },
+                      {
+                        "x": 433.3330078125,
+                        "y": 1385.8299560546875
+                      },
+                      {
+                        "x": 438.3330078125,
+                        "y": 1064.1700439453125
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Graphics\\Player\\gaya_walk_10.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 618.3330078125,
+                        "y": 1054.1700439453125
+                      },
+                      {
+                        "x": 705,
+                        "y": 1808.75
+                      },
+                      {
+                        "x": 490,
+                        "y": 1836.25
+                      },
+                      {
+                        "x": 275,
+                        "y": 1803.75
+                      },
+                      {
+                        "x": 433.3330078125,
+                        "y": 1385.8299560546875
+                      },
+                      {
+                        "x": 438.3330078125,
+                        "y": 1064.1700439453125
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "CWalk",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Graphics\\Player\\gaya_ walk_b_01.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 880,
+                        "y": 1806.25
+                      },
+                      {
+                        "x": 615,
+                        "y": 1853.75
+                      },
+                      {
+                        "x": 340,
+                        "y": 1861.25
+                      },
+                      {
+                        "x": 397.5,
+                        "y": 1691.25
+                      },
+                      {
+                        "x": 715,
+                        "y": 1411.25
+                      },
+                      {
+                        "x": 937.5,
+                        "y": 1391.25
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Graphics\\Player\\gaya_ walk_b_02.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 880,
+                        "y": 1806.25
+                      },
+                      {
+                        "x": 615,
+                        "y": 1853.75
+                      },
+                      {
+                        "x": 340,
+                        "y": 1861.25
+                      },
+                      {
+                        "x": 397.5,
+                        "y": 1691.25
+                      },
+                      {
+                        "x": 715,
+                        "y": 1411.25
+                      },
+                      {
+                        "x": 937.5,
+                        "y": 1391.25
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Graphics\\Player\\gaya_ walk_b_03.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 880,
+                        "y": 1806.25
+                      },
+                      {
+                        "x": 615,
+                        "y": 1853.75
+                      },
+                      {
+                        "x": 340,
+                        "y": 1861.25
+                      },
+                      {
+                        "x": 397.5,
+                        "y": 1691.25
+                      },
+                      {
+                        "x": 715,
+                        "y": 1411.25
+                      },
+                      {
+                        "x": 937.5,
+                        "y": 1391.25
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Jump",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Graphics\\Player\\gaya_jump_01.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 685,
+                        "y": 1071.25
+                      },
+                      {
+                        "x": 700,
+                        "y": 1861.25
+                      },
+                      {
+                        "x": 580,
+                        "y": 1881.25
+                      },
+                      {
+                        "x": 452.5,
+                        "y": 1851.25
+                      },
+                      {
+                        "x": 433.3330078125,
+                        "y": 1385.8299560546875
+                      },
+                      {
+                        "x": 502.5,
+                        "y": 1103.75
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Graphics\\Player\\gaya_jump_02.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 685,
+                        "y": 1071.25
+                      },
+                      {
+                        "x": 700,
+                        "y": 1861.25
+                      },
+                      {
+                        "x": 580,
+                        "y": 1881.25
+                      },
+                      {
+                        "x": 452.5,
+                        "y": 1851.25
+                      },
+                      {
+                        "x": 433.3330078125,
+                        "y": 1385.8299560546875
+                      },
+                      {
+                        "x": 502.5,
+                        "y": 1103.75
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Fall",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Graphics\\Player\\gaya_fall_01.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 618.3330078125,
+                        "y": 1054.1700439453125
+                      },
+                      {
+                        "x": 775,
+                        "y": 1832.5
+                      },
+                      {
+                        "x": 580,
+                        "y": 1835
+                      },
+                      {
+                        "x": 450,
+                        "y": 1612.5
+                      },
+                      {
+                        "x": 433.3330078125,
+                        "y": 1385.8299560546875
+                      },
+                      {
+                        "x": 438.3330078125,
+                        "y": 1064.1700439453125
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Graphics\\Player\\gaya_fall_02.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 618.3330078125,
+                        "y": 1054.1700439453125
+                      },
+                      {
+                        "x": 775,
+                        "y": 1832.5
+                      },
+                      {
+                        "x": 580,
+                        "y": 1835
+                      },
+                      {
+                        "x": 450,
+                        "y": 1612.5
+                      },
+                      {
+                        "x": 433.3330078125,
+                        "y": 1385.8299560546875
+                      },
+                      {
+                        "x": 438.3330078125,
+                        "y": 1064.1700439453125
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "height": 70,
+      "name": "PlataformaComum",
+      "tags": "",
+      "texture": "Graphics\\Stages\\slice03_03.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 70,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "NormalPlatform",
+          "yGrabOffset": 0
+        }
+      ]
+    },
+    {
+      "height": 35,
+      "name": "PlataformaAtrav",
+      "tags": "",
+      "texture": "Graphics\\Stages\\slice03_03.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 70,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "Jumpthru",
+          "yGrabOffset": 0
+        }
+      ]
+    },
+    {
+      "name": "Background2",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Graphics\\Stages\\Stage 1\\Sky.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "height": 1080,
+      "name": "Background1",
+      "tags": "",
+      "texture": "Graphics\\Stages\\Stage 1\\Dunas.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 1080,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "height": 70,
+      "name": "PlataformaFundo",
+      "tags": "",
+      "texture": "Graphics\\Stages\\slice03_03.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 70,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "height": 70,
+      "name": "IdentificadorDeColisao",
+      "tags": "",
+      "texture": "NewFile-1.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 70,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "name": "EscLixo",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Idle",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Graphics\\Elements\\Lata de Lixo - Esconderijo - 01.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Opening",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Graphics\\Elements\\Lata de Lixo - Esconderijo - 01.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Graphics\\Elements\\Lata de Lixo - Esconderijo - 02.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Graphics\\Elements\\Lata de Lixo - Esconderijo - 03.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Graphics\\Elements\\Lata de Lixo - Esconderijo - 04.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Graphics\\Elements\\Lata de Lixo - Esconderijo - 05.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Graphics\\Elements\\Lata de Lixo - Esconderijo - 06.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Fase1",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Graphics\\Stages\\Stage 1\\fase 1 - 1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Fase2",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Graphics\\Stages\\Stage 1\\fase 1 - 2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Fase3",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Graphics\\Stages\\Stage 1\\fase 1 - 3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Fase4",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Graphics\\Stages\\Stage 1\\fase 1 - 4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Fase3Cerca",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Graphics\\Stages\\Stage 1\\fase 1 - 3 - cerca.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "height": 1080,
+      "name": "Background0",
+      "tags": "",
+      "texture": "Graphics\\Stages\\Stage 1\\predios.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 1920,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "name": "PocaRadioativa",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.14,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Graphics\\Stages\\Stage 1\\PocaRadioativa 01.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 105
+                      },
+                      {
+                        "x": 1000,
+                        "y": 105
+                      },
+                      {
+                        "x": 1000,
+                        "y": 200
+                      },
+                      {
+                        "x": 0,
+                        "y": 200
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Graphics\\Stages\\Stage 1\\PocaRadioativa 02.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 105
+                      },
+                      {
+                        "x": 1000,
+                        "y": 105
+                      },
+                      {
+                        "x": 1000,
+                        "y": 200
+                      },
+                      {
+                        "x": 0,
+                        "y": 200
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Graphics\\Stages\\Stage 1\\PocaRadioativa 03.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 105
+                      },
+                      {
+                        "x": 1000,
+                        "y": 105
+                      },
+                      {
+                        "x": 1000,
+                        "y": 200
+                      },
+                      {
+                        "x": 0,
+                        "y": 200
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Graphics\\Stages\\Stage 1\\PocaRadioativa 04.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 105
+                      },
+                      {
+                        "x": 1000,
+                        "y": 105
+                      },
+                      {
+                        "x": 1000,
+                        "y": 200
+                      },
+                      {
+                        "x": 0,
+                        "y": 200
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Graphics\\Stages\\Stage 1\\PocaRadioativa 05.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 105
+                      },
+                      {
+                        "x": 1000,
+                        "y": 105
+                      },
+                      {
+                        "x": 1000,
+                        "y": 200
+                      },
+                      {
+                        "x": 0,
+                        "y": 200
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Graphics\\Stages\\Stage 1\\PocaRadioativa 06.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 105
+                      },
+                      {
+                        "x": 1000,
+                        "y": 105
+                      },
+                      {
+                        "x": 1000,
+                        "y": 200
+                      },
+                      {
+                        "x": 0,
+                        "y": 200
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Graphics\\Stages\\Stage 1\\PocaRadioativa 05.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 105
+                      },
+                      {
+                        "x": 1000,
+                        "y": 105
+                      },
+                      {
+                        "x": 1000,
+                        "y": 200
+                      },
+                      {
+                        "x": 0,
+                        "y": 200
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Graphics\\Stages\\Stage 1\\PocaRadioativa 04.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 105
+                      },
+                      {
+                        "x": 1000,
+                        "y": 105
+                      },
+                      {
+                        "x": 1000,
+                        "y": 200
+                      },
+                      {
+                        "x": 0,
+                        "y": 200
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Graphics\\Stages\\Stage 1\\PocaRadioativa 03.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 105
+                      },
+                      {
+                        "x": 1000,
+                        "y": 105
+                      },
+                      {
+                        "x": 1000,
+                        "y": 200
+                      },
+                      {
+                        "x": 0,
+                        "y": 200
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Graphics\\Stages\\Stage 1\\PocaRadioativa 02.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 105
+                      },
+                      {
+                        "x": 1000,
+                        "y": 105
+                      },
+                      {
+                        "x": 1000,
+                        "y": 200
+                      },
+                      {
+                        "x": 0,
+                        "y": 200
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Fase0",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Graphics\\Stages\\Stage 1\\fase 1 - 0.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "height": 32,
+      "name": "IdentificadorDeMorte",
+      "tags": "",
+      "texture": "NewFile-1-0.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "name": "Savepoint3",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "desativado",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"New Animation\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":12,\\\"height\\\":64,\\\"width\\\":64,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAgklEQVR4Xu3XAREAIAgAMejfxGLG0CA/I/wJO3bib+eeV24ggB9gBOwAS5AC4QIYxCAGMYjBMAJDAQpQgAIUoEC4AAYxiEEMYjCMgGMIgxjEIAYxiMFwAQxiEIMYxGAYAdcgBjGIQQxiEIPhAhjEIAYxiMEwAq5BDGIQgxjEIAbDBT7cb6Gx6N+Q2wAAAABJRU5ErkJggg==\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 3\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAB6klEQVR4Xu2ZMU4DMRBFJ0hZGloUxA3ICei5C5yJUNFwAWgQokV0SAiFhhpBHwmxCILGyGaz2Kwp/G3Gs02kKIr93/z5490dUeXXqHL9pADUAZUT0Bao3AAagtoC2gKVE9AWqNwAeafA9HVvaQswX7/M4sYsi7JoFj9/uncGnG7tUA4IWQD0xVsKzfk7tfvP0D1BF/NVvp9BaAhQAKHK54QAAxArHt0OEAB/FY+EkByAFW9SvpP6Q+cPkwXjN6KrluhokWyfyf7YCuxWPxaCE89/IgmAmQIDTlgRLxHAbxB+iJcKwAfBK14yAAuBPx+O774Cz3dJy4C+RpMJJzfhoaAABI1BX5nVAdoCmgF1h2Bw/tvAkD4FFIC96wudBNQBws8BVbcAH4L4PoCv4L3AdUt0KOSBSLfNzQnw4tZ91Tyu+SFIBNAX754B+iBIAxASH4QgCcCQeC8EKQBixbtQOH0h2m2I/jsA9zqsE3hDj8RXICScALxO8sfiTszZpnsVHgWAHZBYPBYArxYLASQeD4CImtlk2W5/hE0AFJ8FAC8ahAAWnw2AF0IG8VkBmB442PgORkDg+foONwWioh//IwWAZ17WiuqAsuqB3406AM+8rBXVAWXVA78bdQCeeVkrqgPKqgd+N9U74BMhSYpQGdjgowAAAABJRU5ErkJggg==\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[]}}\",\"name\":\"NewObject\",\"paths\":[\"C:\\\\Users\\\\gabriel.gsilva40\\\\Desktop\\\\atividades e Jogo\\\\ORefugio\\\\NewObject-1.png\"],\"singleFrame\":false}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Graphics\\Savepoint\\savepointdes.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 336,
+                        "y": 51.5
+                      },
+                      {
+                        "x": 409,
+                        "y": 4.5
+                      },
+                      {
+                        "x": 503,
+                        "y": 525.5
+                      },
+                      {
+                        "x": 400,
+                        "y": 519.5
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ativado",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Graphics\\Savepoint\\savepointativ01.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 336,
+                        "y": 51.5
+                      },
+                      {
+                        "x": 409,
+                        "y": 4.5
+                      },
+                      {
+                        "x": 503,
+                        "y": 525.5
+                      },
+                      {
+                        "x": 400,
+                        "y": 519.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Graphics\\Savepoint\\savepointativ02.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 336,
+                        "y": 51.5
+                      },
+                      {
+                        "x": 409,
+                        "y": 4.5
+                      },
+                      {
+                        "x": 503,
+                        "y": 525.5
+                      },
+                      {
+                        "x": 400,
+                        "y": 519.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Graphics\\Savepoint\\savepointativ03.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 336,
+                        "y": 51.5
+                      },
+                      {
+                        "x": 409,
+                        "y": 4.5
+                      },
+                      {
+                        "x": 503,
+                        "y": 525.5
+                      },
+                      {
+                        "x": 400,
+                        "y": 519.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Graphics\\Savepoint\\savepointativ04.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 336,
+                        "y": 51.5
+                      },
+                      {
+                        "x": 409,
+                        "y": 4.5
+                      },
+                      {
+                        "x": 503,
+                        "y": 525.5
+                      },
+                      {
+                        "x": 400,
+                        "y": 519.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Graphics\\Savepoint\\savepointativ05.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 336,
+                        "y": 51.5
+                      },
+                      {
+                        "x": 409,
+                        "y": 4.5
+                      },
+                      {
+                        "x": 503,
+                        "y": 525.5
+                      },
+                      {
+                        "x": 400,
+                        "y": 519.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Graphics\\Savepoint\\savepointativ06.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 336,
+                        "y": 51.5
+                      },
+                      {
+                        "x": 409,
+                        "y": 4.5
+                      },
+                      {
+                        "x": 503,
+                        "y": 525.5
+                      },
+                      {
+                        "x": 400,
+                        "y": 519.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Graphics\\Savepoint\\savepointativ07.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 336,
+                        "y": 51.5
+                      },
+                      {
+                        "x": 409,
+                        "y": 4.5
+                      },
+                      {
+                        "x": 503,
+                        "y": 525.5
+                      },
+                      {
+                        "x": 400,
+                        "y": 519.5
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Savepoint2",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "desativado",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"New Animation\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":12,\\\"height\\\":64,\\\"width\\\":64,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAgklEQVR4Xu3XAREAIAgAMejfxGLG0CA/I/wJO3bib+eeV24ggB9gBOwAS5AC4QIYxCAGMYjBMAJDAQpQgAIUoEC4AAYxiEEMYjCMgGMIgxjEIAYxiMFwAQxiEIMYxGAYAdcgBjGIQQxiEIPhAhjEIAYxiMEwAq5BDGIQgxjEIAbDBT7cb6Gx6N+Q2wAAAABJRU5ErkJggg==\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 3\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAB6klEQVR4Xu2ZMU4DMRBFJ0hZGloUxA3ICei5C5yJUNFwAWgQokV0SAiFhhpBHwmxCILGyGaz2Kwp/G3Gs02kKIr93/z5490dUeXXqHL9pADUAZUT0Bao3AAagtoC2gKVE9AWqNwAeafA9HVvaQswX7/M4sYsi7JoFj9/uncGnG7tUA4IWQD0xVsKzfk7tfvP0D1BF/NVvp9BaAhQAKHK54QAAxArHt0OEAB/FY+EkByAFW9SvpP6Q+cPkwXjN6KrluhokWyfyf7YCuxWPxaCE89/IgmAmQIDTlgRLxHAbxB+iJcKwAfBK14yAAuBPx+O774Cz3dJy4C+RpMJJzfhoaAABI1BX5nVAdoCmgF1h2Bw/tvAkD4FFIC96wudBNQBws8BVbcAH4L4PoCv4L3AdUt0KOSBSLfNzQnw4tZ91Tyu+SFIBNAX754B+iBIAxASH4QgCcCQeC8EKQBixbtQOH0h2m2I/jsA9zqsE3hDj8RXICScALxO8sfiTszZpnsVHgWAHZBYPBYArxYLASQeD4CImtlk2W5/hE0AFJ8FAC8ahAAWnw2AF0IG8VkBmB442PgORkDg+foONwWioh//IwWAZ17WiuqAsuqB3406AM+8rBXVAWXVA78bdQCeeVkrqgPKqgd+N9U74BMhSYpQGdjgowAAAABJRU5ErkJggg==\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[]}}\",\"name\":\"NewObject\",\"paths\":[\"C:\\\\Users\\\\gabriel.gsilva40\\\\Desktop\\\\atividades e Jogo\\\\ORefugio\\\\NewObject-1.png\"],\"singleFrame\":false}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Graphics\\Savepoint\\savepointdes.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 338,
+                        "y": 42.5
+                      },
+                      {
+                        "x": 408,
+                        "y": 1.5
+                      },
+                      {
+                        "x": 505,
+                        "y": 535.5
+                      },
+                      {
+                        "x": 404,
+                        "y": 521.5
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ativado",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Graphics\\Savepoint\\savepointativ01.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 338,
+                        "y": 42.5
+                      },
+                      {
+                        "x": 408,
+                        "y": 1.5
+                      },
+                      {
+                        "x": 505,
+                        "y": 535.5
+                      },
+                      {
+                        "x": 404,
+                        "y": 521.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Graphics\\Savepoint\\savepointativ02.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 338,
+                        "y": 42.5
+                      },
+                      {
+                        "x": 408,
+                        "y": 1.5
+                      },
+                      {
+                        "x": 505,
+                        "y": 535.5
+                      },
+                      {
+                        "x": 404,
+                        "y": 521.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Graphics\\Savepoint\\savepointativ03.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 338,
+                        "y": 42.5
+                      },
+                      {
+                        "x": 408,
+                        "y": 1.5
+                      },
+                      {
+                        "x": 505,
+                        "y": 535.5
+                      },
+                      {
+                        "x": 404,
+                        "y": 521.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Graphics\\Savepoint\\savepointativ04.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 338,
+                        "y": 42.5
+                      },
+                      {
+                        "x": 408,
+                        "y": 1.5
+                      },
+                      {
+                        "x": 505,
+                        "y": 535.5
+                      },
+                      {
+                        "x": 404,
+                        "y": 521.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Graphics\\Savepoint\\savepointativ05.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 338,
+                        "y": 42.5
+                      },
+                      {
+                        "x": 408,
+                        "y": 1.5
+                      },
+                      {
+                        "x": 505,
+                        "y": 535.5
+                      },
+                      {
+                        "x": 404,
+                        "y": 521.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Graphics\\Savepoint\\savepointativ06.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 338,
+                        "y": 42.5
+                      },
+                      {
+                        "x": 408,
+                        "y": 1.5
+                      },
+                      {
+                        "x": 505,
+                        "y": 535.5
+                      },
+                      {
+                        "x": 404,
+                        "y": 521.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Graphics\\Savepoint\\savepointativ07.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 338,
+                        "y": 42.5
+                      },
+                      {
+                        "x": 408,
+                        "y": 1.5
+                      },
+                      {
+                        "x": 505,
+                        "y": 535.5
+                      },
+                      {
+                        "x": 404,
+                        "y": 521.5
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Savepoint1",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "desativado",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"New Animation\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":12,\\\"height\\\":64,\\\"width\\\":64,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAgklEQVR4Xu3XAREAIAgAMejfxGLG0CA/I/wJO3bib+eeV24ggB9gBOwAS5AC4QIYxCAGMYjBMAJDAQpQgAIUoEC4AAYxiEEMYjCMgGMIgxjEIAYxiMFwAQxiEIMYxGAYAdcgBjGIQQxiEIPhAhjEIAYxiMEwAq5BDGIQgxjEIAbDBT7cb6Gx6N+Q2wAAAABJRU5ErkJggg==\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 3\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAB6klEQVR4Xu2ZMU4DMRBFJ0hZGloUxA3ICei5C5yJUNFwAWgQokV0SAiFhhpBHwmxCILGyGaz2Kwp/G3Gs02kKIr93/z5490dUeXXqHL9pADUAZUT0Bao3AAagtoC2gKVE9AWqNwAeafA9HVvaQswX7/M4sYsi7JoFj9/uncGnG7tUA4IWQD0xVsKzfk7tfvP0D1BF/NVvp9BaAhQAKHK54QAAxArHt0OEAB/FY+EkByAFW9SvpP6Q+cPkwXjN6KrluhokWyfyf7YCuxWPxaCE89/IgmAmQIDTlgRLxHAbxB+iJcKwAfBK14yAAuBPx+O774Cz3dJy4C+RpMJJzfhoaAABI1BX5nVAdoCmgF1h2Bw/tvAkD4FFIC96wudBNQBws8BVbcAH4L4PoCv4L3AdUt0KOSBSLfNzQnw4tZ91Tyu+SFIBNAX754B+iBIAxASH4QgCcCQeC8EKQBixbtQOH0h2m2I/jsA9zqsE3hDj8RXICScALxO8sfiTszZpnsVHgWAHZBYPBYArxYLASQeD4CImtlk2W5/hE0AFJ8FAC8ahAAWnw2AF0IG8VkBmB442PgORkDg+foONwWioh//IwWAZ17WiuqAsuqB3406AM+8rBXVAWXVA78bdQCeeVkrqgPKqgd+N9U74BMhSYpQGdjgowAAAABJRU5ErkJggg==\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[]}}\",\"name\":\"NewObject\",\"paths\":[\"C:\\\\Users\\\\gabriel.gsilva40\\\\Desktop\\\\atividades e Jogo\\\\ORefugio\\\\NewObject-1.png\"],\"singleFrame\":false}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Graphics\\Savepoint\\savepointdes.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 337,
+                        "y": 40.5
+                      },
+                      {
+                        "x": 412,
+                        "y": 5.5
+                      },
+                      {
+                        "x": 501,
+                        "y": 528.5
+                      },
+                      {
+                        "x": 401,
+                        "y": 524.5
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ativado",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Graphics\\Savepoint\\savepointativ01.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Graphics\\Savepoint\\savepointativ02.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Graphics\\Savepoint\\savepointativ03.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Graphics\\Savepoint\\savepointativ04.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Graphics\\Savepoint\\savepointativ05.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Graphics\\Savepoint\\savepointativ06.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Graphics\\Savepoint\\savepointativ07.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "EnemyShadow2",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "direcao",
+          "type": "string",
+          "value": ""
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior",
+          "acceleration": 1500,
+          "canGrabPlatforms": false,
+          "deceleration": 1500,
+          "gravity": 1000,
+          "ignoreDefaultControls": true,
+          "jumpSpeed": 600,
+          "maxFallingSpeed": 700,
+          "maxSpeed": 250,
+          "roundCoordinates": false,
+          "slopeMaxAngle": 60,
+          "xGrabTolerance": 10,
+          "yGrabOffset": 0
+        }
+      ],
+      "animations": [
+        {
+          "name": "NewObject",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewObject-1-0.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "EnemyShadow1",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "direcao",
+          "type": "string",
+          "value": ""
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior",
+          "acceleration": 1500,
+          "canGrabPlatforms": false,
+          "deceleration": 1500,
+          "gravity": 1000,
+          "ignoreDefaultControls": true,
+          "jumpSpeed": 600,
+          "maxFallingSpeed": 700,
+          "maxSpeed": 250,
+          "roundCoordinates": false,
+          "slopeMaxAngle": 60,
+          "xGrabTolerance": 10,
+          "yGrabOffset": 0
+        }
+      ],
+      "animations": [
+        {
+          "name": "GoLeft",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewObject-1-0.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ShadowCollision3",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewObject",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewObject-1-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ShadowCollision2",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewObject",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewObject-1-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ShadowCollision1",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewObject",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewObject-1-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0,
+        "textB": 255,
+        "textG": 255,
+        "textR": 255
+      },
+      "comment": "Início",
+      "comment2": ""
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "Player"
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "EscLixo"
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "EnemyShadow"
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": [],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "Cache"
+          },
+          "parameters": [
+            "PlataformaComum"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Cache"
+          },
+          "parameters": [
+            "PlataformaAtrav"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Cache"
+          },
+          "parameters": [
+            "IdentificadorDeColisao"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ModVarObjet"
+          },
+          "parameters": [
+            "Player",
+            "Vida",
+            "=",
+            "50"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ModVarObjet"
+          },
+          "parameters": [
+            "Player",
+            "Invul",
+            "=",
+            "0"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ModVarObjet"
+          },
+          "parameters": [
+            "Player",
+            "KnockBack",
+            "=",
+            "0"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "GameZoom",
+            "=",
+            "1.5"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "Back1Zoom",
+            "=",
+            "1"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "Back2Zoom",
+            "=",
+            "1.1"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "Back0Zoom",
+            "=",
+            "1"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "SavePointFase",
+            "=",
+            "1"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "PlayMusic"
+          },
+          "parameters": [
+            "",
+            "Audio\\Music\\caravan.ogg.ogg",
+            "yes",
+            "30",
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0,
+        "textB": 255,
+        "textG": 255,
+        "textR": 255
+      },
+      "comment": "Save Point",
+      "comment2": ""
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Savepoint1",
+            "Player",
+            "",
+            "",
+            ""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": [],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "SetAnimationName"
+          },
+          "parameters": [
+            "Savepoint1",
+            "\"ativado\""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "SavePointX",
+            "=",
+            "5090"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "SavePointY",
+            "=",
+            "220"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Savepoint2",
+            "Player",
+            "",
+            "",
+            ""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": [],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "SavePointX",
+            "=",
+            "9900"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "SavePointY",
+            "=",
+            "630"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "SetAnimationName"
+          },
+          "parameters": [
+            "Savepoint2",
+            "\"ativado\""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Savepoint3",
+            "Player",
+            "",
+            "",
+            ""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": [],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "SavePointX",
+            "=",
+            "17200"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "SavePointY",
+            "=",
+            "315"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "SetAnimationName"
+          },
+          "parameters": [
+            "Savepoint3",
+            "\"ativado\""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0,
+        "textB": 255,
+        "textG": 255,
+        "textR": 255
+      },
+      "comment": "Fim da Fase",
+      "comment2": ""
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "PosX"
+          },
+          "parameters": [
+            "Player",
+            ">=",
+            "20000"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"MenuPrincipal\"",
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0,
+        "textB": 255,
+        "textG": 255,
+        "textR": 255
+      },
+      "comment": "Camera",
+      "comment2": ""
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "FixCamera"
+          },
+          "parameters": [
+            "",
+            "Player",
+            "-5000",
+            "-600",
+            "20000",
+            "1080",
+            "",
+            "\"Game\"",
+            "0"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ZoomCamera"
+          },
+          "parameters": [
+            "",
+            "Variable(GameZoom)",
+            "\"Game\"",
+            "0"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ZoomCamera"
+          },
+          "parameters": [
+            "",
+            "Variable(Back1Zoom)",
+            "\"Background 1\"",
+            "0"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ZoomCamera"
+          },
+          "parameters": [
+            "",
+            "Variable(Back2Zoom)",
+            "\"Background 2\"",
+            "0"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ZoomCamera"
+          },
+          "parameters": [
+            "",
+            "Variable(Back0Zoom)",
+            "\"Background 0\"",
+            "0"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": [],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "CameraY"
+          },
+          "parameters": [
+            "",
+            "=",
+            "660*0.04",
+            "\"Background 1\"",
+            "0"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "CameraY"
+          },
+          "parameters": [
+            "",
+            "=",
+            "660*0.02",
+            "\"Background 2\"",
+            "0"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "CameraY"
+          },
+          "parameters": [
+            "",
+            "=",
+            "660*0.08",
+            "\"Background 0\"",
+            "0"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "CameraX"
+          },
+          "parameters": [
+            "",
+            "=",
+            "-4410*0.3",
+            "\"Background 1\"",
+            "0"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "CameraX"
+          },
+          "parameters": [
+            "",
+            "=",
+            "-4410*0.01",
+            "\"Background 2\"",
+            "0"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "CameraX"
+          },
+          "parameters": [
+            "",
+            "=",
+            "-4410*0.8",
+            "\"Background 0\"",
+            "0"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 35,
+        "g": 166,
+        "r": 245,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Parallax",
+      "comment2": ""
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "PosY"
+          },
+          "parameters": [
+            "Player",
+            "<=",
+            "660"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "CameraY"
+          },
+          "parameters": [
+            "",
+            "=",
+            "Player.Y()*0.02",
+            "\"Background 2\"",
+            "0"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "CameraY"
+          },
+          "parameters": [
+            "",
+            "=",
+            "Player.Y()*0.04",
+            "\"Background 1\"",
+            "0"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "CameraY"
+          },
+          "parameters": [
+            "",
+            "=",
+            "Player.Y()*0.08",
+            "\"Background 0\"",
+            "0"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "BuiltinCommonInstructions::And"
+          },
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PosX"
+              },
+              "parameters": [
+                "Player",
+                "<=",
+                "19155"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PosX"
+              },
+              "parameters": [
+                "Player",
+                ">=",
+                "-4410"
+              ],
+              "subInstructions": []
+            }
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "CameraX"
+          },
+          "parameters": [
+            "",
+            "=",
+            "Player.X()*0.3",
+            "\"Background 1\"",
+            "0"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "CameraX"
+          },
+          "parameters": [
+            "",
+            "=",
+            "Player.X()*0.8",
+            "\"Background 0\"",
+            "0"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "CameraX"
+          },
+          "parameters": [
+            "",
+            "=",
+            "Player.X()*0.01",
+            "\"Background 2\"",
+            "0"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0,
+        "textB": 255,
+        "textG": 255,
+        "textR": 255
+      },
+      "comment": "Identificador de Colisão",
+      "comment2": ""
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Player",
+            "IdentificadorDeColisao",
+            "",
+            "",
+            ""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "BuiltinCommonInstructions::Or"
+          },
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "AnimationName"
+              },
+              "parameters": [
+                "Player",
+                "\"Idle\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "AnimationName"
+              },
+              "parameters": [
+                "Player",
+                "\"Walk\""
+              ],
+              "subInstructions": []
+            }
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "SetAnimationName"
+          },
+          "parameters": [
+            "Player",
+            "\"CWalk\""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0,
+        "textB": 255,
+        "textG": 255,
+        "textR": 255
+      },
+      "comment": "Identificador de Morte",
+      "comment2": ""
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Player",
+            "IdentificadorDeMorte",
+            "",
+            "",
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "PushScene"
+          },
+          "parameters": [
+            "",
+            "\"GameOver\""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "VarObjet"
+          },
+          "parameters": [
+            "Player",
+            "Vida",
+            "<=",
+            "0"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "PushScene"
+          },
+          "parameters": [
+            "",
+            "\"GameOver\""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0,
+        "textB": 255,
+        "textG": 255,
+        "textR": 255
+      },
+      "comment": "Poças Radioativas",
+      "comment2": ""
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Player",
+            "PocaRadioativa",
+            "",
+            "",
+            "no"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "MettreX"
+          },
+          "parameters": [
+            "Player",
+            "=",
+            "Variable(SavePointX)"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "MettreY"
+          },
+          "parameters": [
+            "Player",
+            "=",
+            "Variable(SavePointY)"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ModVarObjet"
+          },
+          "parameters": [
+            "Player",
+            "Vida",
+            "-",
+            "5"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    }
+  ],
+  "layers": [
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "",
+      "visibility": true,
+      "cameras": [
+        {
+          "defaultSize": true,
+          "defaultViewport": true,
+          "height": 0,
+          "viewportBottom": 1,
+          "viewportLeft": 0,
+          "viewportRight": 1,
+          "viewportTop": 0,
+          "width": 0
+        }
+      ],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "Background 2",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "BlackAndWhite",
+          "name": "BlackWhite",
+          "doubleParameters": {
+            "opacity": 0.5
+          },
+          "stringParameters": {},
+          "booleanParameters": {}
+        },
+        {
+          "effectType": "LightNight",
+          "name": "Effect",
+          "doubleParameters": {
+            "opacity": 0.3
+          },
+          "stringParameters": {},
+          "booleanParameters": {}
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "Background 1",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "BlackAndWhite",
+          "name": "BlackWhite",
+          "doubleParameters": {
+            "opacity": 0.5
+          },
+          "stringParameters": {},
+          "booleanParameters": {}
+        },
+        {
+          "effectType": "LightNight",
+          "name": "Effect",
+          "doubleParameters": {
+            "opacity": 0.3
+          },
+          "stringParameters": {},
+          "booleanParameters": {}
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "Background 0",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "BackGame",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "Game",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "BlackAndWhite",
+          "name": "BlackWhite",
+          "doubleParameters": {
+            "opacity": 0.5
+          },
+          "stringParameters": {},
+          "booleanParameters": {}
+        },
+        {
+          "effectType": "LightNight",
+          "name": "Night",
+          "doubleParameters": {
+            "opacity": 0.3
+          },
+          "stringParameters": {},
+          "booleanParameters": {}
+        }
+      ]
+    }
+  ],
+  "behaviorsSharedData": [
+    {
+      "name": "Platform",
+      "type": "PlatformBehavior::PlatformBehavior"
+    },
+    {
+      "name": "PlatformerObject",
+      "type": "PlatformBehavior::PlatformerObjectBehavior"
+    },
+    {
+      "name": "Tween",
+      "type": "Tween::TweenBehavior"
+    }
+  ]
+}
