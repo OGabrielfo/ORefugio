@@ -2319,6 +2319,15 @@
         "preloadAsMusic": false,
         "preloadAsSound": false,
         "userAdded": true
+      },
+      {
+        "file": "Audio/Effect/LixoEsc.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Audio\\Effect\\LixoEsc.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []

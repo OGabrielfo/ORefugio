@@ -132,6 +132,20 @@
                     ""
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Audio\\Effect\\LixoEsc.mp3",
+                    "",
+                    "GlobalVariable(VolumeEfeitos)*0.15",
+                    ""
+                  ],
+                  "subInstructions": []
                 }
               ],
               "events": []
@@ -244,6 +258,20 @@
                 "Player",
                 "PlatformerObject",
                 "yes"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Audio\\Effect\\LixoEsc.mp3",
+                "",
+                "GlobalVariable(VolumeEfeitos)*0.15",
+                ""
               ],
               "subInstructions": []
             }

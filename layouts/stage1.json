@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.09000000000000213,
+    "zoomFactor": 0.2500000000000021,
     "windowMask": false
   },
   "objectsGroups": [
@@ -4612,8 +4612,8 @@
       "name": "Player",
       "persistentUuid": "442d0245-803d-4f77-b859-009230319123",
       "width": 0,
-      "x": 1178,
-      "y": -1266,
+      "x": 606,
+      "y": -2350,
       "zOrder": 15,
       "numberProperties": [],
       "stringProperties": [],
@@ -8493,7 +8493,7 @@
       "colorR": 0,
       "creationTime": 0,
       "disabled": false,
-      "folded": true,
+      "folded": false,
       "name": "Eventos Externos",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
