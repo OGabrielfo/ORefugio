@@ -2328,6 +2328,87 @@
         "preloadAsMusic": false,
         "preloadAsSound": false,
         "userAdded": true
+      },
+      {
+        "file": "Audio/Effect/QuedaPoca.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Audio\\Effect\\QuedaPoca.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "Audio/Effect/AndandoMato.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Audio\\Effect\\AndandoMato.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "Audio/Effect/AndandoTerra.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Audio\\Effect\\AndandoTerra.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "Audio/Effect/Jump.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Audio\\Effect\\Jump.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "Audio/Effect/SomSombra.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Audio\\Effect\\SomSombra.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "Audio/Effect/SombraAnda.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Audio\\Effect\\SombraAnda.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "Audio/Effect/GolpeSombra.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Audio\\Effect\\GolpeSombra.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "Audio/Effect/AranhaDesce.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Audio\\Effect\\AranhaDesce.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "Audio/Effect/FlorFecha.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Audio\\Effect\\FlorFecha.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []

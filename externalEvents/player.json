@@ -672,7 +672,7 @@
       "colorR": 74,
       "creationTime": 0,
       "disabled": false,
-      "folded": false,
+      "folded": true,
       "name": "Efeitos Sonoros",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -759,7 +759,7 @@
               },
               "parameters": [
                 "",
-                "Audio\\Effect\\AndandoTerra.wav",
+                "Audio\\Effect\\AndandoTerra.mp3",
                 "2",
                 "yes",
                 "GlobalVariable(VolumeEfeitos)",
@@ -908,7 +908,7 @@
               },
               "parameters": [
                 "",
-                "Audio\\Effect\\AndandoMato.wav",
+                "Audio\\Effect\\AndandoMato.mp3",
                 "2",
                 "yes",
                 "GlobalVariable(VolumeEfeitos)",
@@ -1187,7 +1187,7 @@
               },
               "parameters": [
                 "",
-                "Audio\\Effect\\AndandoTerra.wav",
+                "Audio\\Effect\\AndandoTerra.mp3",
                 "2",
                 "yes",
                 "GlobalVariable(VolumeEfeitos)",
@@ -1404,7 +1404,7 @@
               },
               "parameters": [
                 "",
-                "Audio\\Effect\\Impact.mp3",
+                "Audio\\Effect\\QuedaNoChao.mp3",
                 "=",
                 "GlobalVariable(VolumeEfeitos)*0.05",
                 ""
@@ -1460,7 +1460,7 @@
               },
               "parameters": [
                 "",
-                "Audio\\Effect\\Jump.ogg",
+                "Audio\\Effect\\Jump.mp3",
                 "=",
                 "GlobalVariable(VolumeEfeitos)*0.03",
                 "2"

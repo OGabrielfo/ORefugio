@@ -8493,7 +8493,7 @@
       "colorR": 0,
       "creationTime": 0,
       "disabled": false,
-      "folded": false,
+      "folded": true,
       "name": "Eventos Externos",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -9905,7 +9905,7 @@
           "colorR": 126,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Poças Radioativas",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -10083,6 +10083,20 @@
                     "-235",
                     "\"linear\"",
                     "300",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Audio\\Effect\\QuedaPoca.mp3",
+                    "",
+                    "GlobalVariable(VolumeEfeitos)",
                     ""
                   ],
                   "subInstructions": []

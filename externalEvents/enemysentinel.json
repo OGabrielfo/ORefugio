@@ -1222,7 +1222,7 @@
                     "",
                     "Audio\\Effect\\Impact.mp3",
                     "",
-                    "GlobalVariable(VolumeEfeitos)",
+                    "GlobalVariable(VolumeEfeitos)*0.1",
                     ""
                   ],
                   "subInstructions": []
@@ -1535,7 +1535,7 @@
       "colorR": 0,
       "creationTime": 0,
       "disabled": false,
-      "folded": false,
+      "folded": true,
       "name": "Efeitos Sonoros",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -1568,7 +1568,7 @@
                       "parameters": [
                         "EnemySentinel",
                         "=",
-                        "10"
+                        "9"
                       ],
                       "subInstructions": []
                     },
@@ -1580,7 +1580,7 @@
                       "parameters": [
                         "EnemySentinel",
                         "=",
-                        "19"
+                        "18"
                       ],
                       "subInstructions": []
                     }
@@ -1603,7 +1603,7 @@
                   },
                   "parameters": [
                     "",
-                    "Audio\\Effect\\Impact.mp3",
+                    "Audio\\Effect\\SentinelaAnda.mp3",
                     "3",
                     "no",
                     "clamp(100 - (DistanceBetweenPositions(Player.PointX(\"Center\"), Player.PointY(\"Center\"), EnemySentinel.PointX(\"Center\"), EnemySentinel.PointY(\"Center\"))* 0.07), 0, GlobalVariable(VolumeEfeitos))",

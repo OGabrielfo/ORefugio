@@ -76,7 +76,467 @@
     },
     {
       "disabled": false,
+      "folded": true,
+      "type": "BuiltinCommonInstructions::ForEach",
+      "object": "RaizVivaFlor",
+      "conditions": [],
+      "actions": [],
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Distance"
+              },
+              "parameters": [
+                "Player",
+                "RaizVivaFlor",
+                "250",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "AnimationName"
+              },
+              "parameters": [
+                "RaizVivaFlor",
+                "\"Fechar\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "AnimationEnded"
+              },
+              "parameters": [
+                "RaizVivaFlor"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "RaizVivaFlor",
+                "\"Abrir\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "RaizVivaFlor",
+                "DebugFlor",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Audio\\Effect\\FlorFecha.mp3",
+                    "6",
+                    "no",
+                    "clamp(100 - (DistanceBetweenPositions(Player.PointX(\"Center\"), Player.PointY(\"Center\"), RaizVivaFlor.PointX(\"Center\"), RaizVivaFlor.PointY(\"Center\"))* 0.1), 0, GlobalVariable(VolumeEfeitos)*0.2)",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SoundStopped"
+              },
+              "parameters": [
+                "",
+                "6"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "Distance"
+                  },
+                  "parameters": [
+                    "Player",
+                    "RaizVivaFlor",
+                    "250",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "RaizVivaFlor",
+                    "Player",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "RaizVivaFlor",
+                "\"Fechar\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "RaizVivaFlor",
+                "DebugFlor",
+                "=",
+                "2"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "AnimationName"
+              },
+              "parameters": [
+                "RaizVivaFlor",
+                "\"Fechar\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Audio\\Effect\\FlorFecha.mp3",
+                    "6",
+                    "no",
+                    "clamp(100 - (DistanceBetweenPositions(Player.PointX(\"Center\"), Player.PointY(\"Center\"), RaizVivaFlor.PointX(\"Center\"), RaizVivaFlor.PointY(\"Center\"))* 0.1), 0, GlobalVariable(VolumeEfeitos)*0.2)",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "disabled": false,
       "folded": false,
+      "type": "BuiltinCommonInstructions::ForEach",
+      "object": "RaizVivaFlorG",
+      "conditions": [],
+      "actions": [],
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Distance"
+              },
+              "parameters": [
+                "Player",
+                "RaizVivaFlorG",
+                "450",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "AnimationName"
+              },
+              "parameters": [
+                "RaizVivaFlorG",
+                "\"Fechar\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "AnimationEnded"
+              },
+              "parameters": [
+                "RaizVivaFlorG"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "RaizVivaFlorG",
+                "\"Abrir\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Audio\\Effect\\FlorFecha.mp3",
+                    "6",
+                    "no",
+                    "clamp(100 - (DistanceBetweenPositions(Player.PointX(\"Center\"), Player.PointY(\"Center\"), RaizVivaFlorG.PointX(\"Center\"), RaizVivaFlorG.PointY(\"Center\"))* 0.1), 0, GlobalVariable(VolumeEfeitos)*0.2)",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "Distance"
+                  },
+                  "parameters": [
+                    "Player",
+                    "RaizVivaFlorG",
+                    "450",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "RaizVivaFlorG",
+                    "Player",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "RaizVivaFlorG",
+                "\"Fechar\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PickNearest"
+              },
+              "parameters": [
+                "RaizVivaFlorG",
+                "Player.X()",
+                "Player.Y()",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "AnimationName"
+              },
+              "parameters": [
+                "RaizVivaFlorG",
+                "\"Fechar\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "Audio\\Effect\\FlorFecha.mp3",
+                "6",
+                "no",
+                "clamp(100 - (DistanceBetweenPositions(Player.PointX(\"Center\"), Player.PointY(\"Center\"), RaizVivaFlorG.PointX(\"Center\"), RaizVivaFlorG.PointY(\"Center\"))* 0.1), 0, GlobalVariable(VolumeEfeitos)*0.2)",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ]
+    },
+    {
+      "disabled": true,
+      "folded": true,
       "type": "BuiltinCommonInstructions::ForEach",
       "object": "RaizVivaFlor",
       "conditions": [],
@@ -114,7 +574,41 @@
               "subInstructions": []
             }
           ],
-          "events": []
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Audio\\Effect\\FlorFecha.mp3",
+                    "6",
+                    "no",
+                    "clamp(100 - (DistanceBetweenPositions(Player.PointX(\"Center\"), Player.PointY(\"Center\"), RaizVivaFlor.PointX(\"Center\"), RaizVivaFlor.PointY(\"Center\"))* 0.1), 0, GlobalVariable(VolumeEfeitos)*0.2)",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
         },
         {
           "disabled": false,
@@ -153,8 +647,8 @@
       ]
     },
     {
-      "disabled": false,
-      "folded": false,
+      "disabled": true,
+      "folded": true,
       "type": "BuiltinCommonInstructions::ForEach",
       "object": "RaizVivaFlorG",
       "conditions": [],
@@ -192,7 +686,41 @@
               "subInstructions": []
             }
           ],
-          "events": []
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Audio\\Effect\\FlorFecha.mp3",
+                    "6",
+                    "no",
+                    "clamp(100 - (DistanceBetweenPositions(Player.PointX(\"Center\"), Player.PointY(\"Center\"), RaizVivaFlorG.PointX(\"Center\"), RaizVivaFlorG.PointY(\"Center\"))* 0.1), 0, GlobalVariable(VolumeEfeitos)*0.2)",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
         },
         {
           "disabled": false,
@@ -378,20 +906,6 @@
                 "Player",
                 "Health",
                 "10",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "Audio\\Effect\\Impact.mp3",
-                "",
-                "GlobalVariable(VolumeEfeitos)",
                 ""
               ],
               "subInstructions": []
@@ -697,12 +1211,26 @@
       "parameters": []
     },
     {
+      "colorB": 0,
+      "colorG": 0,
+      "colorR": 0,
+      "creationTime": 0,
       "disabled": false,
       "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": [],
-      "events": []
+      "name": "Efeitos Sonoros",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [],
+          "events": []
+        }
+      ],
+      "parameters": []
     }
   ]
 }

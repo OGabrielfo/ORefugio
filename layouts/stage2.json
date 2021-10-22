@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.2500000000000046,
+    "zoomFactor": 0.4500000000000052,
     "windowMask": false
   },
   "objectsGroups": [
@@ -6993,8 +6993,8 @@
       "name": "Player",
       "persistentUuid": "d2b0b4b4-836d-4a9e-9b09-e46bd519730e",
       "width": 0,
-      "x": -2711,
-      "y": 849,
+      "x": -4383,
+      "y": -410,
       "zOrder": 15,
       "numberProperties": [],
       "stringProperties": [],
@@ -9607,8 +9607,8 @@
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": true,
-              "timeBetweenFrames": 0.2,
+              "looping": false,
+              "timeBetweenFrames": 0.11110000312328339,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
@@ -9815,7 +9815,7 @@
       "updateIfNotVisible": false,
       "variables": [
         {
-          "name": "Velocidade",
+          "name": "DebugFlor",
           "type": "string",
           "value": ""
         }
@@ -9876,8 +9876,8 @@
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": true,
-              "timeBetweenFrames": 0.2,
+              "looping": false,
+              "timeBetweenFrames": 0.11110000312328339,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
@@ -10706,7 +10706,7 @@
       "colorR": 0,
       "creationTime": 0,
       "disabled": false,
-      "folded": true,
+      "folded": false,
       "name": "Eventos Externos",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -12361,6 +12361,20 @@
                     "-235",
                     "\"linear\"",
                     "300",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Audio\\Effect\\QuedaPoca.mp3",
+                    "",
+                    "GlobalVariable(VolumeEfeitos)",
                     ""
                   ],
                   "subInstructions": []

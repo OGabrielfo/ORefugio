@@ -689,7 +689,7 @@
       "colorR": 0,
       "creationTime": 0,
       "disabled": false,
-      "folded": false,
+      "folded": true,
       "name": "Dano",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -790,9 +790,9 @@
               },
               "parameters": [
                 "",
-                "Audio\\Effect\\Impact.mp3",
+                "Audio\\Effect\\AranhaDesce.mp3",
                 "",
-                "GlobalVariable(VolumeEfeitos)",
+                "GlobalVariable(VolumeEfeitos)*0.7",
                 ""
               ],
               "subInstructions": []
@@ -982,12 +982,164 @@
       "parameters": []
     },
     {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
       "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": [],
-      "events": []
+      "folded": true,
+      "name": "Efeitos Sonoros",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "Aranha",
+          "conditions": [],
+          "actions": [],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "DepartScene"
+                  },
+                  "parameters": [
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ResetObjectTimer"
+                  },
+                  "parameters": [
+                    "Aranha",
+                    "\"SomSombra\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Audio\\Effect\\SombraAnda.mp3",
+                    "5",
+                    "yes",
+                    "0",
+                    "0.65"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ObjectTimerPaused"
+                  },
+                  "parameters": [
+                    "Aranha",
+                    "\"SomSombra\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "RemoveObjectTimer"
+                  },
+                  "parameters": [
+                    "Aranha",
+                    "\"SomSombra\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ResetObjectTimer"
+                  },
+                  "parameters": [
+                    "Aranha",
+                    "\"SomSombra\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ObjectTimer"
+                  },
+                  "parameters": [
+                    "Aranha",
+                    "\"SomSombra\"",
+                    "5"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Audio\\Effect\\AranhaDesce.mp3",
+                    "",
+                    "clamp(100 - (DistanceBetweenPositions(Player.PointX(\"Center\"), Player.PointY(\"Center\"), Aranha.PointX(\"Center\"), Aranha.PointY(\"Center\"))* 0.2), 0, GlobalVariable(VolumeEfeitos)*0.2)",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PauseObjectTimer"
+                  },
+                  "parameters": [
+                    "Aranha",
+                    "\"SomSombra\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
+        }
+      ],
+      "parameters": []
     }
   ]
 }
