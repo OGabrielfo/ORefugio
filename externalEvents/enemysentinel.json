@@ -285,7 +285,7 @@
       "colorR": 0,
       "creationTime": 0,
       "disabled": false,
-      "folded": true,
+      "folded": false,
       "name": "Dano",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -386,7 +386,7 @@
               },
               "parameters": [
                 "",
-                "Audio\\Effect\\Impact.mp3",
+                "Audio\\Effect\\SentinelaGolpe.mp3",
                 "",
                 "GlobalVariable(VolumeEfeitos)",
                 ""
@@ -1121,7 +1121,7 @@
           "colorR": 0,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Dano",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",

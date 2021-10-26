@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.4500000000000052,
+    "zoomFactor": 0.09000000000000513,
     "windowMask": false
   },
   "objectsGroups": [
@@ -6993,8 +6993,8 @@
       "name": "Player",
       "persistentUuid": "d2b0b4b4-836d-4a9e-9b09-e46bd519730e",
       "width": 0,
-      "x": -4383,
-      "y": -410,
+      "x": 1301,
+      "y": -385,
       "zOrder": 15,
       "numberProperties": [],
       "stringProperties": [],
@@ -9555,54 +9555,6 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "Aberto",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Graphics\\Enemies\\Life Root\\raiz viva aberta.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 222,
-                        "y": 139
-                      },
-                      {
-                        "x": 397,
-                        "y": 134
-                      },
-                      {
-                        "x": 406,
-                        "y": 375
-                      },
-                      {
-                        "x": 189,
-                        "y": 369
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "name": "Fechar",
           "useMultipleDirections": false,
           "directions": [
@@ -9805,24 +9757,7 @@
               ]
             }
           ]
-        }
-      ]
-    },
-    {
-      "name": "RaizVivaFlor",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [
-        {
-          "name": "DebugFlor",
-          "type": "string",
-          "value": ""
-        }
-      ],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
+        },
         {
           "name": "Aberto",
           "useMultipleDirections": false,
@@ -9849,20 +9784,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 220,
-                        "y": 133.75
+                        "x": 222,
+                        "y": 139
                       },
                       {
-                        "x": 412.5,
-                        "y": 133.75
+                        "x": 397,
+                        "y": 134
                       },
                       {
-                        "x": 473,
-                        "y": 369.5
+                        "x": 406,
+                        "y": 375
                       },
                       {
-                        "x": 161,
-                        "y": 370.5
+                        "x": 189,
+                        "y": 369
                       }
                     ]
                   ]
@@ -9870,7 +9805,24 @@
               ]
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "name": "RaizVivaFlor",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "DebugFlor",
+          "type": "string",
+          "value": ""
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
         {
           "name": "Fechar",
           "useMultipleDirections": false,
@@ -10066,6 +10018,54 @@
                       },
                       {
                         "x": 172,
+                        "y": 370.5
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Aberto",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Graphics\\Enemies\\Life Root\\raiz viva aberta.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 220,
+                        "y": 133.75
+                      },
+                      {
+                        "x": 412.5,
+                        "y": 133.75
+                      },
+                      {
+                        "x": 473,
+                        "y": 369.5
+                      },
+                      {
+                        "x": 161,
                         "y": 370.5
                       }
                     ]
@@ -10706,7 +10706,7 @@
       "colorR": 0,
       "creationTime": 0,
       "disabled": false,
-      "folded": false,
+      "folded": true,
       "name": "Eventos Externos",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -10921,6 +10921,21 @@
             {
               "type": {
                 "inverted": false,
+                "value": "PlayMusicCanal"
+              },
+              "parameters": [
+                "",
+                "Audio\\Music\\dungeon_ambient_1.mp3",
+                "0",
+                "yes",
+                "0",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
                 "value": "Cache"
               },
               "parameters": [
@@ -10988,6 +11003,20 @@
                 "-315",
                 "=",
                 "-211"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Audio\\Effect\\Transicao.mp3",
+                "",
+                "GlobalVariable(VolumeEfeitos)",
+                ""
               ],
               "subInstructions": []
             }
@@ -11303,7 +11332,7 @@
           "colorR": 0,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Fim da Fase",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -11347,6 +11376,20 @@
                     "-315",
                     "\"linear\"",
                     "1000",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Audio\\Effect\\Transicao.mp3",
+                    "",
+                    "GlobalVariable(VolumeEfeitos)",
                     ""
                   ],
                   "subInstructions": []
@@ -11882,6 +11925,19 @@
                     ""
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVolumeMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "0",
+                    "=",
+                    "GlobalVariable(VolumeMusica)"
+                  ],
+                  "subInstructions": []
                 }
               ],
               "events": []
@@ -11975,6 +12031,19 @@
                     ""
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVolumeMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "0",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
                 }
               ],
               "events": []
@@ -11991,7 +12060,7 @@
       "colorR": 255,
       "creationTime": 0,
       "disabled": false,
-      "folded": false,
+      "folded": true,
       "name": "Afeta Player",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -12129,6 +12198,20 @@
                     ""
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Audio\\Effect\\Transicao.mp3",
+                    "",
+                    "GlobalVariable(VolumeEfeitos)",
+                    ""
+                  ],
+                  "subInstructions": []
                 }
               ],
               "events": []
@@ -12183,7 +12266,7 @@
           "colorR": 126,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Poças Radioativas",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -12993,7 +13076,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Animação",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -13060,7 +13143,40 @@
                   "subInstructions": []
                 }
               ],
-              "events": []
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": [],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "Audio\\Effect\\ArbustoEntra.mp3",
+                        "",
+                        "GlobalVariable(VolumeEfeitos)",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
             },
             {
               "disabled": false,
@@ -13125,7 +13241,40 @@
                   "subInstructions": []
                 }
               ],
-              "events": []
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": [],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "Audio\\Effect\\ArbustoEntra.mp3",
+                        "",
+                        "GlobalVariable(VolumeEfeitos)",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
             },
             {
               "disabled": false,

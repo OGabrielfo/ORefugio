@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.130000000000005,
+    "zoomFactor": 0.050000000000004874,
     "windowMask": false
   },
   "objectsGroups": [
@@ -5658,8 +5658,8 @@
       "name": "Player",
       "persistentUuid": "babad6f2-f6d4-4ee2-8fe7-194dc326ecbd",
       "width": 0,
-      "x": -837,
-      "y": -879,
+      "x": -3364,
+      "y": -617,
       "zOrder": 15,
       "numberProperties": [],
       "stringProperties": [],
@@ -10662,7 +10662,7 @@
       "colorR": 0,
       "creationTime": 0,
       "disabled": false,
-      "folded": true,
+      "folded": false,
       "name": "Eventos Externos",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -10961,6 +10961,20 @@
                 ""
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Audio\\Effect\\Transicao.mp3",
+                "",
+                "GlobalVariable(VolumeEfeitos)",
+                ""
+              ],
+              "subInstructions": []
             }
           ],
           "events": []
@@ -11018,7 +11032,7 @@
       "colorR": 0,
       "creationTime": 0,
       "disabled": false,
-      "folded": true,
+      "folded": false,
       "name": "Savepoint e Fim da Fase",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -11029,7 +11043,7 @@
           "colorR": 0,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Savepoint",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -11373,6 +11387,20 @@
                         ""
                       ],
                       "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "Audio\\Effect\\Transicao.mp3",
+                        "",
+                        "GlobalVariable(VolumeEfeitos)",
+                        ""
+                      ],
+                      "subInstructions": []
                     }
                   ],
                   "events": []
@@ -11416,6 +11444,20 @@
                         "-315",
                         "\"linear\"",
                         "1000",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "Audio\\Effect\\Transicao.mp3",
+                        "",
+                        "GlobalVariable(VolumeEfeitos)",
                         ""
                       ],
                       "subInstructions": []
@@ -11521,7 +11563,7 @@
       "colorR": 0,
       "creationTime": 0,
       "disabled": false,
-      "folded": false,
+      "folded": true,
       "name": "Camera",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -12276,6 +12318,20 @@
                     "-315",
                     "\"linear\"",
                     "500",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Audio\\Effect\\Transicao.mp3",
+                    "",
+                    "GlobalVariable(VolumeEfeitos)",
                     ""
                   ],
                   "subInstructions": []

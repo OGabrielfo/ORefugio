@@ -2409,6 +2409,60 @@
         "preloadAsMusic": false,
         "preloadAsSound": false,
         "userAdded": true
+      },
+      {
+        "file": "Audio/Effect/PlantAttack.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Audio\\Effect\\PlantAttack.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "Audio/Music/dungeon_ambient_1.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Audio\\Music\\dungeon_ambient_1.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "Audio/Effect/ArbustoEntra.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Audio\\Effect\\ArbustoEntra.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": false
+      },
+      {
+        "file": "Audio/Effect/Transicao.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Audio\\Effect\\Transicao.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "Audio/Effect/SentinelaGolpe.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Audio\\Effect\\SentinelaGolpe.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "Audio/Effect/ArbustoAnda.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Audio\\Effect\\ArbustoAnda.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []

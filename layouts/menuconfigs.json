@@ -840,7 +840,7 @@
       "colorR": 155,
       "creationTime": 0,
       "disabled": false,
-      "folded": true,
+      "folded": false,
       "name": "Início",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -897,6 +897,20 @@
                     ""
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Audio\\Effect\\Transicao.mp3",
+                    "",
+                    "GlobalVariable(VolumeEfeitos)",
+                    ""
+                  ],
+                  "subInstructions": []
                 }
               ],
               "events": []
@@ -912,14 +926,14 @@
       "colorR": 245,
       "creationTime": 0,
       "disabled": false,
-      "folded": true,
+      "folded": false,
       "name": "Botão Voltar",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -1022,6 +1036,20 @@
                     "-315",
                     "\"linear\"",
                     "1000",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Audio\\Effect\\Transicao.mp3",
+                    "",
+                    "GlobalVariable(VolumeEfeitos)",
                     ""
                   ],
                   "subInstructions": []
@@ -1230,7 +1258,7 @@
       "colorR": 74,
       "creationTime": 0,
       "disabled": false,
-      "folded": false,
+      "folded": true,
       "name": "Controle de Volume",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",

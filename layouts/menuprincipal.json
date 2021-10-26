@@ -1569,6 +1569,20 @@
                     ""
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Audio\\Effect\\Transicao.mp3",
+                    "",
+                    "GlobalVariable(VolumeEfeitos)",
+                    ""
+                  ],
+                  "subInstructions": []
                 }
               ],
               "events": []
@@ -1762,6 +1776,20 @@
                     ""
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Audio\\Effect\\Transicao.mp3",
+                    "",
+                    "GlobalVariable(VolumeEfeitos)",
+                    ""
+                  ],
+                  "subInstructions": []
                 }
               ],
               "events": []
@@ -1884,6 +1912,20 @@
                     "-315",
                     "\"linear\"",
                     "1000",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Audio\\Effect\\Transicao.mp3",
+                    "",
+                    "GlobalVariable(VolumeEfeitos)",
                     ""
                   ],
                   "subInstructions": []
@@ -2012,6 +2054,20 @@
                     ""
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Audio\\Effect\\Transicao.mp3",
+                    "",
+                    "GlobalVariable(VolumeEfeitos)",
+                    ""
+                  ],
+                  "subInstructions": []
                 }
               ],
               "events": []
@@ -2124,6 +2180,20 @@
                     "-315",
                     "\"linear\"",
                     "1000",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Audio\\Effect\\Transicao.mp3",
+                    "",
+                    "GlobalVariable(VolumeEfeitos)",
                     ""
                   ],
                   "subInstructions": []
@@ -2276,6 +2346,20 @@
                     "Continue",
                     "=",
                     "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Audio\\Effect\\Transicao.mp3",
+                    "",
+                    "GlobalVariable(VolumeEfeitos)",
+                    ""
                   ],
                   "subInstructions": []
                 }

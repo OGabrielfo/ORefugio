@@ -298,7 +298,7 @@
       "colorR": 0,
       "creationTime": 0,
       "disabled": false,
-      "folded": true,
+      "folded": false,
       "name": "Dano",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",

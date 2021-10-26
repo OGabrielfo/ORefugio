@@ -813,6 +813,20 @@
                         ""
                       ],
                       "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "Audio\\Effect\\Transicao.mp3",
+                        "",
+                        "GlobalVariable(VolumeEfeitos)",
+                        ""
+                      ],
+                      "subInstructions": []
                     }
                   ],
                   "events": []
