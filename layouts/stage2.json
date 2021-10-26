@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.7500000000000054,
+    "zoomFactor": 0.0900000000000052,
     "windowMask": false
   },
   "objectsGroups": [
@@ -10979,6 +10979,20 @@
             {
               "type": {
                 "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "Transicao",
+                "=",
+                "-315",
+                "=",
+                "-211"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
                 "value": "Tween::AddObjectPositionXTween"
               },
               "parameters": [
@@ -10989,20 +11003,6 @@
                 "\"linear\"",
                 "1000",
                 ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "MettreXY"
-              },
-              "parameters": [
-                "Transicao",
-                "=",
-                "-315",
-                "=",
-                "-211"
               ],
               "subInstructions": []
             },
@@ -13065,7 +13065,7 @@
       "colorR": 65,
       "creationTime": 0,
       "disabled": false,
-      "folded": true,
+      "folded": false,
       "name": "Arbusto",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -13384,6 +13384,19 @@
                     "\"Idle\""
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVolumeSoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "20",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
                 }
               ],
               "events": []
@@ -13479,6 +13492,19 @@
                         "\"Anda\""
                       ],
                       "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVolumeSoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "20",
+                        "=",
+                        "GlobalVariable(VolumeEfeitos)"
+                      ],
+                      "subInstructions": []
                     }
                   ],
                   "events": []
@@ -13522,6 +13548,54 @@
                   "parameters": [
                     "Player",
                     ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVolumeSoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "20",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "DepartScene"
+                  },
+                  "parameters": [
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Audio\\Effect\\ArbustoAnda.mp3",
+                    "20",
+                    "yes",
+                    "0",
+                    "0.5"
                   ],
                   "subInstructions": []
                 }

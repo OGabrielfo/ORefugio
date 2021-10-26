@@ -403,20 +403,6 @@
                 ""
               ],
               "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "Audio\\Effect\\GolpeSombra.mp3",
-                "",
-                "GlobalVariable(VolumeEfeitos)",
-                "1.5"
-              ],
-              "subInstructions": []
             }
           ],
           "events": []
@@ -462,7 +448,22 @@
               ]
             }
           ],
-          "actions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Audio\\Effect\\GolpeSombra.mp3",
+                "",
+                "GlobalVariable(VolumeEfeitos)",
+                "1.5"
+              ],
+              "subInstructions": []
+            }
+          ],
           "events": [
             {
               "disabled": false,

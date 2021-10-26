@@ -342,6 +342,19 @@
                     "0"
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVolumeSoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "20",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
                 }
               ],
               "events": []

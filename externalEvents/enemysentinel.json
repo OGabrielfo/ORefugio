@@ -378,20 +378,6 @@
                 ""
               ],
               "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "Audio\\Effect\\SentinelaGolpe.mp3",
-                "",
-                "GlobalVariable(VolumeEfeitos)",
-                ""
-              ],
-              "subInstructions": []
             }
           ],
           "events": []
@@ -414,7 +400,22 @@
               "subInstructions": []
             }
           ],
-          "actions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Audio\\Effect\\SentinelaGolpe.mp3",
+                "",
+                "GlobalVariable(VolumeEfeitos)",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
           "events": [
             {
               "disabled": false,

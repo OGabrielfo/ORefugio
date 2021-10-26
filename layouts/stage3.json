@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.07,
+    "zoomFactor": 0.21,
     "windowMask": false
   },
   "objectsGroups": [
@@ -315,14 +315,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 204.8,
+      "height": 172.8000030517578,
       "layer": "Game",
       "locked": false,
       "name": "RaizVivaFlor",
       "persistentUuid": "0e181c3d-0a85-4dd4-96ba-4d62adec64fa",
-      "width": 288,
-      "x": -1696,
-      "y": -929,
+      "width": 243,
+      "x": -1651,
+      "y": -897,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -9872,60 +9872,12 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "Aberto",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Graphics\\Enemies\\Life Root\\raiz viva aberta.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 732.5,
-                        "y": 515
-                      },
-                      {
-                        "x": 1422.5,
-                        "y": 495
-                      },
-                      {
-                        "x": 1222.5,
-                        "y": 1155
-                      },
-                      {
-                        "x": 822.5,
-                        "y": 1145
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "name": "Fechar",
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": true,
-              "timeBetweenFrames": 0.2,
+              "looping": false,
+              "timeBetweenFrames": 0.11110000312328339,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
@@ -10122,24 +10074,7 @@
               ]
             }
           ]
-        }
-      ]
-    },
-    {
-      "name": "RaizVivaFlor",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [
-        {
-          "name": "Velocidade",
-          "type": "string",
-          "value": ""
-        }
-      ],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
+        },
         {
           "name": "Aberto",
           "useMultipleDirections": false,
@@ -10166,20 +10101,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 220,
-                        "y": 133.75
+                        "x": 732.5,
+                        "y": 515
                       },
                       {
-                        "x": 412.5,
-                        "y": 133.75
+                        "x": 1422.5,
+                        "y": 495
                       },
                       {
-                        "x": 473,
-                        "y": 369.5
+                        "x": 1222.5,
+                        "y": 1155
                       },
                       {
-                        "x": 161,
-                        "y": 370.5
+                        "x": 822.5,
+                        "y": 1145
                       }
                     ]
                   ]
@@ -10187,14 +10122,31 @@
               ]
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "name": "RaizVivaFlor",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "Velocidade",
+          "type": "string",
+          "value": ""
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
         {
           "name": "Fechar",
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": true,
-              "timeBetweenFrames": 0.2,
+              "looping": false,
+              "timeBetweenFrames": 0.11110000312328339,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
@@ -10383,6 +10335,54 @@
                       },
                       {
                         "x": 172,
+                        "y": 370.5
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Aberto",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Graphics\\Enemies\\Life Root\\raiz viva aberta.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 220,
+                        "y": 133.75
+                      },
+                      {
+                        "x": 412.5,
+                        "y": 133.75
+                      },
+                      {
+                        "x": 473,
+                        "y": 369.5
+                      },
+                      {
+                        "x": 161,
                         "y": 370.5
                       }
                     ]

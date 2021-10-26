@@ -895,20 +895,6 @@
                 ""
               ],
               "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "Audio\\Effect\\PlantAttack.mp3",
-                "",
-                "GlobalVariable(VolumeEfeitos)",
-                "1.5"
-              ],
-              "subInstructions": []
             }
           ],
           "events": []
@@ -939,7 +925,22 @@
               "subInstructions": []
             }
           ],
-          "actions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Audio\\Effect\\PlantAttack.mp3",
+                "",
+                "GlobalVariable(VolumeEfeitos)",
+                "1.5"
+              ],
+              "subInstructions": []
+            }
+          ],
           "events": [
             {
               "disabled": false,

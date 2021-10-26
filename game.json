@@ -611,24 +611,6 @@
         "userAdded": true
       },
       {
-        "file": "Audio/Music/a_skeletons_in_the_closet.ogg",
-        "kind": "audio",
-        "metadata": "",
-        "name": "Audio\\Music\\a_skeletons_in_the_closet.ogg",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "userAdded": true
-      },
-      {
-        "file": "Audio/Music/caravan.ogg.ogg",
-        "kind": "audio",
-        "metadata": "",
-        "name": "Audio\\Music\\caravan.ogg.ogg",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "userAdded": true
-      },
-      {
         "alwaysLoaded": false,
         "file": "Graphics/Menu/LogoORefugio-01.png",
         "kind": "image",
@@ -1349,15 +1331,6 @@
         "userAdded": true
       },
       {
-        "file": "Audio/Effect/steps in wood floor.wav",
-        "kind": "audio",
-        "metadata": "",
-        "name": "Audio\\Effect\\steps in wood floor.wav",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "userAdded": true
-      },
-      {
         "file": "Audio/Effect/gmae.mp3",
         "kind": "audio",
         "metadata": "",
@@ -1371,15 +1344,6 @@
         "kind": "audio",
         "metadata": "",
         "name": "Audio\\Effect\\Impact.mp3",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "userAdded": true
-      },
-      {
-        "file": "Audio/Music/Insistent.mp3",
-        "kind": "audio",
-        "metadata": "",
-        "name": "Audio\\Music\\Insistent.mp3",
         "preloadAsMusic": false,
         "preloadAsSound": false,
         "userAdded": true
@@ -1719,15 +1683,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "Graphics/Stages/Level Design - Fase 3.jpg",
-        "kind": "image",
-        "metadata": "",
-        "name": "Graphics\\Stages\\Level Design - Fase 3.jpg",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
         "file": "Graphics/Elements/arbusto.png",
         "kind": "image",
         "metadata": "",
@@ -1795,15 +1750,6 @@
         "kind": "image",
         "metadata": "",
         "name": "Graphics\\Stages\\Stage 3\\ChaoInt.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Graphics/Stages/Stage 3/ParedeMusgo.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Graphics\\Stages\\Stage 3\\ParedeMusgo.png",
         "smoothed": true,
         "userAdded": true
       },
@@ -2231,46 +2177,10 @@
         "userAdded": false
       },
       {
-        "file": "Audio/Effect/QuedaNoChao2.ogg",
-        "kind": "audio",
-        "metadata": "",
-        "name": "Audio\\Effect\\QuedaNoChao2.ogg",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "userAdded": true
-      },
-      {
-        "file": "Audio/Effect/AndandoMato.wav",
-        "kind": "audio",
-        "metadata": "",
-        "name": "Audio\\Effect\\AndandoMato.wav",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "userAdded": true
-      },
-      {
         "file": "Audio/Effect/AndandoCimento.mp3",
         "kind": "audio",
         "metadata": "",
         "name": "Audio\\Effect\\AndandoCimento.mp3",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "userAdded": true
-      },
-      {
-        "file": "Audio/Effect/AndandoTerra.wav",
-        "kind": "audio",
-        "metadata": "",
-        "name": "Audio\\Effect\\AndandoTerra.wav",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "userAdded": true
-      },
-      {
-        "file": "Audio/Effect/Jump.ogg",
-        "kind": "audio",
-        "metadata": "",
-        "name": "Audio\\Effect\\Jump.ogg",
         "preloadAsMusic": false,
         "preloadAsSound": false,
         "userAdded": true
