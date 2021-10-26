@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.09000000000000513,
+    "zoomFactor": 0.7500000000000054,
     "windowMask": false
   },
   "objectsGroups": [
@@ -6993,8 +6993,8 @@
       "name": "Player",
       "persistentUuid": "d2b0b4b4-836d-4a9e-9b09-e46bd519730e",
       "width": 0,
-      "x": 1301,
-      "y": -385,
+      "x": -4382,
+      "y": -408,
       "zOrder": 15,
       "numberProperties": [],
       "stringProperties": [],
