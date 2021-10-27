@@ -189,6 +189,20 @@
         {
           "type": {
             "inverted": false,
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "CutScene_01",
+            "0",
+            "0",
+            "\"\""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
             "value": "Video::Play"
           },
           "parameters": [
@@ -488,6 +502,17 @@
             {
               "type": {
                 "inverted": false,
+                "value": "Delete"
+              },
+              "parameters": [
+                "CutScene_01",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
                 "value": "Scene"
               },
               "parameters": [
@@ -529,6 +554,14 @@
     }
   ],
   "behaviorsSharedData": [
+    {
+      "name": "DraggableSliderControl",
+      "type": "DraggableSliderControl::DraggableSliderControl"
+    },
+    {
+      "name": "Health",
+      "type": "Health::Health"
+    },
     {
       "name": "PlatformerObject",
       "type": "PlatformBehavior::PlatformerObjectBehavior"

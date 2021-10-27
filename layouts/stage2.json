@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.0900000000000052,
+    "zoomFactor": 0.33000000000000523,
     "windowMask": false
   },
   "objectsGroups": [
@@ -6993,8 +6993,8 @@
       "name": "Player",
       "persistentUuid": "d2b0b4b4-836d-4a9e-9b09-e46bd519730e",
       "width": 0,
-      "x": -4382,
-      "y": -408,
+      "x": 5640,
+      "y": -130,
       "zOrder": 15,
       "numberProperties": [],
       "stringProperties": [],
@@ -12060,7 +12060,7 @@
       "colorR": 255,
       "creationTime": 0,
       "disabled": false,
-      "folded": true,
+      "folded": false,
       "name": "Afeta Player",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -12071,7 +12071,7 @@
           "colorR": 0,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Identificador de Colisão (Não levantar em locais apertados)",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -12121,6 +12121,28 @@
                       "parameters": [
                         "Player",
                         "\"Walk\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "AnimationName"
+                      },
+                      "parameters": [
+                        "Player",
+                        "\"Jump\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "AnimationName"
+                      },
+                      "parameters": [
+                        "Player",
+                        "\"Fall\""
                       ],
                       "subInstructions": []
                     }
@@ -13065,7 +13087,7 @@
       "colorR": 65,
       "creationTime": 0,
       "disabled": false,
-      "folded": false,
+      "folded": true,
       "name": "Arbusto",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -13076,7 +13098,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Animação",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",

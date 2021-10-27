@@ -1349,6 +1349,15 @@
         "userAdded": true
       },
       {
+        "file": "Audio/Music/Insistent.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Audio\\Music\\Insistent.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
         "file": "Audio/Effect/zipclick.mp3",
         "kind": "audio",
         "metadata": "",
@@ -1683,6 +1692,15 @@
       },
       {
         "alwaysLoaded": false,
+        "file": "Graphics/Stages/Level Design - Fase 3.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Level Design - Fase 3.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
         "file": "Graphics/Elements/arbusto.png",
         "kind": "image",
         "metadata": "",
@@ -1750,6 +1768,15 @@
         "kind": "image",
         "metadata": "",
         "name": "Graphics\\Stages\\Stage 3\\ChaoInt.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Stage 3/ParedeMusgo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Stage 3\\ParedeMusgo.png",
         "smoothed": true,
         "userAdded": true
       },
@@ -1885,15 +1912,6 @@
         "kind": "image",
         "metadata": "",
         "name": "Graphics\\Stages\\FinalProv.jpg",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "TiroGalhoProv-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "TiroGalhoProv-1.png",
         "smoothed": true,
         "userAdded": true
       },
@@ -2177,6 +2195,15 @@
         "userAdded": false
       },
       {
+        "file": "Audio/Effect/QuedaNoChao2.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Audio\\Effect\\QuedaNoChao2.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
         "file": "Audio/Effect/AndandoCimento.mp3",
         "kind": "audio",
         "metadata": "",
@@ -2372,6 +2399,105 @@
         "name": "Audio\\Effect\\ArbustoAnda.mp3",
         "preloadAsMusic": false,
         "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Stage 3/Elementos/Florzinha01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Stage 3\\Elementos\\Florzinha01.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Stage 3/Elementos/Florzinha02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Stage 3\\Elementos\\Florzinha02.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Stage 3/Elementos/Florzinha03.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Stage 3\\Elementos\\Florzinha03.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Stage 3/Elementos/Folhas.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Stage 3\\Elementos\\Folhas.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Stage 3/Elementos/Rosa.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Stage 3\\Elementos\\Rosa.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Stage 3/Elementos/Vinha01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Stage 3\\Elementos\\Vinha01.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Stage 3/Elementos/Vinha02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Stage 3\\Elementos\\Vinha02.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Stage 3/Elementos/Vinha03.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Stage 3\\Elementos\\Vinha03.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Stage 3/Elementos/VinhaEspinhos.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Stage 3\\Elementos\\VinhaEspinhos.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Stage 1/frente-predio1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Stage 1\\frente-predio1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Stage 1/frente predio-min.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Stage 1\\frente predio-min.png",
+        "smoothed": true,
         "userAdded": true
       }
     ],

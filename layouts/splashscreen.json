@@ -531,6 +531,390 @@
         }
       ],
       "events": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "disabled": false,
+      "folded": false,
+      "name": "Proload Audios",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PreloadSound"
+              },
+              "parameters": [
+                "",
+                "Audio\\Effect\\completetask_0.mp3"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PreloadSound"
+              },
+              "parameters": [
+                "",
+                "Audio\\Effect\\gmae.mp3"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PreloadSound"
+              },
+              "parameters": [
+                "",
+                "Audio\\Effect\\Impact.mp3"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PreloadSound"
+              },
+              "parameters": [
+                "",
+                "Audio\\Effect\\zipclick.mp3"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PreloadSound"
+              },
+              "parameters": [
+                "",
+                "Audio\\Effect\\QuedaNoChao.mp3"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PreloadSound"
+              },
+              "parameters": [
+                "",
+                "Audio\\Effect\\QuedaNoChao2.ogg"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PreloadSound"
+              },
+              "parameters": [
+                "",
+                "Audio\\Effect\\AndandoCimento.mp3"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PreloadSound"
+              },
+              "parameters": [
+                "",
+                "Audio\\Effect\\PocaRadioativa.mp3"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PreloadSound"
+              },
+              "parameters": [
+                "",
+                "Audio\\Effect\\LixoEsc.mp3"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PreloadSound"
+              },
+              "parameters": [
+                "",
+                "Audio\\Effect\\SentinelaAnda.mp3"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PreloadSound"
+              },
+              "parameters": [
+                "",
+                "Audio\\Effect\\QuedaPoca.mp3"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PreloadSound"
+              },
+              "parameters": [
+                "",
+                "Audio\\Effect\\AndandoMato.mp3"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PreloadSound"
+              },
+              "parameters": [
+                "",
+                "Audio\\Effect\\AndandoTerra.mp3"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PreloadSound"
+              },
+              "parameters": [
+                "",
+                "Audio\\Effect\\Jump.mp3"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PreloadSound"
+              },
+              "parameters": [
+                "",
+                "Audio\\Effect\\SomSombra.mp3"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PreloadSound"
+              },
+              "parameters": [
+                "",
+                "Audio\\Effect\\SombraAnda.mp3"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PreloadSound"
+              },
+              "parameters": [
+                "",
+                "Audio\\Effect\\GolpeSombra.mp3"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PreloadSound"
+              },
+              "parameters": [
+                "",
+                "Audio\\Effect\\AranhaDesce.mp3"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PreloadSound"
+              },
+              "parameters": [
+                "",
+                "Audio\\Effect\\FlorFecha.mp3"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PreloadSound"
+              },
+              "parameters": [
+                "",
+                "Audio\\Effect\\PlantAttack.mp3"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PreloadSound"
+              },
+              "parameters": [
+                "",
+                "Audio\\Effect\\ArbustoEntra.mp3"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PreloadSound"
+              },
+              "parameters": [
+                "",
+                "Audio\\Effect\\Transicao.mp3"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PreloadSound"
+              },
+              "parameters": [
+                "",
+                "Audio\\Effect\\SentinelaGolpe.mp3"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PreloadSound"
+              },
+              "parameters": [
+                "",
+                "Audio\\Effect\\ArbustoAnda.mp3"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PreloadMusic"
+              },
+              "parameters": [
+                "",
+                "Audio\\Music\\the_field_of_dreams.mp3"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PreloadMusic"
+              },
+              "parameters": [
+                "",
+                "Audio\\Music\\Insistent.mp3"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PreloadMusic"
+              },
+              "parameters": [
+                "",
+                "Audio\\Music\\MysteryBazaar_fase1.mp3"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PreloadMusic"
+              },
+              "parameters": [
+                "",
+                "Audio\\Music\\MystOnTheMoor_fase2.mp3"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PreloadMusic"
+              },
+              "parameters": [
+                "",
+                "Audio\\Music\\MagicForest_fase3.mp3"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PreloadMusic"
+              },
+              "parameters": [
+                "",
+                "Audio\\Music\\dungeon_ambient_1.mp3"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ],
+      "parameters": []
     }
   ],
   "layers": [
