@@ -2244,7 +2244,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Novo Jogo",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",

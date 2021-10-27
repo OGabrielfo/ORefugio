@@ -13809,7 +13809,7 @@
       "colorR": 0,
       "creationTime": 0,
       "disabled": false,
-      "folded": true,
+      "folded": false,
       "name": "Início",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -14025,20 +14025,6 @@
                 ""
               ],
               "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "Audio\\Effect\\Transicao.mp3",
-                "",
-                "GlobalVariable(VolumeEfeitos)",
-                ""
-              ],
-              "subInstructions": []
             }
           ],
           "events": []
@@ -14081,6 +14067,50 @@
                 "1915",
                 "=",
                 "-211"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Tween::IsPlaying"
+              },
+              "parameters": [
+                "Transicao",
+                "Tween",
+                "\"TransicaoEntra\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Audio\\Effect\\Transicao.mp3",
+                "",
+                "GlobalVariable(VolumeEfeitos)",
+                ""
               ],
               "subInstructions": []
             }
@@ -15210,7 +15240,7 @@
       "colorR": 255,
       "creationTime": 0,
       "disabled": false,
-      "folded": false,
+      "folded": true,
       "name": "Afeta Player",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
