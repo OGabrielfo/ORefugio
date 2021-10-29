@@ -189,24 +189,22 @@
         {
           "type": {
             "inverted": false,
-            "value": "Create"
+            "value": "Video::Play"
           },
           "parameters": [
-            "",
-            "CutScene_01",
-            "0",
-            "0",
-            "\"\""
+            "CutScene_01"
           ],
           "subInstructions": []
         },
         {
           "type": {
             "inverted": false,
-            "value": "Video::Play"
+            "value": "Video::SetVolume"
           },
           "parameters": [
-            "CutScene_01"
+            "CutScene_01",
+            "=",
+            "GlobalVariable(VolumeMusica)"
           ],
           "subInstructions": []
         },
@@ -502,11 +500,12 @@
             {
               "type": {
                 "inverted": false,
-                "value": "Delete"
+                "value": "Video::SetTime"
               },
               "parameters": [
                 "CutScene_01",
-                ""
+                "=",
+                "0"
               ],
               "subInstructions": []
             },

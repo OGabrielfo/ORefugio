@@ -285,7 +285,7 @@
       "colorR": 0,
       "creationTime": 0,
       "disabled": false,
-      "folded": false,
+      "folded": true,
       "name": "Dano",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -1122,7 +1122,7 @@
           "colorR": 0,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Dano",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -1221,10 +1221,10 @@
                   },
                   "parameters": [
                     "",
-                    "Audio\\Effect\\Impact.mp3",
+                    "Audio\\Effect\\GalhoQuebra.mp3",
                     "",
                     "GlobalVariable(VolumeEfeitos)*0.1",
-                    ""
+                    "0.5"
                   ],
                   "subInstructions": []
                 },

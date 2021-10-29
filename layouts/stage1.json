@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.27000000000000246,
+    "zoomFactor": 0.11000000000000267,
     "windowMask": false
   },
   "objectsGroups": [
@@ -4612,8 +4612,8 @@
       "name": "Player",
       "persistentUuid": "442d0245-803d-4f77-b859-009230319123",
       "width": 0,
-      "x": -2681,
-      "y": -3558,
+      "x": -2676,
+      "y": -3556,
       "zOrder": 15,
       "numberProperties": [],
       "stringProperties": [],
@@ -4884,8 +4884,8 @@
       "name": "Savepoint",
       "persistentUuid": "fd6349ee-51fc-4f15-aa82-f90ecabbad61",
       "width": 104,
-      "x": -2646,
-      "y": -3452,
+      "x": -2528,
+      "y": -3450.91064453125,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -8493,7 +8493,7 @@
       "colorR": 0,
       "creationTime": 0,
       "disabled": false,
-      "folded": true,
+      "folded": false,
       "name": "Eventos Externos",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -8898,7 +8898,7 @@
           "colorR": 0,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Savepoint",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -9128,6 +9128,20 @@
                     "FaseSaveY",
                     "=",
                     "Player.Y()"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Audio\\Effect\\BandeiraAtiva.mp3",
+                    "",
+                    "GlobalVariable(VolumeEfeitos)",
+                    ""
                   ],
                   "subInstructions": []
                 }
@@ -9771,7 +9785,7 @@
       "colorR": 255,
       "creationTime": 0,
       "disabled": false,
-      "folded": false,
+      "folded": true,
       "name": "Afeta Player",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -9782,7 +9796,7 @@
           "colorR": 0,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Identificador de Colisão (Não levantar em locais apertados)",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",

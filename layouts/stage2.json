@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.33000000000000523,
+    "zoomFactor": 0.15000000000000527,
     "windowMask": false
   },
   "objectsGroups": [
@@ -2465,7 +2465,7 @@
       "name": "PlataformaAtravPonta2",
       "persistentUuid": "bf55cd91-d55a-41c5-8060-1bcf6f2b4783",
       "width": 0,
-      "x": -3626,
+      "x": -3622,
       "y": 1074,
       "zOrder": 5,
       "numberProperties": [],
@@ -2481,7 +2481,7 @@
       "name": "PlataformaAtravPonta",
       "persistentUuid": "9a5e82ce-2443-4d06-aaa1-7cda08f153e7",
       "width": 70,
-      "x": -3556,
+      "x": -3552,
       "y": 1074,
       "zOrder": 5,
       "numberProperties": [],
@@ -2497,7 +2497,7 @@
       "name": "PlataformaAtravPonta",
       "persistentUuid": "977ce097-c386-4ab0-830a-34afe99fc72a",
       "width": 70,
-      "x": -3852,
+      "x": -3848,
       "y": 1012,
       "zOrder": 5,
       "numberProperties": [],
@@ -2513,7 +2513,7 @@
       "name": "PlataformaAtravPonta2",
       "persistentUuid": "cd4c2a98-55e8-4856-a9ac-29a25a776d28",
       "width": 0,
-      "x": -3922,
+      "x": -3918,
       "y": 1012,
       "zOrder": 5,
       "numberProperties": [],
@@ -6257,7 +6257,7 @@
       "name": "Savepoint",
       "persistentUuid": "59098871-2502-4399-ab4e-48cf4f6491b1",
       "width": 108.05381774902344,
-      "x": -4354.0537109375,
+      "x": -4296,
       "y": -306,
       "zOrder": 7,
       "numberProperties": [],
@@ -6993,8 +6993,8 @@
       "name": "Player",
       "persistentUuid": "d2b0b4b4-836d-4a9e-9b09-e46bd519730e",
       "width": 0,
-      "x": 5640,
-      "y": -130,
+      "x": -4457,
+      "y": -408,
       "zOrder": 15,
       "numberProperties": [],
       "stringProperties": [],
@@ -11106,7 +11106,7 @@
       "colorR": 0,
       "creationTime": 0,
       "disabled": false,
-      "folded": true,
+      "folded": false,
       "name": "Savepoint e Fim da Fase",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -11347,6 +11347,20 @@
                     "FaseSaveY",
                     "=",
                     "Player.Y()"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Audio\\Effect\\BandeiraAtiva.mp3",
+                    "",
+                    "GlobalVariable(VolumeEfeitos)",
+                    ""
                   ],
                   "subInstructions": []
                 }

@@ -80,7 +80,7 @@
       "colorR": 74,
       "creationTime": 0,
       "disabled": false,
-      "folded": true,
+      "folded": false,
       "name": "Animação Flor - Efeito sonoro abre/fecha",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",

@@ -823,6 +823,50 @@
                 "Audio\\Effect\\ArbustoAnda.mp3"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PreloadSound"
+              },
+              "parameters": [
+                "",
+                "Audio\\Effect\\LocalSecreto.mp3"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PreloadSound"
+              },
+              "parameters": [
+                "",
+                "Audio\\Effect\\BandeiraAtiva.mp3"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PreloadSound"
+              },
+              "parameters": [
+                "",
+                "Audio\\Effect\\GalhoQuebra.mp3"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PreloadSound"
+              },
+              "parameters": [
+                "",
+                "Audio\\Effect\\GaiaArrastando.mp3"
+              ],
+              "subInstructions": []
             }
           ],
           "events": []

@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.0700000000000011,
+    "zoomFactor": 0.06999999999999999,
     "windowMask": false
   },
   "objectsGroups": [
@@ -5418,8 +5418,8 @@
       "name": "Savepoint",
       "persistentUuid": "0a385703-41a1-4478-9cbf-fcaef6787c81",
       "width": 120,
-      "x": -4590,
-      "y": -519,
+      "x": -4504,
+      "y": -515,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -5642,8 +5642,8 @@
       "name": "Player",
       "persistentUuid": "babad6f2-f6d4-4ee2-8fe7-194dc326ecbd",
       "width": 0,
-      "x": -4625,
-      "y": -613,
+      "x": -4636,
+      "y": -612,
       "zOrder": 15,
       "numberProperties": [],
       "stringProperties": [],
@@ -6764,7 +6764,7 @@
       "width": 71.22023010253906,
       "x": -2797.22021484375,
       "y": 581,
-      "zOrder": 8,
+      "zOrder": 18,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -13726,7 +13726,7 @@
       "colorR": 0,
       "creationTime": 0,
       "disabled": false,
-      "folded": true,
+      "folded": false,
       "name": "Eventos Externos",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -14126,7 +14126,7 @@
       "colorR": 0,
       "creationTime": 0,
       "disabled": false,
-      "folded": true,
+      "folded": false,
       "name": "Savepoint e Fim da Fase",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -14137,7 +14137,7 @@
           "colorR": 0,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Savepoint",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -14367,6 +14367,20 @@
                     "FaseSaveY",
                     "=",
                     "Player.Y()"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Audio\\Effect\\BandeiraAtiva.mp3",
+                    "",
+                    "GlobalVariable(VolumeEfeitos)",
+                    ""
                   ],
                   "subInstructions": []
                 }
@@ -15104,6 +15118,20 @@
                     "50",
                     "\"linear\"",
                     "200",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Audio\\Effect\\LocalSecreto.mp3",
+                    "",
+                    "GlobalVariable(VolumeEfeitos)",
                     ""
                   ],
                   "subInstructions": []
