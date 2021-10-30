@@ -463,7 +463,7 @@
       "colorR": 74,
       "creationTime": 0,
       "disabled": false,
-      "folded": true,
+      "folded": false,
       "name": "Botões",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -494,6 +494,18 @@
                     "",
                     "",
                     ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BBText::IsOpacity"
+                  },
+                  "parameters": [
+                    "ContinuarPauseMenu",
+                    "=",
+                    "255"
                   ],
                   "subInstructions": []
                 }
@@ -584,6 +596,18 @@
                     ""
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BBText::IsOpacity"
+                  },
+                  "parameters": [
+                    "ContinuarPauseMenu",
+                    "=",
+                    "255"
+                  ],
+                  "subInstructions": []
                 }
               ],
               "actions": [
@@ -625,6 +649,18 @@
                   },
                   "parameters": [],
                   "subInstructions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "BBText::IsOpacity"
+                      },
+                      "parameters": [
+                        "ContinuarPauseMenu",
+                        "=",
+                        "255"
+                      ],
+                      "subInstructions": []
+                    },
                     {
                       "type": {
                         "inverted": false,
@@ -730,6 +766,18 @@
                     "",
                     "",
                     ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BBText::IsOpacity"
+                  },
+                  "parameters": [
+                    "VoltaraoMenuPauseMenu",
+                    "=",
+                    "255"
                   ],
                   "subInstructions": []
                 }
@@ -853,6 +901,18 @@
                 {
                   "type": {
                     "inverted": false,
+                    "value": "BBText::IsOpacity"
+                  },
+                  "parameters": [
+                    "VoltaraoMenuPauseMenu",
+                    "=",
+                    "255"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
                     "value": "BuiltinCommonInstructions::Once"
                   },
                   "parameters": [],
@@ -903,6 +963,18 @@
                     ""
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BBText::IsOpacity"
+                  },
+                  "parameters": [
+                    "VoltaraoMenuPauseMenu",
+                    "=",
+                    "255"
+                  ],
+                  "subInstructions": []
                 }
               ],
               "actions": [
@@ -944,6 +1016,18 @@
                   },
                   "parameters": [],
                   "subInstructions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "BBText::IsOpacity"
+                      },
+                      "parameters": [
+                        "VoltaraoMenuPauseMenu",
+                        "=",
+                        "255"
+                      ],
+                      "subInstructions": []
+                    },
                     {
                       "type": {
                         "inverted": false,
@@ -1098,6 +1182,16 @@
                     ""
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Visible"
+                  },
+                  "parameters": [
+                    "VolumeGeralPauseMenu"
+                  ],
+                  "subInstructions": []
                 }
               ],
               "actions": [
@@ -1178,6 +1272,16 @@
                     "VolumeMusicaPauseMenu",
                     "DraggableSliderControl",
                     ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Visible"
+                  },
+                  "parameters": [
+                    "VolumeGeralPauseMenu"
                   ],
                   "subInstructions": []
                 }
@@ -1286,6 +1390,16 @@
                     "VolumeEfeitosPauseMenu",
                     "DraggableSliderControl",
                     ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Visible"
+                  },
+                  "parameters": [
+                    "VolumeGeralPauseMenu"
                   ],
                   "subInstructions": []
                 }

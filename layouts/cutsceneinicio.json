@@ -1,8 +1,8 @@
 {
   "b": 0,
   "disableInputWhenNotFocused": true,
-  "mangledName": "CutSceneFinal_95Bom",
-  "name": "CutSceneFinal_Bom",
+  "mangledName": "CutSceneInicio",
+  "name": "CutSceneInicio",
   "oglFOV": 90,
   "oglZFar": 500,
   "oglZNear": 1,
@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.45,
+    "zoomFactor": 0.24999999999999997,
     "windowMask": false
   },
   "objectsGroups": [
@@ -107,22 +107,6 @@
       "x": 0,
       "y": 0,
       "zOrder": 19,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "locked": false,
-      "name": "Frame02",
-      "persistentUuid": "f0bd53cc-d7d3-40d0-9157-3b188a30d213",
-      "width": 0,
-      "x": -148,
-      "y": 1160,
-      "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -259,7 +243,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "CutScene\\02-FinalBom\\FB_Frame1.png",
+                  "image": "CutScene\\01-inicio\\Inicio01.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -288,7 +272,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "CutScene\\02-FinalBom\\FB_Frame2.png",
+                  "image": "CutScene\\01-inicio\\Inicio02.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -317,7 +301,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "CutScene\\02-FinalBom\\FB_Frame3.png",
+                  "image": "CutScene\\01-inicio\\Inicio03.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -346,7 +330,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "CutScene\\02-FinalBom\\FB_Frame4.png",
+                  "image": "CutScene\\01-inicio\\Inicio04.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -375,7 +359,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "CutScene\\02-FinalBom\\FB_frame5.png",
+                  "image": "CutScene\\01-inicio\\Inicio05.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -404,7 +388,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "CutScene\\02-FinalBom\\FB_frame6.png",
+                  "image": "CutScene\\01-inicio\\Inicio06.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -433,7 +417,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "CutScene\\02-FinalBom\\FB_Frame7.png",
+                  "image": "CutScene\\01-inicio\\Inicio06_2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -462,7 +446,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "CutScene\\02-FinalBom\\FB_Frame8.png",
+                  "image": "CutScene\\01-inicio\\Inicio07.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -491,7 +475,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "CutScene\\02-FinalBom\\FB_Frame9.png",
+                  "image": "CutScene\\01-inicio\\Inicio08.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -520,7 +504,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "CutScene\\02-FinalBom\\FB_Frame10.png",
+                  "image": "CutScene\\01-inicio\\Inicio09.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -549,7 +533,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "CutScene\\02-FinalBom\\FB_Frame11.png",
+                  "image": "CutScene\\01-inicio\\Inicio10.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -578,7 +562,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "CutScene\\02-FinalBom\\FB_Frame12.png",
+                  "image": "CutScene\\01-inicio\\Inicio11.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -607,7 +591,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "CutScene\\02-FinalBom\\FB_Frame13.png",
+                  "image": "CutScene\\01-inicio\\Inicio12.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -748,6 +732,20 @@
           "parameters": [
             "Frame01",
             "\"Tempo\""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "PlayMusic"
+          },
+          "parameters": [
+            "",
+            "Audio\\Music\\CutSceneInicio.mp3",
+            "",
+            "GlobalVariable(VolumeMusica)",
+            ""
           ],
           "subInstructions": []
         }
@@ -975,13 +973,24 @@
                 "value": "Tween::AddObjectOpacityTween"
               },
               "parameters": [
-                "Frame02",
+                "Frame01",
                 "Tween",
-                "\"Aparecer02\"",
-                "255",
+                "\"Sumir01\"",
+                "0",
                 "\"linear\"",
                 "1000",
                 ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PauseObjectTimer"
+              },
+              "parameters": [
+                "Frame01",
+                "\"Tempo\""
               ],
               "subInstructions": []
             }
@@ -996,12 +1005,23 @@
             {
               "type": {
                 "inverted": false,
-                "value": "ObjectTimer"
+                "value": "ObjectTimerPaused"
               },
               "parameters": [
                 "Frame01",
-                "\"Tempo\"",
-                "10"
+                "\"Tempo\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Tween::HasFinished"
+              },
+              "parameters": [
+                "Frame01",
+                "Tween",
+                "\"Sumir01\""
               ],
               "subInstructions": []
             }
@@ -1017,6 +1037,18 @@
                 "\"Tempo\""
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Stage1\"",
+                ""
+              ],
+              "subInstructions": []
             }
           ],
           "events": []
@@ -1030,7 +1062,7 @@
       "colorR": 0,
       "creationTime": 0,
       "disabled": false,
-      "folded": true,
+      "folded": false,
       "name": "Pular",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -1230,23 +1262,11 @@
             {
               "type": {
                 "inverted": false,
-                "value": "Video::SetTime"
-              },
-              "parameters": [
-                "CutScene_01",
-                "=",
-                "0"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
                 "value": "Scene"
               },
               "parameters": [
                 "",
-                "\"Creditos\"",
+                "\"Stage1\"",
                 ""
               ],
               "subInstructions": []
@@ -1256,14 +1276,6 @@
         }
       ],
       "parameters": []
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": [],
-      "events": []
     }
   ],
   "layers": [

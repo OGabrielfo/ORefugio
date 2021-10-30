@@ -1314,7 +1314,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Arrastando",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -1369,16 +1369,6 @@
                     "\"CWalk\""
                   ],
                   "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Visible"
-                  },
-                  "parameters": [
-                    "Player"
-                  ],
-                  "subInstructions": []
                 }
               ],
               "actions": [
@@ -1405,33 +1395,14 @@
               "conditions": [
                 {
                   "type": {
-                    "inverted": false,
-                    "value": "BuiltinCommonInstructions::Or"
+                    "inverted": true,
+                    "value": "AnimationName"
                   },
-                  "parameters": [],
-                  "subInstructions": [
-                    {
-                      "type": {
-                        "inverted": true,
-                        "value": "AnimationName"
-                      },
-                      "parameters": [
-                        "Player",
-                        "\"CWalk\""
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": true,
-                        "value": "Visible"
-                      },
-                      "parameters": [
-                        "Player"
-                      ],
-                      "subInstructions": []
-                    }
-                  ]
+                  "parameters": [
+                    "Player",
+                    "\"CWalk\""
+                  ],
+                  "subInstructions": []
                 }
               ],
               "actions": [

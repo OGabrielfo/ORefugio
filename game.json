@@ -2517,6 +2517,258 @@
         "preloadAsMusic": false,
         "preloadAsSound": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "CutScene/02-FinalBom/FB_Frame1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "CutScene\\02-FinalBom\\FB_Frame1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "CutScene/02-FinalBom/FB_Frame2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "CutScene\\02-FinalBom\\FB_Frame2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "CutScene/02-FinalBom/FB_Frame14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "CutScene\\02-FinalBom\\FB_Frame14.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "CutScene/02-FinalBom/FB_Frame3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "CutScene\\02-FinalBom\\FB_Frame3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "CutScene/02-FinalBom/FB_Frame4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "CutScene\\02-FinalBom\\FB_Frame4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "CutScene/02-FinalBom/FB_frame5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "CutScene\\02-FinalBom\\FB_frame5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "CutScene/02-FinalBom/FB_frame6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "CutScene\\02-FinalBom\\FB_frame6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "CutScene/02-FinalBom/FB_Frame7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "CutScene\\02-FinalBom\\FB_Frame7.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "CutScene/02-FinalBom/FB_Frame8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "CutScene\\02-FinalBom\\FB_Frame8.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "CutScene/02-FinalBom/FB_Frame9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "CutScene\\02-FinalBom\\FB_Frame9.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "CutScene/02-FinalBom/FB_Frame10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "CutScene\\02-FinalBom\\FB_Frame10.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "CutScene/02-FinalBom/FB_Frame11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "CutScene\\02-FinalBom\\FB_Frame11.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "CutScene/02-FinalBom/FB_Frame12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "CutScene\\02-FinalBom\\FB_Frame12.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "CutScene/02-FinalBom/FB_Frame13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "CutScene\\02-FinalBom\\FB_Frame13.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Audio/Music/CutSceneInicio.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Audio\\Music\\CutSceneInicio.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "CutScene/01-inicio/Inicio01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "CutScene\\01-inicio\\Inicio01.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "CutScene/01-inicio/Inicio02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "CutScene\\01-inicio\\Inicio02.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "CutScene/01-inicio/Inicio03.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "CutScene\\01-inicio\\Inicio03.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "CutScene/01-inicio/Inicio04.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "CutScene\\01-inicio\\Inicio04.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "CutScene/01-inicio/Inicio05.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "CutScene\\01-inicio\\Inicio05.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "CutScene/01-inicio/Inicio06.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "CutScene\\01-inicio\\Inicio06.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "CutScene/01-inicio/Inicio06_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "CutScene\\01-inicio\\Inicio06_2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "CutScene/01-inicio/Inicio07.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "CutScene\\01-inicio\\Inicio07.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "CutScene/01-inicio/Inicio08.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "CutScene\\01-inicio\\Inicio08.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "CutScene/01-inicio/Inicio09.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "CutScene\\01-inicio\\Inicio09.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "CutScene/01-inicio/Inicio10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "CutScene\\01-inicio\\Inicio10.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "CutScene/01-inicio/Inicio11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "CutScene\\01-inicio\\Inicio11.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "CutScene/01-inicio/Inicio12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "CutScene\\01-inicio\\Inicio12.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -4106,7 +4358,7 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/cutscene01"
+      "referenceTo": "/layouts/cutsceneinicio"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -4131,6 +4383,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/gameover"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/cutsceneinicio_old"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,

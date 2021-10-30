@@ -2244,7 +2244,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Novo Jogo",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -2416,7 +2416,7 @@
                   },
                   "parameters": [
                     "",
-                    "\"CutScene01\"",
+                    "\"CutSceneInicio\"",
                     ""
                   ],
                   "subInstructions": []
