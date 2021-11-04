@@ -683,7 +683,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Passos",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -1395,14 +1395,34 @@
               "conditions": [
                 {
                   "type": {
-                    "inverted": true,
-                    "value": "AnimationName"
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Or"
                   },
-                  "parameters": [
-                    "Player",
-                    "\"CWalk\""
-                  ],
-                  "subInstructions": []
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "AnimationName"
+                      },
+                      "parameters": [
+                        "Player",
+                        "\"CWalk\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "Layer"
+                      },
+                      "parameters": [
+                        "Player",
+                        "\"Game\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ]
                 }
               ],
               "actions": [

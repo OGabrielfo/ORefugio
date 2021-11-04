@@ -1,16 +1,16 @@
 {
-  "b": 209,
+  "b": 0,
   "disableInputWhenNotFocused": true,
   "mangledName": "CutSceneFinal_95Ruim",
   "name": "CutSceneFinal_Ruim",
   "oglFOV": 90,
   "oglZFar": 500,
   "oglZNear": 1,
-  "r": 209,
+  "r": 0,
   "standardSortMethod": true,
-  "stopSoundsOnStartup": false,
+  "stopSoundsOnStartup": true,
   "title": "",
-  "v": 209,
+  "v": 0,
   "uiSettings": {
     "grid": false,
     "gridType": "rectangular",
@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.24999999999999986,
+    "zoomFactor": 0.43,
     "windowMask": false
   },
   "objectsGroups": [
@@ -37,7 +37,7 @@
       "name": "Grafico",
       "objects": [
         {
-          "name": "Background2"
+          "name": "Frame01"
         }
       ]
     },
@@ -85,54 +85,6 @@
       "height": 0,
       "layer": "",
       "locked": false,
-      "name": "Background2",
-      "persistentUuid": "8959949d-b525-4233-99aa-a33b8fa69ef4",
-      "width": 0,
-      "x": 0,
-      "y": 0,
-      "zOrder": 10,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 353.911,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "locked": false,
-      "name": "Voltar",
-      "persistentUuid": "8acc007e-94d9-4a16-96a4-644781f856d0",
-      "width": 0,
-      "x": 1629.33,
-      "y": 974.297,
-      "zOrder": 19,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 6.28907,
-      "customSize": true,
-      "height": 187.291,
-      "layer": "",
-      "locked": false,
-      "name": "Esqueleto1",
-      "persistentUuid": "a63bb103-7efe-42e8-9bfd-9e01209a687c",
-      "width": 383.793,
-      "x": 1565.1,
-      "y": 930.458,
-      "zOrder": 18,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "locked": false,
       "name": "Transicao",
       "persistentUuid": "ab8e91c0-f32f-4d8c-be19-793b64ad16ff",
       "width": 0,
@@ -145,16 +97,48 @@
     },
     {
       "angle": 0,
-      "customSize": true,
-      "height": 92,
+      "customSize": false,
+      "height": 0,
       "layer": "",
       "locked": false,
-      "name": "Final",
-      "persistentUuid": "eee241c4-55e0-4ee0-968c-e8e8abe4ad5b",
-      "width": 401,
-      "x": 773,
-      "y": 774,
-      "zOrder": 15,
+      "name": "Frame01",
+      "persistentUuid": "831dbd77-e783-4b02-b695-1fa6d6f79832",
+      "width": 0,
+      "x": 0,
+      "y": 0,
+      "zOrder": 19,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Frame02",
+      "persistentUuid": "f0bd53cc-d7d3-40d0-9157-3b188a30d213",
+      "width": 0,
+      "x": -148,
+      "y": 1160,
+      "zOrder": 20,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 50,
+      "layer": "",
+      "locked": false,
+      "name": "Pular",
+      "persistentUuid": "99d1d776-aba0-4579-8141-820b7ba29d24",
+      "width": 415,
+      "x": 1473,
+      "y": 1011,
+      "zOrder": 24,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -207,13 +191,18 @@
       ]
     },
     {
-      "name": "Background2",
+      "name": "Frame02",
       "tags": "Backgrounds",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
       "animations": [
         {
           "name": "",
@@ -225,7 +214,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Graphics\\Stages\\FinalProv.jpg",
+                  "image": "CutScene\\03-FinalRuim\\FR_Frame14.jpg",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -247,13 +236,18 @@
       ]
     },
     {
-      "name": "Esqueleto1",
-      "tags": "Elementos e inimigos",
+      "name": "Frame01",
+      "tags": "Backgrounds",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
       "animations": [
         {
           "name": "",
@@ -265,7 +259,355 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Graphics\\Stages\\Creditos\\Esqueleto1.png",
+                  "image": "CutScene\\03-FinalRuim\\FR_Frame1.jpg",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "CutScene\\03-FinalRuim\\FR_Frame2.jpg",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "CutScene\\03-FinalRuim\\Fr_Frame3.jpg",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "CutScene\\03-FinalRuim\\FR_Frame4.jpg",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "CutScene\\03-FinalRuim\\FR_Frame5.jpg",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "CutScene\\03-FinalRuim\\FR_Frame6.jpg",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "CutScene\\03-FinalRuim\\FR_Frame7.jpg",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "CutScene\\03-FinalRuim\\FR_Frame8.jpg",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "CutScene\\03-FinalRuim\\FR_Frame9.jpg",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "CutScene\\03-FinalRuim\\FR_Frame10.jpg",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "CutScene\\03-FinalRuim\\FR_Frame11.jpg",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "CutScene\\03-FinalRuim\\FR_Frame12.jpg",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "CutScene\\03-FinalRuim\\FR_Frame13.jpg",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -287,10 +629,16 @@
       ]
     },
     {
-      "name": "Animais",
-      "tags": "Textos",
+      "name": "Pular",
+      "tags": "",
       "type": "BBText::BBText",
-      "variables": [],
+      "variables": [
+        {
+          "name": "Toques",
+          "type": "string",
+          "value": "0"
+        }
+      ],
       "effects": [],
       "behaviors": [
         {
@@ -299,59 +647,13 @@
         }
       ],
       "content": {
-        "text": "[outline=black][shadow=Black][b]Final Ruim[/b][/shadow][/outline]",
+        "text": "[b][outline=black][shadow=black]Aperte \"Espaço\" para pular[/shadow][/outline][/b]",
         "opacity": 255,
-        "fontSize": 80,
+        "fontSize": 30,
         "visible": true,
-        "color": "#ffffff",
+        "color": "255;255;255",
         "fontFamily": "Arial",
-        "align": "center",
-        "wordWrap": true
-      }
-    },
-    {
-      "name": "Final",
-      "tags": "Textos",
-      "type": "BBText::BBText",
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "Tween",
-          "type": "Tween::TweenBehavior"
-        }
-      ],
-      "content": {
-        "text": "[outline=black][shadow=Black][b]Final Ruim[/b][/shadow][/outline]",
-        "opacity": 255,
-        "fontSize": 80,
-        "visible": true,
-        "color": "#ffffff",
-        "fontFamily": "Arial",
-        "align": "center",
-        "wordWrap": true
-      }
-    },
-    {
-      "name": "Voltar",
-      "tags": "Textos",
-      "type": "BBText::BBText",
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "Tween",
-          "type": "Tween::TweenBehavior"
-        }
-      ],
-      "content": {
-        "text": "[outline=black][shadow=Black][b]Voltar[/b][/shadow][/outline]",
-        "opacity": 255,
-        "fontSize": 80,
-        "visible": true,
-        "color": "#ffffff",
-        "fontFamily": "Arial",
-        "align": "center",
+        "align": "left",
         "wordWrap": true
       }
     }
@@ -377,22 +679,348 @@
         {
           "type": {
             "inverted": false,
-            "value": "MettreX"
+            "value": "MettreXY"
           },
           "parameters": [
-            "Transicao",
+            "Frame01",
             "=",
-            "-315"
+            "0",
+            "=",
+            "0"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "Frame02",
+            "=",
+            "0",
+            "=",
+            "0"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Opacity"
+          },
+          "parameters": [
+            "Frame01",
+            "=",
+            "0"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Opacity"
+          },
+          "parameters": [
+            "Frame02",
+            "=",
+            "0"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "BBText::SetOpacity"
+          },
+          "parameters": [
+            "Pular",
+            "=",
+            "0"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "PlayMusicCanal"
+          },
+          "parameters": [
+            "",
+            "Audio\\Music\\finalruim.mp3",
+            "3",
+            "GlobalVariable(VolumeMusica)",
+            "GlobalVariable(VolumeMusica)",
+            ""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ResetObjectTimer"
+          },
+          "parameters": [
+            "Frame01",
+            "\"Tempo\""
           ],
           "subInstructions": []
         }
       ],
+      "events": []
+    },
+    {
+      "colorB": 0,
+      "colorG": 0,
+      "colorR": 0,
+      "creationTime": 0,
+      "disabled": false,
+      "folded": false,
+      "name": "Animação CutScene",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
           "disabled": false,
           "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ObjectTimer"
+              },
+              "parameters": [
+                "Frame01",
+                "\"Tempo\"",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Tween::AddObjectOpacityTween"
+              },
+              "parameters": [
+                "Frame01",
+                "Tween",
+                "\"Aparecer01\"",
+                "255",
+                "\"linear\"",
+                "1000",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ObjectTimer"
+              },
+              "parameters": [
+                "Frame01",
+                "\"Tempo\"",
+                "5"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Tween::AddObjectOpacityTween"
+              },
+              "parameters": [
+                "Frame01",
+                "Tween",
+                "\"Sumir01\"",
+                "0",
+                "\"linear\"",
+                "1000",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Tween::HasFinished"
+              },
+              "parameters": [
+                "Frame01",
+                "Tween",
+                "\"Sumir01\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Animation"
+              },
+              "parameters": [
+                "Frame01",
+                "<",
+                "12"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "Frame01",
+                "+",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Tween::AddObjectOpacityTween"
+              },
+              "parameters": [
+                "Frame01",
+                "Tween",
+                "\"Aparecer01\"",
+                "255",
+                "\"linear\"",
+                "1000",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "Frame01",
+                "\"Tempo\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Animation"
+              },
+              "parameters": [
+                "Frame01",
+                "=",
+                "12"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ObjectTimer"
+              },
+              "parameters": [
+                "Frame01",
+                "\"Tempo\"",
+                "5"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Tween::AddObjectOpacityTween"
+              },
+              "parameters": [
+                "Frame02",
+                "Tween",
+                "\"Aparecer02\"",
+                "255",
+                "\"linear\"",
+                "1000",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ObjectTimer"
+              },
+              "parameters": [
+                "Frame01",
+                "\"Tempo\"",
+                "10"
+              ],
+              "subInstructions": []
+            }
+          ],
           "actions": [
             {
               "type": {
@@ -402,8 +1030,8 @@
               "parameters": [
                 "Transicao",
                 "Tween",
-                "\"TransicaoEntra\"",
-                "1915",
+                "\"TransicaoSair\"",
+                "-315",
                 "\"linear\"",
                 "1000",
                 ""
@@ -423,78 +1051,34 @@
                 ""
               ],
               "subInstructions": []
-            }
-          ],
-          "events": []
-        }
-      ]
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "BuiltinCommonInstructions::Or"
-          },
-          "parameters": [],
-          "subInstructions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "Voltar",
-                "",
-                "",
-                ""
-              ],
-              "subInstructions": []
             },
             {
               "type": {
                 "inverted": false,
-                "value": "SourisSurObjet"
+                "value": "RemoveObjectTimer"
               },
               "parameters": [
-                "Esqueleto1",
-                "",
-                "",
-                ""
+                "Frame01",
+                "\"Tempo\""
               ],
               "subInstructions": []
             }
-          ]
+          ],
+          "events": []
         }
       ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "BBText::SetBBText"
-          },
-          "parameters": [
-            "Voltar",
-            "=",
-            "\"[outline=white][shadow=white][b]Voltar[/b][/shadow][/outline]\""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "BBText::SetColor"
-          },
-          "parameters": [
-            "Voltar",
-            "\"0;0;0\""
-          ],
-          "subInstructions": []
-        }
-      ],
+      "parameters": []
+    },
+    {
+      "colorB": 0,
+      "colorG": 0,
+      "colorR": 0,
+      "creationTime": 0,
+      "disabled": false,
+      "folded": false,
+      "name": "Pular",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
           "disabled": false,
@@ -504,13 +1088,127 @@
             {
               "type": {
                 "inverted": false,
-                "value": "MouseButtonPressed"
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "AnyKeyPressed"
+                  },
+                  "parameters": [
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MouseButtonPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarObjet"
               },
               "parameters": [
-                "",
-                "Left"
+                "Pular",
+                "Toques",
+                "+",
+                "1"
               ],
               "subInstructions": []
+            }
+          ],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Pular",
+                    "Toques",
+                    "=",
+                    "5"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Tween::AddObjectOpacityTween"
+                  },
+                  "parameters": [
+                    "Pular",
+                    "Tween",
+                    "\"TextoPularAparecer\"",
+                    "255",
+                    "\"linear\"",
+                    "200",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BBText::IsOpacity"
+                  },
+                  "parameters": [
+                    "Pular",
+                    "=",
+                    "255"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Space"
+                  ],
+                  "subInstructions": []
+                }
+              ]
             },
             {
               "type": {
@@ -530,7 +1228,7 @@
               "parameters": [
                 "Transicao",
                 "Tween",
-                "\"TransicaoVolta\"",
+                "\"TransicaoSair\"",
                 "-315",
                 "\"linear\"",
                 "1000",
@@ -554,197 +1252,62 @@
             }
           ],
           "events": []
-        }
-      ]
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "Tween::HasFinished"
-          },
-          "parameters": [
-            "Transicao",
-            "Tween",
-            "\"TransicaoVolta\""
-          ],
-          "subInstructions": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "Scene"
-          },
-          "parameters": [
-            "",
-            "\"MenuPrincipal\"",
-            ""
-          ],
-          "subInstructions": []
-        }
-      ],
-      "events": []
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "BuiltinCommonInstructions::And"
-          },
-          "parameters": [],
-          "subInstructions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "Voltar",
-                "",
-                "",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": true,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "Esqueleto1",
-                "",
-                "",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "BBText::SetBBText"
-          },
-          "parameters": [
-            "Voltar",
-            "=",
-            "\"[outline=black][shadow=black][b]Voltar[/b][/shadow][/outline]\""
-          ],
-          "subInstructions": []
         },
         {
-          "type": {
-            "inverted": false,
-            "value": "BBText::SetColor"
-          },
-          "parameters": [
-            "Voltar",
-            "\"255;255;255\""
-          ],
-          "subInstructions": []
-        }
-      ],
-      "events": []
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "BuiltinCommonInstructions::And"
-          },
-          "parameters": [],
-          "subInstructions": [
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
             {
               "type": {
                 "inverted": false,
-                "value": "SourisSurObjet"
+                "value": "Tween::HasFinished"
               },
               "parameters": [
-                "Voltar",
-                "",
-                "",
-                ""
+                "Transicao",
+                "Tween",
+                "\"TransicaoSair\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Video::SetTime"
+              },
+              "parameters": [
+                "CutScene_01",
+                "=",
+                "0"
               ],
               "subInstructions": []
             },
             {
               "type": {
                 "inverted": false,
-                "value": "BuiltinCommonInstructions::Or"
+                "value": "Scene"
               },
-              "parameters": [],
-              "subInstructions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "BBText::IsBBText"
-                  },
-                  "parameters": [
-                    "Voltar",
-                    "=",
-                    "\"[outline=white][shadow=white][b]Voltar[/b][/shadow][/outline]\""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "BBText::IsBBText"
-                  },
-                  "parameters": [
-                    "Voltar",
-                    "=",
-                    "\"[outline=black][shadow=black][b]Voltar[/b][/shadow][/outline]\""
-                  ],
-                  "subInstructions": []
-                }
-              ]
+              "parameters": [
+                "",
+                "\"Creditos\"",
+                ""
+              ],
+              "subInstructions": []
             }
-          ]
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": [],
-          "subInstructions": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "PlaySoundCanal"
-          },
-          "parameters": [
-            "",
-            "Audio\\Effect\\zipclick.mp3",
-            "1",
-            "",
-            "GlobalVariable(VolumeEfeitos)",
-            ""
           ],
-          "subInstructions": []
+          "events": []
         }
       ],
+      "parameters": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [],
       "events": []
     }
   ],
@@ -896,6 +1459,14 @@
     }
   ],
   "behaviorsSharedData": [
+    {
+      "name": "DraggableSliderControl",
+      "type": "DraggableSliderControl::DraggableSliderControl"
+    },
+    {
+      "name": "Health",
+      "type": "Health::Health"
+    },
     {
       "name": "PlatformerObject",
       "type": "PlatformBehavior::PlatformerObjectBehavior"

@@ -175,51 +175,6 @@
       ]
     },
     {
-      "name": "Frame02",
-      "tags": "Backgrounds",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "Tween",
-          "type": "Tween::TweenBehavior"
-        }
-      ],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "CutScene\\02-FinalBom\\FB_Frame14.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "name": "Frame01",
       "tags": "Backgrounds",
       "type": "Sprite",
@@ -243,7 +198,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "CutScene\\01-inicio\\Inicio01.png",
+                  "image": "CutScene\\01-inicio\\Inicio01.jpg",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -272,7 +227,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "CutScene\\01-inicio\\Inicio02.png",
+                  "image": "CutScene\\01-inicio\\Inicio02.jpg",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -301,7 +256,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "CutScene\\01-inicio\\Inicio03.png",
+                  "image": "CutScene\\01-inicio\\Inicio03.jpg",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -330,7 +285,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "CutScene\\01-inicio\\Inicio04.png",
+                  "image": "CutScene\\01-inicio\\Inicio04.jpg",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -359,7 +314,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "CutScene\\01-inicio\\Inicio05.png",
+                  "image": "CutScene\\01-inicio\\Inicio05.jpg",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -388,7 +343,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "CutScene\\01-inicio\\Inicio06.png",
+                  "image": "CutScene\\01-inicio\\Inicio06.jpg",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -417,7 +372,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "CutScene\\01-inicio\\Inicio06_2.png",
+                  "image": "CutScene\\01-inicio\\Inicio06_2.jpg",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -446,7 +401,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "CutScene\\01-inicio\\Inicio07.png",
+                  "image": "CutScene\\01-inicio\\Inicio07.jpg",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -475,7 +430,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "CutScene\\01-inicio\\Inicio08.png",
+                  "image": "CutScene\\01-inicio\\Inicio08.jpg",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -504,7 +459,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "CutScene\\01-inicio\\Inicio09.png",
+                  "image": "CutScene\\01-inicio\\Inicio09.jpg",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -533,7 +488,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "CutScene\\01-inicio\\Inicio10.png",
+                  "image": "CutScene\\01-inicio\\Inicio10.jpg",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -562,7 +517,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "CutScene\\01-inicio\\Inicio11.png",
+                  "image": "CutScene\\01-inicio\\Inicio11.jpg",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -591,7 +546,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "CutScene\\01-inicio\\Inicio12.png",
+                  "image": "CutScene\\01-inicio\\Inicio12.jpg",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -677,36 +632,10 @@
         {
           "type": {
             "inverted": false,
-            "value": "MettreXY"
-          },
-          "parameters": [
-            "Frame02",
-            "=",
-            "0",
-            "=",
-            "0"
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
             "value": "Opacity"
           },
           "parameters": [
             "Frame01",
-            "=",
-            "0"
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "Opacity"
-          },
-          "parameters": [
-            "Frame02",
             "=",
             "0"
           ],
@@ -727,17 +656,6 @@
         {
           "type": {
             "inverted": false,
-            "value": "ResetObjectTimer"
-          },
-          "parameters": [
-            "Frame01",
-            "\"Tempo\""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
             "value": "PlayMusic"
           },
           "parameters": [
@@ -746,6 +664,17 @@
             "",
             "GlobalVariable(VolumeMusica)",
             ""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ResetObjectTimer"
+          },
+          "parameters": [
+            "Frame01",
+            "\"Tempo\""
           ],
           "subInstructions": []
         }
@@ -964,6 +893,14 @@
                 "5"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
             }
           ],
           "actions": [
@@ -1041,11 +978,29 @@
             {
               "type": {
                 "inverted": false,
-                "value": "Scene"
+                "value": "PlaySound"
               },
               "parameters": [
                 "",
-                "\"Stage1\"",
+                "Audio\\Effect\\Transicao.mp3",
+                "",
+                "GlobalVariable(VolumeEfeitos)",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Tween::AddObjectPositionXTween"
+              },
+              "parameters": [
+                "Transicao",
+                "Tween",
+                "\"TransicaoSair\"",
+                "-315",
+                "\"linear\"",
+                "1000",
                 ""
               ],
               "subInstructions": []

@@ -214,7 +214,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "CutScene\\02-FinalBom\\FB_Frame14.png",
+                  "image": "CutScene\\02-FinalBom\\FB_Frame14.jpg",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -259,7 +259,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "CutScene\\02-FinalBom\\FB_Frame1.png",
+                  "image": "CutScene\\02-FinalBom\\FB_Frame1.jpg",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -288,7 +288,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "CutScene\\02-FinalBom\\FB_Frame2.png",
+                  "image": "CutScene\\02-FinalBom\\FB_Frame2.jpg",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -317,7 +317,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "CutScene\\02-FinalBom\\FB_Frame3.png",
+                  "image": "CutScene\\02-FinalBom\\FB_Frame3.jpg",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -346,7 +346,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "CutScene\\02-FinalBom\\FB_Frame4.png",
+                  "image": "CutScene\\02-FinalBom\\FB_Frame4.jpg",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -375,7 +375,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "CutScene\\02-FinalBom\\FB_frame5.png",
+                  "image": "CutScene\\02-FinalBom\\FB_frame5.jpg",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -404,7 +404,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "CutScene\\02-FinalBom\\FB_frame6.png",
+                  "image": "CutScene\\02-FinalBom\\FB_frame6.jpg",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -433,7 +433,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "CutScene\\02-FinalBom\\FB_Frame7.png",
+                  "image": "CutScene\\02-FinalBom\\FB_Frame7.jpg",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -462,7 +462,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "CutScene\\02-FinalBom\\FB_Frame8.png",
+                  "image": "CutScene\\02-FinalBom\\FB_Frame8.jpg",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -491,7 +491,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "CutScene\\02-FinalBom\\FB_Frame9.png",
+                  "image": "CutScene\\02-FinalBom\\FB_Frame9.jpg",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -520,7 +520,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "CutScene\\02-FinalBom\\FB_Frame10.png",
+                  "image": "CutScene\\02-FinalBom\\FB_Frame10.jpg",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -549,7 +549,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "CutScene\\02-FinalBom\\FB_Frame11.png",
+                  "image": "CutScene\\02-FinalBom\\FB_Frame11.jpg",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -578,7 +578,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "CutScene\\02-FinalBom\\FB_Frame12.png",
+                  "image": "CutScene\\02-FinalBom\\FB_Frame12.jpg",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -607,7 +607,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "CutScene\\02-FinalBom\\FB_Frame13.png",
+                  "image": "CutScene\\02-FinalBom\\FB_Frame13.jpg",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -737,6 +737,21 @@
             "Pular",
             "=",
             "0"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "PlayMusicCanal"
+          },
+          "parameters": [
+            "",
+            "Audio\\Music\\finalbom.mp3",
+            "3",
+            "GlobalVariable(VolumeMusica)",
+            "GlobalVariable(VolumeMusica)",
+            ""
           ],
           "subInstructions": []
         },
@@ -1010,6 +1025,36 @@
             {
               "type": {
                 "inverted": false,
+                "value": "Tween::AddObjectPositionXTween"
+              },
+              "parameters": [
+                "Transicao",
+                "Tween",
+                "\"TransicaoSair\"",
+                "-315",
+                "\"linear\"",
+                "1000",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Audio\\Effect\\Transicao.mp3",
+                "",
+                "GlobalVariable(VolumeEfeitos)",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
                 "value": "RemoveObjectTimer"
               },
               "parameters": [
@@ -1030,7 +1075,7 @@
       "colorR": 0,
       "creationTime": 0,
       "disabled": false,
-      "folded": true,
+      "folded": false,
       "name": "Pular",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",

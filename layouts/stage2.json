@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.15000000000000527,
+    "zoomFactor": 0.09000000000000567,
     "windowMask": false
   },
   "objectsGroups": [
@@ -6258,8 +6258,8 @@
       "persistentUuid": "59098871-2502-4399-ab4e-48cf4f6491b1",
       "width": 108.05381774902344,
       "x": -4296,
-      "y": -306,
-      "zOrder": 7,
+      "y": -300,
+      "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -6786,8 +6786,8 @@
       "persistentUuid": "4d0661dc-e472-42ad-9547-f6b08259a82c",
       "width": 108.05381774902344,
       "x": -1345.0538330078125,
-      "y": 677,
-      "zOrder": 7,
+      "y": 681,
+      "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -6802,8 +6802,8 @@
       "persistentUuid": "413544ad-b4bd-44e8-bf2b-e4ccc1c5d468",
       "width": 108.05381774902344,
       "x": 5223.9462890625,
-      "y": 747,
-      "zOrder": 7,
+      "y": 751,
+      "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -6818,8 +6818,8 @@
       "persistentUuid": "cbf73472-2ca2-4631-b40c-1ca80c09bbc6",
       "width": 108.05381774902344,
       "x": 375.9461669921875,
-      "y": -234,
-      "zOrder": 7,
+      "y": -229,
+      "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -7026,8 +7026,8 @@
       "persistentUuid": "e4eb8829-baca-4259-a5c3-a3f23e015595",
       "width": 108.05381774902344,
       "x": 3567.9462890625,
-      "y": 1375,
-      "zOrder": 7,
+      "y": 1381,
+      "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -10774,7 +10774,7 @@
       "colorR": 0,
       "creationTime": 0,
       "disabled": false,
-      "folded": false,
+      "folded": true,
       "name": "Início",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -11117,7 +11117,7 @@
           "colorR": 0,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Savepoint",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -11191,18 +11191,6 @@
                     "GlobalVariable(FaseSaveX)",
                     "=",
                     "GlobalVariable(FaseSaveY)"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "Continue",
-                    "=",
-                    "0"
                   ],
                   "subInstructions": []
                 }
@@ -11318,17 +11306,6 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "SetAnimationName"
-                  },
-                  "parameters": [
-                    "Savepoint",
-                    "\"ativado\""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
                     "value": "ModVarGlobal"
                   },
                   "parameters": [
@@ -11347,6 +11324,63 @@
                     "FaseSaveY",
                     "=",
                     "Player.Y()"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Savepoint",
+                    "Player",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlatformBehavior::IsOnFloor"
+                  },
+                  "parameters": [
+                    "Player",
+                    "PlatformerObject"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "AnimationName"
+                  },
+                  "parameters": [
+                    "Savepoint",
+                    "\"desativado\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "Savepoint",
+                    "\"ativado\""
                   ],
                   "subInstructions": []
                 },

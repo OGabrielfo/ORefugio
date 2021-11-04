@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.06999999999999999,
+    "zoomFactor": 0.07000000000000028,
     "windowMask": false
   },
   "objectsGroups": [
@@ -3211,14 +3211,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 204.8,
+      "height": 183.9999542236328,
       "layer": "Game",
       "locked": false,
       "name": "RaizVivaFlor",
       "persistentUuid": "aafe300b-45f7-4b14-8f39-9387e1442e9a",
-      "width": 288,
+      "width": 258.74993896484375,
       "x": 5239,
-      "y": -1139.8,
+      "y": -1119,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -5419,8 +5419,8 @@
       "persistentUuid": "0a385703-41a1-4478-9cbf-fcaef6787c81",
       "width": 120,
       "x": -4504,
-      "y": -515,
-      "zOrder": 7,
+      "y": -512,
+      "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -5435,8 +5435,8 @@
       "persistentUuid": "92d9392b-630b-4901-8a39-1fb7223ce239",
       "width": 120,
       "x": 1793,
-      "y": 811,
-      "zOrder": 7,
+      "y": 817,
+      "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -5451,8 +5451,8 @@
       "persistentUuid": "cb32f690-0efd-4d52-aeef-4efe91dcefe3",
       "width": 120,
       "x": -16,
-      "y": 809,
-      "zOrder": 7,
+      "y": 818,
+      "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -5467,8 +5467,8 @@
       "persistentUuid": "c6a8d4cd-d51b-4833-b82e-e5ebd73e3971",
       "width": 120,
       "x": 6072,
-      "y": -521,
-      "zOrder": 7,
+      "y": -515,
+      "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -13726,7 +13726,7 @@
       "colorR": 0,
       "creationTime": 0,
       "disabled": false,
-      "folded": false,
+      "folded": true,
       "name": "Eventos Externos",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -14213,18 +14213,6 @@
                     "GlobalVariable(FaseSaveY)"
                   ],
                   "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "Continue",
-                    "=",
-                    "0"
-                  ],
-                  "subInstructions": []
                 }
               ],
               "events": []
@@ -14338,17 +14326,6 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "SetAnimationName"
-                  },
-                  "parameters": [
-                    "Savepoint",
-                    "\"ativado\""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
                     "value": "ModVarGlobal"
                   },
                   "parameters": [
@@ -14367,6 +14344,63 @@
                     "FaseSaveY",
                     "=",
                     "Player.Y()"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Savepoint",
+                    "Player",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlatformBehavior::IsOnFloor"
+                  },
+                  "parameters": [
+                    "Player",
+                    "PlatformerObject"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "AnimationName"
+                  },
+                  "parameters": [
+                    "Savepoint",
+                    "\"desativado\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "Savepoint",
+                    "\"ativado\""
                   ],
                   "subInstructions": []
                 },

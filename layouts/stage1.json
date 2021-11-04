@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.11000000000000267,
+    "zoomFactor": 0.13000000000000284,
     "windowMask": false
   },
   "objectsGroups": [
@@ -4885,8 +4885,8 @@
       "persistentUuid": "fd6349ee-51fc-4f15-aa82-f90ecabbad61",
       "width": 104,
       "x": -2528,
-      "y": -3450.91064453125,
-      "zOrder": 7,
+      "y": -3443.91064453125,
+      "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -5045,8 +5045,8 @@
       "persistentUuid": "c4567d8a-f03e-403d-8d52-b58e9cddb9f8",
       "width": 120,
       "x": 153,
-      "y": -3535,
-      "zOrder": 7,
+      "y": -3529,
+      "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -5061,8 +5061,8 @@
       "persistentUuid": "5c9d0129-5fde-4b41-8bd5-a196990b1eb5",
       "width": 120,
       "x": 2919,
-      "y": 2058,
-      "zOrder": 7,
+      "y": 2062,
+      "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -5077,8 +5077,8 @@
       "persistentUuid": "8d4d1828-dcbf-4202-97ca-f3bc38090e1b",
       "width": 120,
       "x": 571,
-      "y": -35,
-      "zOrder": 7,
+      "y": -29,
+      "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -8558,7 +8558,7 @@
       "colorR": 0,
       "creationTime": 0,
       "disabled": false,
-      "folded": false,
+      "folded": true,
       "name": "Início",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -8696,21 +8696,6 @@
             {
               "type": {
                 "inverted": false,
-                "value": "PlayMusicCanal"
-              },
-              "parameters": [
-                "",
-                "Audio\\Music\\MysteryBazaar_fase1.mp3",
-                "1",
-                "yes",
-                "GlobalVariable(VolumeMusica)",
-                "1"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
                 "value": "Cache"
               },
               "parameters": [
@@ -8783,6 +8768,21 @@
                 "Player",
                 "PlatformerObject",
                 ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlayMusicCanal"
+              },
+              "parameters": [
+                "",
+                "Audio\\Music\\MysteryBazaar_fase1.mp3",
+                "1",
+                "yes",
+                "GlobalVariable(VolumeMusica)",
+                "1"
               ],
               "subInstructions": []
             }
@@ -8984,7 +8984,7 @@
       "colorR": 0,
       "creationTime": 0,
       "disabled": false,
-      "folded": true,
+      "folded": false,
       "name": "Savepoint e Fim da Fase",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -8995,7 +8995,7 @@
           "colorR": 0,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Savepoint",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -9069,18 +9069,6 @@
                     "GlobalVariable(FaseSaveX)",
                     "=",
                     "GlobalVariable(FaseSaveY)"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "Continue",
-                    "=",
-                    "0"
                   ],
                   "subInstructions": []
                 }
@@ -9196,17 +9184,6 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "SetAnimationName"
-                  },
-                  "parameters": [
-                    "Savepoint",
-                    "\"ativado\""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
                     "value": "ModVarGlobal"
                   },
                   "parameters": [
@@ -9225,6 +9202,63 @@
                     "FaseSaveY",
                     "=",
                     "Player.Y()"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Savepoint",
+                    "Player",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlatformBehavior::IsOnFloor"
+                  },
+                  "parameters": [
+                    "Player",
+                    "PlatformerObject"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "AnimationName"
+                  },
+                  "parameters": [
+                    "Savepoint",
+                    "\"desativado\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "Savepoint",
+                    "\"ativado\""
                   ],
                   "subInstructions": []
                 },
@@ -9254,7 +9288,7 @@
           "colorR": 0,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Fim da Fase",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -9286,6 +9320,20 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "Transicao",
+                    "=",
+                    "1915",
+                    "=",
+                    "-211"
+                  ],
+                  "subInstructions": []
+                },
                 {
                   "type": {
                     "inverted": false,
