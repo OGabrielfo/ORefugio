@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.13000000000000284,
+    "zoomFactor": 0.1100000000000028,
     "windowMask": false
   },
   "objectsGroups": [
@@ -8910,35 +8910,6 @@
             {
               "type": {
                 "inverted": false,
-                "value": "Tween::IsPlaying"
-              },
-              "parameters": [
-                "Transicao",
-                "Tween",
-                "\"TransicaoEntra\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": [],
-              "subInstructions": []
-            }
-          ],
-          "actions": [],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
                 "value": "Tween::Exists"
               },
               "parameters": [
@@ -9288,7 +9259,7 @@
           "colorR": 0,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Fim da Fase",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",

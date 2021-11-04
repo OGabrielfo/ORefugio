@@ -687,7 +687,7 @@
       "colorR": 0,
       "creationTime": 0,
       "disabled": false,
-      "folded": false,
+      "folded": true,
       "name": "Animação CutScene",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
