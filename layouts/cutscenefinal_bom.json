@@ -765,6 +765,18 @@
             "\"Tempo\""
           ],
           "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "QualFinal",
+            "=",
+            "2"
+          ],
+          "subInstructions": []
         }
       ],
       "events": []

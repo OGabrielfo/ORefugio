@@ -2913,6 +2913,15 @@
         "preloadAsMusic": false,
         "preloadAsSound": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Stage 1/escombros.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Stage 1\\escombros.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -4475,6 +4484,11 @@
     },
     {
       "name": "GamePause",
+      "type": "string",
+      "value": "0"
+    },
+    {
+      "name": "QualFinal",
       "type": "string",
       "value": "0"
     }
