@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.53,
+    "zoomFactor": 0.8300000000000003,
     "windowMask": false
   },
   "objectsGroups": [
@@ -258,14 +258,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 95,
+      "height": 79,
       "layer": "",
       "locked": false,
       "name": "Final",
       "persistentUuid": "cd629733-604f-44fa-9da8-82656c39d31a",
-      "width": 345,
-      "x": 1519,
-      "y": 205,
+      "width": 300,
+      "x": 1524,
+      "y": 78,
       "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
@@ -274,14 +274,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 108,
+      "height": 78,
       "layer": "",
       "locked": false,
       "name": "AnimaisSalvos",
       "persistentUuid": "af9bc2b2-1c80-448f-bbeb-1a138426b1cb",
-      "width": 345,
-      "x": 1519,
-      "y": 46,
+      "width": 209,
+      "x": 1570,
+      "y": 175,
       "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
@@ -627,7 +627,7 @@
         }
       ],
       "content": {
-        "text": "Animais\n",
+        "text": "0 de 3\nanimais salvos\n",
         "opacity": 255,
         "fontSize": 30,
         "visible": true,
@@ -650,7 +650,7 @@
         }
       ],
       "content": {
-        "text": "[outline=Blue][shadow=Blue]Final Bom[/outline][/shadow]\n\n",
+        "text": "[outline=Blue][shadow=Blue]Final Ruim[/outline][/shadow]\n\n",
         "opacity": 255,
         "fontSize": 60,
         "visible": true,
@@ -1651,6 +1651,17 @@
                 "\"[outline=Red][shadow=Red]Final Ruim[/outline][/shadow]\""
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BBText::SetAlignment"
+              },
+              "parameters": [
+                "Final",
+                "\"center\""
+              ],
+              "subInstructions": []
             }
           ],
           "events": []
@@ -1704,6 +1715,17 @@
                 "\"[outline=Blue][shadow=Blue]Final Bom[/outline][/shadow]\""
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BBText::SetAlignment"
+              },
+              "parameters": [
+                "Final",
+                "\"center\""
+              ],
+              "subInstructions": []
             }
           ],
           "events": []
@@ -1741,7 +1763,7 @@
               "parameters": [
                 "AnimaisSalvos",
                 "=",
-                "ToString(GlobalVariable(Animal1)+GlobalVariable(Animal2)+GlobalVariable(Animal3)) + \"[outline=Black][shadow=Black] de 3[/outline][/shadow]\" + \"[outline=Black][shadow=Black]\nanimais salvos[/outline][/shadow]\""
+                "\"[outline=Black][shadow=Black]\" + ToString(GlobalVariable(Animal1)+GlobalVariable(Animal2)+GlobalVariable(Animal3)) + \" de 3\" + \"\nanimais salvos[/outline][/shadow]\""
               ],
               "subInstructions": []
             }

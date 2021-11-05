@@ -22,7 +22,7 @@
     "author": "",
     "windowWidth": 1920,
     "windowHeight": 1080,
-    "latestCompilationDirectory": "C:\\Users\\Gabrielfo\\Documents\\GDevelop projects\\ORefugio-beta-0.1.5",
+    "latestCompilationDirectory": "C:\\Users\\Gabrielfo\\Documents\\GDevelop projects\\ORefugio-beta-0.1.6",
     "maxFPS": 60,
     "minFPS": 20,
     "verticalSync": false,
@@ -3258,8 +3258,8 @@
         },
         {
           "name": "PlatformerObject",
+          "slopeMaxAngle": 70,
           "type": "PlatformBehavior::PlatformerObjectBehavior",
-          "slopeMaxAngle": 89,
           "ignoreDefaultControls": false,
           "jumpSpeed": 800,
           "acceleration": 1500,

@@ -746,7 +746,7 @@
           "colorR": 245,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Botão Voltar Ao Menu",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -895,18 +895,6 @@
                     "Transicao",
                     "Tween",
                     "\"TransicaoVoltaMenu\""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "BBText::IsOpacity"
-                  },
-                  "parameters": [
-                    "VoltaraoMenuPauseMenu",
-                    "=",
-                    "255"
                   ],
                   "subInstructions": []
                 },
