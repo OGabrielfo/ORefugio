@@ -3258,8 +3258,8 @@
         },
         {
           "name": "PlatformerObject",
-          "slopeMaxAngle": 70,
           "type": "PlatformBehavior::PlatformerObjectBehavior",
+          "slopeMaxAngle": 70,
           "ignoreDefaultControls": false,
           "jumpSpeed": 800,
           "acceleration": 1500,

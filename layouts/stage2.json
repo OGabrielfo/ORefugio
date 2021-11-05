@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.09000000000000567,
+    "zoomFactor": 0.730000000000006,
     "windowMask": false
   },
   "objectsGroups": [
@@ -6993,7 +6993,7 @@
       "name": "Player",
       "persistentUuid": "d2b0b4b4-836d-4a9e-9b09-e46bd519730e",
       "width": 0,
-      "x": -4457,
+      "x": -4505,
       "y": -408,
       "zOrder": 15,
       "numberProperties": [],
@@ -10780,7 +10780,7 @@
       "colorR": 0,
       "creationTime": 0,
       "disabled": false,
-      "folded": false,
+      "folded": true,
       "name": "Início",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -11140,7 +11140,7 @@
       "colorR": 0,
       "creationTime": 0,
       "disabled": false,
-      "folded": true,
+      "folded": false,
       "name": "Savepoint e Fim da Fase",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -11444,7 +11444,7 @@
           "colorR": 0,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Fim da Fase",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -11503,6 +11503,18 @@
                     "",
                     "GlobalVariable(VolumeEfeitos)",
                     ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "Continue",
+                    "=",
+                    "0"
                   ],
                   "subInstructions": []
                 }

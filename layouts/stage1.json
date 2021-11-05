@@ -8587,7 +8587,7 @@
       "colorR": 0,
       "creationTime": 0,
       "disabled": false,
-      "folded": false,
+      "folded": true,
       "name": "Eventos Externos",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -9009,7 +9009,7 @@
       "colorR": 0,
       "creationTime": 0,
       "disabled": false,
-      "folded": false,
+      "folded": true,
       "name": "Savepoint e Fim da Fase",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -9313,7 +9313,7 @@
           "colorR": 0,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Fim da Fase",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -9372,6 +9372,18 @@
                     "",
                     "GlobalVariable(VolumeEfeitos)",
                     ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "Continue",
+                    "=",
+                    "0"
                   ],
                   "subInstructions": []
                 }

@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.07000000000000027,
+    "zoomFactor": 0.2100000000000002,
     "windowMask": false
   },
   "objectsGroups": [
@@ -14171,7 +14171,7 @@
           "colorR": 0,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Savepoint",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -14516,6 +14516,18 @@
                     "Animais",
                     "=",
                     "GlobalVariable(Animal1)+GlobalVariable(Animal2)+GlobalVariable(Animal3)"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "Continue",
+                    "=",
+                    "0"
                   ],
                   "subInstructions": []
                 }
