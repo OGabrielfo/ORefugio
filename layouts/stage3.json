@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.2100000000000002,
+    "zoomFactor": 0.07000000000000046,
     "windowMask": false
   },
   "objectsGroups": [
@@ -3179,14 +3179,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 204.8,
+      "height": 184.1777801513672,
       "layer": "Game",
       "locked": false,
       "name": "RaizVivaFlor",
       "persistentUuid": "da0d2f98-c5d4-418f-bd03-12282eaba7cf",
-      "width": 288,
-      "x": -1798,
-      "y": 755.2,
+      "width": 259,
+      "x": -1747,
+      "y": 778,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -3195,14 +3195,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 204.8,
+      "height": 179.91111755371094,
       "layer": "Game",
       "locked": false,
       "name": "RaizVivaFlor",
       "persistentUuid": "95136ebe-d7dd-4348-a76b-0503ac694978",
-      "width": 288,
-      "x": 4312,
-      "y": 758.2,
+      "width": 253,
+      "x": 4318,
+      "y": 779,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -3211,14 +3211,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 183.9999542236328,
+      "height": 175.64443969726562,
       "layer": "Game",
       "locked": false,
       "name": "RaizVivaFlor",
       "persistentUuid": "aafe300b-45f7-4b14-8f39-9387e1442e9a",
-      "width": 258.74993896484375,
+      "width": 247,
       "x": 5239,
-      "y": -1119,
+      "y": -1110.64453125,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -5642,7 +5642,7 @@
       "name": "Player",
       "persistentUuid": "babad6f2-f6d4-4ee2-8fe7-194dc326ecbd",
       "width": 0,
-      "x": -4636,
+      "x": -4624,
       "y": -612,
       "zOrder": 15,
       "numberProperties": [],
@@ -14259,6 +14259,16 @@
                 {
                   "type": {
                     "inverted": false,
+                    "value": "DepartScene"
+                  },
+                  "parameters": [
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
                     "value": "VarGlobal"
                   },
                   "parameters": [
@@ -14518,18 +14528,6 @@
                     "GlobalVariable(Animal1)+GlobalVariable(Animal2)+GlobalVariable(Animal3)"
                   ],
                   "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "Continue",
-                    "=",
-                    "0"
-                  ],
-                  "subInstructions": []
                 }
               ],
               "events": [
@@ -14647,6 +14645,18 @@
                         "",
                         "GlobalVariable(VolumeEfeitos)",
                         ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "Continue",
+                        "=",
+                        "0"
                       ],
                       "subInstructions": []
                     }

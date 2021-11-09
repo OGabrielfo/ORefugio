@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.11000000000000072,
+    "zoomFactor": 0.0700000000000009,
     "windowMask": false
   },
   "objectsGroups": [
@@ -1063,8 +1063,8 @@
       "locked": false,
       "name": "Concreto",
       "persistentUuid": "4f5569ea-78ff-4b64-88cc-7b4f67fb78f0",
-      "width": 560,
-      "x": 1050,
+      "width": 563,
+      "x": 1047,
       "y": 71,
       "zOrder": 106,
       "numberProperties": [],
@@ -1080,7 +1080,7 @@
       "name": "Concretocanto",
       "persistentUuid": "cb63c690-f868-424a-84a9-5bb0b40b24ca",
       "width": 0,
-      "x": 980,
+      "x": 979,
       "y": 71,
       "zOrder": 1,
       "numberProperties": [],
@@ -5734,7 +5734,7 @@
       "width": 2708,
       "x": 1076,
       "y": 1185,
-      "zOrder": 12,
+      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -5767,6 +5767,22 @@
       "x": 3050,
       "y": 2277,
       "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 270,
+      "customSize": true,
+      "height": 70,
+      "layer": "Game",
+      "locked": false,
+      "name": "ConcretoInv",
+      "persistentUuid": "82b87854-ae78-4bad-a17b-2117724c70e4",
+      "width": 1048,
+      "x": 2804,
+      "y": 1645,
+      "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -5836,6 +5852,25 @@
     },
     {
       "height": 70,
+      "name": "ConcretoInv",
+      "tags": "Blocos",
+      "texture": "Graphics\\Stages\\Stage 1\\Bloco concreto reto cima - Pequeno.jpg",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 70,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "yGrabOffset": 0,
+          "canBeGrabbed": true,
+          "platformType": "NormalPlatform"
+        }
+      ]
+    },
+    {
+      "height": 70,
       "name": "Concreto",
       "tags": "Blocos",
       "texture": "Graphics\\Stages\\Stage 1\\Bloco concreto reto cima - Pequeno.jpg",
@@ -5847,9 +5882,9 @@
         {
           "name": "Platform",
           "type": "PlatformBehavior::PlatformBehavior",
+          "yGrabOffset": 0,
           "canBeGrabbed": true,
-          "platformType": "NormalPlatform",
-          "yGrabOffset": 0
+          "platformType": "NormalPlatform"
         }
       ]
     },
@@ -8652,7 +8687,7 @@
       "colorR": 0,
       "creationTime": 0,
       "disabled": false,
-      "folded": true,
+      "folded": false,
       "name": "Início",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -8792,6 +8827,16 @@
                 "SavePointFase",
                 "=",
                 "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "ConcretoInv"
               ],
               "subInstructions": []
             },
@@ -9009,7 +9054,7 @@
       "colorR": 0,
       "creationTime": 0,
       "disabled": false,
-      "folded": true,
+      "folded": false,
       "name": "Savepoint e Fim da Fase",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -9020,7 +9065,7 @@
           "colorR": 0,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Savepoint",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -9105,6 +9150,16 @@
               "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "DepartScene"
+                  },
+                  "parameters": [
+                    ""
+                  ],
+                  "subInstructions": []
+                },
                 {
                   "type": {
                     "inverted": false,
@@ -9313,7 +9368,7 @@
           "colorR": 0,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Fim da Fase",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -10516,7 +10571,7 @@
           "colorR": 0,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Repulsão de Paredes",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -11483,7 +11538,7 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "name": "HUD",
-      "visibility": true,
+      "visibility": false,
       "cameras": [],
       "effects": []
     },
@@ -11494,7 +11549,7 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "name": "PauseMenu",
-      "visibility": true,
+      "visibility": false,
       "cameras": [],
       "effects": []
     }

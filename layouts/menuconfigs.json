@@ -796,7 +796,7 @@
           "ThumbShape": "circle",
           "ThumbWidth": 20,
           "ThumbHeight": 20,
-          "ThumbColor": " ",
+          "ThumbColor": "255;41;41",
           "ThumbOpacity": 255,
           "TrackWidth": 400,
           "TrackHeight": 4,
@@ -1258,7 +1258,7 @@
       "colorR": 74,
       "creationTime": 0,
       "disabled": false,
-      "folded": true,
+      "folded": false,
       "name": "Controle de Volume",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -1567,6 +1567,10 @@
     {
       "name": "DraggableSliderControl",
       "type": "DraggableSliderControl::DraggableSliderControl"
+    },
+    {
+      "name": "Health",
+      "type": "Health::Health"
     },
     {
       "name": "PlatformerObject",
