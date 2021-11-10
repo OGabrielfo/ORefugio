@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.0700000000000009,
+    "zoomFactor": 0.09000000000000166,
     "windowMask": false
   },
   "objectsGroups": [
@@ -194,14 +194,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 350,
+      "height": 352,
       "layer": "Game",
       "locked": false,
       "name": "DesertoSub",
       "persistentUuid": "f40f691d-cb5f-4a78-bfe1-49784a4bdfcc",
       "width": 3220,
       "x": -3010,
-      "y": -3290,
+      "y": -3292,
       "zOrder": 89,
       "numberProperties": [],
       "stringProperties": [],
@@ -1065,7 +1065,7 @@
       "persistentUuid": "4f5569ea-78ff-4b64-88cc-7b4f67fb78f0",
       "width": 563,
       "x": 1047,
-      "y": 71,
+      "y": 70,
       "zOrder": 106,
       "numberProperties": [],
       "stringProperties": [],
@@ -1073,15 +1073,15 @@
     },
     {
       "angle": 360,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "height": 273,
       "layer": "Game",
       "locked": false,
       "name": "Concretocanto",
       "persistentUuid": "cb63c690-f868-424a-84a9-5bb0b40b24ca",
-      "width": 0,
+      "width": 70,
       "x": 979,
-      "y": 71,
+      "y": 70,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -1097,7 +1097,7 @@
       "persistentUuid": "53a69818-2124-4ed0-b435-0b66df4e7c63",
       "width": 1960,
       "x": 35,
-      "y": 1085,
+      "y": 1084,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -3668,8 +3668,8 @@
       "name": "Esqueleto2",
       "persistentUuid": "c877ffa8-d2d4-4a69-9897-db21d7c72302",
       "width": 177,
-      "x": 971.9180297851562,
-      "y": 42.21849822998047,
+      "x": 975.9182739257812,
+      "y": 42.310752868652344,
       "zOrder": 130,
       "numberProperties": [],
       "stringProperties": [],
@@ -3758,14 +3758,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 88,
+      "height": 56,
       "layer": "Game",
       "locked": false,
       "name": "TutorialAgachar",
       "persistentUuid": "b82de01f-25ac-4726-b060-08392c292843",
-      "width": 264,
-      "x": 1418,
-      "y": -3252,
+      "width": 410,
+      "x": 1203,
+      "y": -3009,
       "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
@@ -3774,47 +3774,15 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 110,
-      "layer": "Game",
-      "locked": false,
-      "name": "TextoFundo1",
-      "persistentUuid": "630a326e-8196-42e7-843c-34cb0c063686",
-      "width": 305,
-      "x": 1384,
-      "y": -3266,
-      "zOrder": 19,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 123,
+      "height": 96,
       "layer": "Game",
       "locked": false,
       "name": "TutorialLata",
       "persistentUuid": "13236960-7c89-43d3-9a57-173f91ec2535",
-      "width": 322,
-      "x": 660,
-      "y": -2062,
+      "width": 438,
+      "x": 551,
+      "y": -2033,
       "zOrder": 20,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 159,
-      "layer": "Game",
-      "locked": false,
-      "name": "TextoFundo2",
-      "persistentUuid": "670c4d7c-42cd-4d51-bd74-ce3265cf8481",
-      "width": 349,
-      "x": 631,
-      "y": -2084,
-      "zOrder": 19,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -4404,8 +4372,8 @@
       "name": "Player",
       "persistentUuid": "442d0245-803d-4f77-b859-009230319123",
       "width": 0,
-      "x": -2681,
-      "y": -3558,
+      "x": -2678,
+      "y": -3555,
       "zOrder": 15,
       "numberProperties": [],
       "stringProperties": [],
@@ -5734,7 +5702,7 @@
       "width": 2708,
       "x": 1076,
       "y": 1185,
-      "zOrder": 0,
+      "zOrder": 12,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -5783,6 +5751,38 @@
       "x": 2804,
       "y": 1645,
       "zOrder": 20,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 58,
+      "layer": "Game",
+      "locked": false,
+      "name": "TutorialAndar",
+      "persistentUuid": "eb2b0172-9be5-4506-9370-3f6708623f92",
+      "width": 351,
+      "x": -2615,
+      "y": -3325,
+      "zOrder": 207,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 54,
+      "layer": "Game",
+      "locked": false,
+      "name": "TutorialPularePausar",
+      "persistentUuid": "0288525d-6e7c-4500-8756-50a804b89251",
+      "width": 266,
+      "x": -2061,
+      "y": -3325,
+      "zOrder": 208,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -7590,6 +7590,52 @@
       ]
     },
     {
+      "name": "TutorialPularePausar",
+      "tags": "Textos",
+      "type": "BBText::BBText",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "content": {
+        "text": "[outline=black][shadow=Black]Para pular aperte [b]\"espaço\"[/b]\nPara pausar [b]\"p\"[/b] ou [b]\"esc\"[/b][/outline][/shadow]",
+        "opacity": 255,
+        "fontSize": 20,
+        "visible": true,
+        "color": "#ffffff",
+        "fontFamily": "Arial",
+        "align": "center",
+        "wordWrap": true
+      }
+    },
+    {
+      "name": "TutorialAndar",
+      "tags": "Textos",
+      "type": "BBText::BBText",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "content": {
+        "text": "[outline=black][shadow=Black]Para andar utilize [b]\"seta para direita\"[/b]\n e [b]\"seta para esquerda\"[/b][/outline][/shadow]",
+        "opacity": 255,
+        "fontSize": 20,
+        "visible": true,
+        "color": "#ffffff",
+        "fontFamily": "Arial",
+        "align": "center",
+        "wordWrap": true
+      }
+    },
+    {
       "name": "TutorialLata",
       "tags": "Textos",
       "type": "BBText::BBText",
@@ -7602,7 +7648,7 @@
         }
       ],
       "content": {
-        "text": "[outline=black][shadow=Black]Essa lata é a melhor forma de se esconder dos monstros até eles passarem!\n[size=15]Aperte [b]\"seta para baixo\"[/b] na lata para entrar e [b]\"seta para cima\"[/b] para sair![/size][/outline][/shadow]",
+        "text": "[outline=black][shadow=Black]Essa lata é a melhor forma de se esconder dos monstros até eles passarem!\n[size=15]Aperte [b]\"seta para baixo\"[/b] para entrar e [b]\"seta para cima\"[/b] para sair![/size][/outline][/shadow]",
         "opacity": 255,
         "fontSize": 20,
         "visible": true,
@@ -7634,96 +7680,6 @@
         "align": "center",
         "wordWrap": true
       }
-    },
-    {
-      "name": "TextoFundo2",
-      "tags": "Textos",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "Tween",
-          "type": "Tween::TweenBehavior"
-        }
-      ],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "Graphics\\Stages\\Stage 1\\FundoTexto.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "TextoFundo1",
-      "tags": "Textos",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "Tween",
-          "type": "Tween::TweenBehavior"
-        }
-      ],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "Graphics\\Stages\\Stage 1\\FundoTexto.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
     },
     {
       "height": 70,
@@ -8687,7 +8643,7 @@
       "colorR": 0,
       "creationTime": 0,
       "disabled": false,
-      "folded": false,
+      "folded": true,
       "name": "Início",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -9054,7 +9010,7 @@
       "colorR": 0,
       "creationTime": 0,
       "disabled": false,
-      "folded": false,
+      "folded": true,
       "name": "Savepoint e Fim da Fase",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -9065,7 +9021,7 @@
           "colorR": 0,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Savepoint",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -9368,7 +9324,7 @@
           "colorR": 0,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Fim da Fase",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -10608,6 +10564,34 @@
                         "value": "CollisionNP"
                       },
                       "parameters": [
+                        "ConcretoInv",
+                        "Player",
+                        "",
+                        "",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Concretocanto",
+                        "Player",
+                        "",
+                        "",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
                         "Deserto",
                         "Player",
                         "",
@@ -10628,6 +10612,30 @@
                   "parameters": [
                     "Player",
                     "Concreto",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SeparateFromObjects"
+                  },
+                  "parameters": [
+                    "Player",
+                    "ConcretoInv",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SeparateFromObjects"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Concretocanto",
                     ""
                   ],
                   "subInstructions": []
@@ -11163,7 +11171,7 @@
       "colorR": 255,
       "creationTime": 0,
       "disabled": false,
-      "folded": true,
+      "folded": false,
       "name": "Tutorial",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -11198,22 +11206,6 @@
                 "TutorialAgachar",
                 "Tween",
                 "\"aparecertexto1\"",
-                "255",
-                "\"linear\"",
-                "200",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Tween::AddObjectOpacityTween"
-              },
-              "parameters": [
-                "TextoFundo1",
-                "Tween",
-                "\"aparecerbalao1\"",
                 "255",
                 "\"linear\"",
                 "200",
@@ -11260,22 +11252,6 @@
                 ""
               ],
               "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Tween::AddObjectOpacityTween"
-              },
-              "parameters": [
-                "TextoFundo1",
-                "Tween",
-                "\"sumirbalao1\"",
-                "0",
-                "\"linear\"",
-                "200",
-                ""
-              ],
-              "subInstructions": []
             }
           ],
           "events": []
@@ -11310,22 +11286,6 @@
                 "TutorialLata",
                 "Tween",
                 "\"aparecertexto2\"",
-                "255",
-                "\"linear\"",
-                "200",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Tween::AddObjectOpacityTween"
-              },
-              "parameters": [
-                "TextoFundo2",
-                "Tween",
-                "\"aparecerbalao2\"",
                 "255",
                 "\"linear\"",
                 "200",
@@ -11372,16 +11332,156 @@
                 ""
               ],
               "subInstructions": []
-            },
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Distance"
+              },
+              "parameters": [
+                "Player",
+                "TutorialAndar",
+                "250",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
             {
               "type": {
                 "inverted": false,
                 "value": "Tween::AddObjectOpacityTween"
               },
               "parameters": [
-                "TextoFundo2",
+                "TutorialAndar",
                 "Tween",
-                "\"sumirbalao2\"",
+                "\"TutorialAndarAparecer\"",
+                "255",
+                "\"linear\"",
+                "200",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "Distance"
+              },
+              "parameters": [
+                "Player",
+                "TutorialAndar",
+                "250",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Tween::AddObjectOpacityTween"
+              },
+              "parameters": [
+                "TutorialAndar",
+                "Tween",
+                "\"TutorialAndarSumir\"",
+                "0",
+                "\"linear\"",
+                "200",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Distance"
+              },
+              "parameters": [
+                "Player",
+                "TutorialPularePausar",
+                "250",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Tween::AddObjectOpacityTween"
+              },
+              "parameters": [
+                "TutorialPularePausar",
+                "Tween",
+                "\"TutorialPularPausarAparecer\"",
+                "255",
+                "\"linear\"",
+                "200",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "Distance"
+              },
+              "parameters": [
+                "Player",
+                "TutorialPularePausar",
+                "250",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Tween::AddObjectOpacityTween"
+              },
+              "parameters": [
+                "TutorialPularePausar",
+                "Tween",
+                "\"TutorialPularPausarSumir\"",
                 "0",
                 "\"linear\"",
                 "200",
@@ -11538,7 +11638,7 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "name": "HUD",
-      "visibility": false,
+      "visibility": true,
       "cameras": [],
       "effects": []
     },
@@ -11549,12 +11649,16 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "name": "PauseMenu",
-      "visibility": false,
+      "visibility": true,
       "cameras": [],
       "effects": []
     }
   ],
   "behaviorsSharedData": [
+    {
+      "name": "AdvancedJump",
+      "type": "AdvancedJump::AdvancedJump"
+    },
     {
       "name": "Anchor",
       "type": "AnchorBehavior::AnchorBehavior"

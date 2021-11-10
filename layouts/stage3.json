@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.07000000000000046,
+    "zoomFactor": 0.07000000000000049,
     "windowMask": false
   },
   "objectsGroups": [
@@ -14160,7 +14160,7 @@
       "colorR": 0,
       "creationTime": 0,
       "disabled": false,
-      "folded": false,
+      "folded": true,
       "name": "Savepoint e Fim da Fase",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -14171,7 +14171,7 @@
           "colorR": 0,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Savepoint",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -14474,7 +14474,7 @@
           "colorR": 0,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Fim da Fase",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -15369,7 +15369,7 @@
           "colorR": 0,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Identificador de Colisão (Não levantar em locais apertados)",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -15653,6 +15653,20 @@
                         ""
                       ],
                       "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "TerraCanto",
+                        "Player",
+                        "",
+                        "",
+                        ""
+                      ],
+                      "subInstructions": []
                     }
                   ]
                 }
@@ -15666,6 +15680,18 @@
                   "parameters": [
                     "Player",
                     "TerraSup",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SeparateFromObjects"
+                  },
+                  "parameters": [
+                    "Player",
+                    "TerraCanto",
                     ""
                   ],
                   "subInstructions": []
@@ -16142,7 +16168,7 @@
                     "PlataformaSecreta",
                     "Tween",
                     "\"PlatSumir\"",
-                    "30",
+                    "90",
                     "\"linear\"",
                     "200",
                     ""

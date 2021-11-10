@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.13000000000000586,
+    "zoomFactor": 0.07,
     "windowMask": false
   },
   "objectsGroups": [
@@ -6034,7 +6034,7 @@
       "persistentUuid": "e8aff93f-32ea-4cd7-9c49-00ac9945a116",
       "width": 185,
       "x": 4000,
-      "y": 951.081,
+      "y": 934.0809936523438,
       "zOrder": 92,
       "numberProperties": [],
       "stringProperties": [],
@@ -6411,30 +6411,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 122,
-      "layer": "Game",
-      "locked": false,
-      "name": "TextoFundo1",
-      "persistentUuid": "2d4315f5-dbad-4edc-89d9-62b112933162",
-      "width": 325,
-      "x": 5895,
-      "y": -197,
-      "zOrder": 25,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 93,
+      "height": 69,
       "layer": "Game",
       "locked": false,
       "name": "TutorialArbusto",
       "persistentUuid": "d47a5207-0942-407b-aeff-782fc6bfb1f6",
-      "width": 283,
-      "x": 5914,
-      "y": -178,
+      "width": 560,
+      "x": 5805,
+      "y": 204,
       "zOrder": 26,
       "numberProperties": [],
       "stringProperties": [],
@@ -6993,8 +6977,8 @@
       "name": "Player",
       "persistentUuid": "d2b0b4b4-836d-4a9e-9b09-e46bd519730e",
       "width": 0,
-      "x": -4505,
-      "y": -408,
+      "x": -4410,
+      "y": -406,
       "zOrder": 15,
       "numberProperties": [],
       "stringProperties": [],
@@ -7155,6 +7139,102 @@
           "value": "0.1"
         }
       ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Game",
+      "locked": false,
+      "name": "Teia",
+      "persistentUuid": "40ae0451-e391-44e0-93a6-24f44cb20804",
+      "width": 0,
+      "x": -3441,
+      "y": 447,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Game",
+      "locked": false,
+      "name": "Teia",
+      "persistentUuid": "0888258d-2343-41c0-887b-931082889b08",
+      "width": 0,
+      "x": -3055,
+      "y": 667,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Game",
+      "locked": false,
+      "name": "Teia",
+      "persistentUuid": "9a3a95eb-6b25-452a-b274-2c66fa650981",
+      "width": 0,
+      "x": 1441,
+      "y": 802,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Game",
+      "locked": false,
+      "name": "Teia",
+      "persistentUuid": "88072882-d7b8-4804-8d90-2ed75241ecd3",
+      "width": 0,
+      "x": 2695,
+      "y": 729,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Game",
+      "locked": false,
+      "name": "Teia",
+      "persistentUuid": "c3a9b7f8-a3b6-4bdb-b693-f7e9fb9d0ac7",
+      "width": 0,
+      "x": 4091,
+      "y": 729,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Game",
+      "locked": false,
+      "name": "Teia",
+      "persistentUuid": "50778b9e-ca6c-4dea-8299-c6e8804c7119",
+      "width": 0,
+      "x": 4688,
+      "y": 729,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -10228,6 +10308,29 @@
       ]
     },
     {
+      "name": "Teia",
+      "tags": "",
+      "type": "PrimitiveDrawing::Drawer",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "fillOpacity": 255,
+      "outlineSize": 2,
+      "outlineOpacity": 255,
+      "fillColor": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "outlineColor": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "absoluteCoordinates": true,
+      "clearBetweenFrames": true
+    },
+    {
       "name": "Aranha",
       "tags": "",
       "type": "Sprite",
@@ -10266,7 +10369,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Graphics\\Enemies\\Spider\\Aranha01.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "Teia",
+                      "x": 457,
+                      "y": 80
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -10314,7 +10423,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Graphics\\Enemies\\Spider\\Aranha02.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "Teia",
+                      "x": 457,
+                      "y": 80
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -10350,7 +10465,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Graphics\\Enemies\\Spider\\Aranha03.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "Teia",
+                      "x": 457,
+                      "y": 80
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -10386,7 +10507,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Graphics\\Enemies\\Spider\\Aranha02.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "Teia",
+                      "x": 457,
+                      "y": 80
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -10466,51 +10593,6 @@
       ]
     },
     {
-      "name": "TextoFundo1",
-      "tags": "Textos",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "Tween",
-          "type": "Tween::TweenBehavior"
-        }
-      ],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "Graphics\\Stages\\Stage 1\\FundoTexto.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "name": "TutorialArbusto",
       "tags": "Textos",
       "type": "BBText::BBText",
@@ -10523,7 +10605,7 @@
         }
       ],
       "content": {
-        "text": "[outline=black][shadow=Black]O que é isso? Acho que posso usar para me esconder!\n[size=15]Aperte [b]\"seta para baixo\"[/b] para se esconder[/size][/outline][/shadow]",
+        "text": "[outline=black][shadow=Black]O que é isso? Acho que posso usar para me esconder!\n[size=15]Aperte [b]\"seta para baixo\"[/b] para se esconder e [b]\"seta para cima\"[/b]\npara sair[/size][/outline][/shadow]",
         "opacity": 255,
         "fontSize": 20,
         "visible": true,
@@ -10712,7 +10794,7 @@
       "colorR": 0,
       "creationTime": 0,
       "disabled": false,
-      "folded": true,
+      "folded": false,
       "name": "Eventos Externos",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -11140,7 +11222,7 @@
       "colorR": 0,
       "creationTime": 0,
       "disabled": false,
-      "folded": false,
+      "folded": true,
       "name": "Savepoint e Fim da Fase",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -11151,7 +11233,7 @@
           "colorR": 0,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Savepoint",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -11454,7 +11536,7 @@
           "colorR": 0,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Fim da Fase",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -12194,7 +12276,7 @@
       "colorR": 255,
       "creationTime": 0,
       "disabled": false,
-      "folded": true,
+      "folded": false,
       "name": "Afeta Player",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -12205,7 +12287,7 @@
           "colorR": 0,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Identificador de Colisão (Não levantar em locais apertados)",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -12757,7 +12839,7 @@
           "colorR": 0,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Repulsão de Paredes",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -12794,7 +12876,49 @@
                         "value": "CollisionNP"
                       },
                       "parameters": [
+                        "ConcretoCanto",
+                        "Player",
+                        "",
+                        "",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "ConcretoCantoRad",
+                        "Player",
+                        "",
+                        "",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
                         "TerraSup",
+                        "Player",
+                        "",
+                        "",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "TerraCanto",
                         "Player",
                         "",
                         "",
@@ -12825,7 +12949,43 @@
                   },
                   "parameters": [
                     "Player",
+                    "ConcretoCanto",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SeparateFromObjects"
+                  },
+                  "parameters": [
+                    "Player",
+                    "ConcretoCantoRad",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SeparateFromObjects"
+                  },
+                  "parameters": [
+                    "Player",
                     "TerraSup",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SeparateFromObjects"
+                  },
+                  "parameters": [
+                    "Player",
+                    "TerraCanto",
                     ""
                   ],
                   "subInstructions": []
@@ -13095,7 +13255,7 @@
       "colorR": 184,
       "creationTime": 0,
       "disabled": false,
-      "folded": true,
+      "folded": false,
       "name": "Tutorial Arbusto",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -13118,6 +13278,14 @@
                 ""
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
             }
           ],
           "actions": [
@@ -13130,22 +13298,6 @@
                 "TutorialArbusto",
                 "Tween",
                 "\"aparecertexto1\"",
-                "255",
-                "\"linear\"",
-                "200",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Tween::AddObjectOpacityTween"
-              },
-              "parameters": [
-                "TextoFundo1",
-                "Tween",
-                "\"aparecerbalao1\"",
                 "255",
                 "\"linear\"",
                 "200",
@@ -13174,6 +13326,14 @@
                 ""
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
             }
           ],
           "actions": [
@@ -13186,22 +13346,6 @@
                 "TutorialArbusto",
                 "Tween",
                 "\"sumirtexto1\"",
-                "0",
-                "\"linear\"",
-                "200",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Tween::AddObjectOpacityTween"
-              },
-              "parameters": [
-                "TextoFundo1",
-                "Tween",
-                "\"sumirbalao1\"",
                 "0",
                 "\"linear\"",
                 "200",
@@ -13932,6 +14076,10 @@
     }
   ],
   "behaviorsSharedData": [
+    {
+      "name": "AdvancedJump",
+      "type": "AdvancedJump::AdvancedJump"
+    },
     {
       "name": "DraggableSliderControl",
       "type": "DraggableSliderControl::DraggableSliderControl"

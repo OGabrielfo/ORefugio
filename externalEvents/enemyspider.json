@@ -7,29 +7,6 @@
       "disabled": false,
       "folded": false,
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": [],
-      "events": []
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Comment",
-      "color": {
-        "b": 0,
-        "g": 165,
-        "r": 2,
-        "textB": 255,
-        "textG": 255,
-        "textR": 255
-      },
-      "comment": "Animação Raiz",
-      "comment2": ""
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
           "type": {
@@ -58,21 +35,6 @@
         }
       ],
       "events": []
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Comment",
-      "color": {
-        "b": 253,
-        "g": 105,
-        "r": 189,
-        "textB": 0,
-        "textG": 0,
-        "textR": 0
-      },
-      "comment": "Animação Flor",
-      "comment2": ""
     },
     {
       "disabled": false,
@@ -172,6 +134,45 @@
           "events": []
         }
       ]
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::ForEach",
+      "object": "Aranha",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "Distance"
+          },
+          "parameters": [
+            "Aranha",
+            "Teia",
+            "380",
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "PrimitiveDrawing::LineV2"
+          },
+          "parameters": [
+            "Teia",
+            "Teia.X()",
+            "Teia.Y()",
+            "Aranha.PointX(\"Teia\")",
+            "Aranha.PointY(\"Teia\")",
+            "2"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
     },
     {
       "disabled": false,

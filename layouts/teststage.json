@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.22400000000000056,
+    "zoomFactor": 0.5440000000000006,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -340,9 +340,73 @@
       "name": "Player",
       "persistentUuid": "9d451ecb-5042-4b1b-90f7-84f74b7f0936",
       "width": 0,
-      "x": 63,
-      "y": -293,
+      "x": 42,
+      "y": 841,
       "zOrder": 22,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 130.96774291992188,
+      "layer": "Game",
+      "locked": false,
+      "name": "Aranha",
+      "persistentUuid": "997d44c3-a549-4079-b78d-6b30e27c7c15",
+      "width": 192.4170684814453,
+      "x": 348,
+      "y": 719,
+      "zOrder": 23,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 39,
+      "layer": "Game",
+      "locked": false,
+      "name": "Teia",
+      "persistentUuid": "427fc69c-b118-4f43-a631-b6741a9ade8d",
+      "width": 32,
+      "x": 449,
+      "y": 513,
+      "zOrder": 22,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Game",
+      "locked": false,
+      "name": "Teia",
+      "persistentUuid": "6c80d47d-9152-4218-8b47-b3b120954853",
+      "width": 0,
+      "x": 959.5829467773438,
+      "y": 505.03228759765625,
+      "zOrder": 22,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 130.96774291992188,
+      "layer": "Game",
+      "locked": false,
+      "name": "Aranha",
+      "persistentUuid": "844fca56-c184-4723-bbe8-0f212c713cff",
+      "width": 192.4170684814453,
+      "x": 855.5829467773438,
+      "y": 718.0322265625,
+      "zOrder": 23,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1473,7 +1537,13 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "Graphics\\Enemies\\Spider\\Aranha01.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "Teia",
+                      "x": 460,
+                      "y": 77
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -1502,7 +1572,13 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "Graphics\\Enemies\\Spider\\Aranha02.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "Teia",
+                      "x": 460,
+                      "y": 77
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -1519,7 +1595,13 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "Graphics\\Enemies\\Spider\\Aranha03.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "Teia",
+                      "x": 460,
+                      "y": 77
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -1536,7 +1618,13 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "Graphics\\Enemies\\Spider\\Aranha02.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "Teia",
+                      "x": 460,
+                      "y": 77
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -1990,6 +2078,29 @@
           ]
         }
       ]
+    },
+    {
+      "name": "Teia",
+      "tags": "",
+      "type": "PrimitiveDrawing::Drawer",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "fillOpacity": 255,
+      "outlineSize": 2,
+      "outlineOpacity": 255,
+      "fillColor": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "outlineColor": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "absoluteCoordinates": true,
+      "clearBetweenFrames": true
     }
   ],
   "events": [
@@ -2068,6 +2179,53 @@
         "includeConfig": 0
       },
       "target": "PauseMenu"
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::ForEach",
+      "object": "Aranha",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "Distance"
+          },
+          "parameters": [
+            "Aranha",
+            "Teia",
+            "400",
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "PrimitiveDrawing::LineV2"
+          },
+          "parameters": [
+            "Teia",
+            "Teia.X()",
+            "Teia.Y()",
+            "Aranha.PointX(\"Teia\")",
+            "Aranha.PointY(\"Teia\")",
+            "2"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
     }
   ],
   "layers": [
@@ -2111,7 +2269,7 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "name": "HUD",
-      "visibility": true,
+      "visibility": false,
       "cameras": [],
       "effects": []
     },
@@ -2122,12 +2280,16 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "name": "PauseMenu",
-      "visibility": true,
+      "visibility": false,
       "cameras": [],
       "effects": []
     }
   ],
   "behaviorsSharedData": [
+    {
+      "name": "AdvancedJump",
+      "type": "AdvancedJump::AdvancedJump"
+    },
     {
       "name": "DraggableSliderControl",
       "type": "DraggableSliderControl::DraggableSliderControl"

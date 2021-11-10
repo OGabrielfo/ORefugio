@@ -22,7 +22,7 @@
     "author": "",
     "windowWidth": 1920,
     "windowHeight": 1080,
-    "latestCompilationDirectory": "C:\\Users\\Gabrielfo\\Documents\\GDevelop projects\\ORefugio-beta-0.1.6",
+    "latestCompilationDirectory": "C:\\Users\\Gabrielfo\\Documents\\GDevelop projects\\ORefugio-beta-0.2.0",
     "maxFPS": 60,
     "minFPS": 20,
     "verticalSync": false,
@@ -394,13 +394,6 @@
         "metadata": "",
         "name": "NewObject-1-0.png",
         "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "CutScene/00 - Inicio.mp4",
-        "kind": "video",
-        "metadata": "",
-        "name": "CutScene\\00 - Inicio.mp4",
         "userAdded": false
       },
       {
@@ -3248,6 +3241,14 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "AdvancedJump",
+          "type": "AdvancedJump::AdvancedJump",
+          "CoyoteTimeFrameDuration": 0.05,
+          "PlatformerBehavior": "PlatformerObject",
+          "CanCoyoteJump": false,
+          "WasInTheAir": false
+        },
+        {
           "name": "Health",
           "type": "Health::Health",
           "Health": 50,
@@ -3258,8 +3259,8 @@
         },
         {
           "name": "PlatformerObject",
-          "slopeMaxAngle": 60,
           "type": "PlatformBehavior::PlatformerObjectBehavior",
+          "slopeMaxAngle": 60,
           "ignoreDefaultControls": false,
           "jumpSpeed": 800,
           "acceleration": 1500,
@@ -4590,6 +4591,10 @@
     }
   ],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/advancedjump"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/firebullet"
