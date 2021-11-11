@@ -22,7 +22,7 @@
     "author": "",
     "windowWidth": 1920,
     "windowHeight": 1080,
-    "latestCompilationDirectory": "C:\\Users\\Gabrielfo\\Documents\\GDevelop projects\\ORefugio-beta-0.2.0",
+    "latestCompilationDirectory": "C:\\Users\\gabriel.gsilva40\\Documents\\ORefugio-beta-0.2.1",
     "maxFPS": 60,
     "minFPS": 20,
     "verticalSync": false,
@@ -394,6 +394,13 @@
         "metadata": "",
         "name": "NewObject-1-0.png",
         "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "CutScene/00 - Inicio.mp4",
+        "kind": "video",
+        "metadata": "",
+        "name": "CutScene\\00 - Inicio.mp4",
         "userAdded": false
       },
       {
@@ -2913,6 +2920,24 @@
         "kind": "image",
         "metadata": "",
         "name": "Graphics\\Stages\\Stage 1\\escombros.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Stage 2/TeiaAranha.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Stage 2\\TeiaAranha.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Graphics/Stages/Stage 3/caule.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graphics\\Stages\\Stage 3\\caule.png",
         "smoothed": true,
         "userAdded": false
       }

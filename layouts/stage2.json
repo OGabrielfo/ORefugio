@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.07,
+    "zoomFactor": 0.09000000000000022,
     "windowMask": false
   },
   "objectsGroups": [
@@ -5985,7 +5985,7 @@
       "name": "Aranha",
       "persistentUuid": "747031f0-e76d-486a-af79-cb3d9458cf6b",
       "width": 185,
-      "x": -3145,
+      "x": -3137,
       "y": 781,
       "zOrder": 6,
       "numberProperties": [],
@@ -6977,8 +6977,8 @@
       "name": "Player",
       "persistentUuid": "d2b0b4b4-836d-4a9e-9b09-e46bd519730e",
       "width": 0,
-      "x": -4410,
-      "y": -406,
+      "x": -4429,
+      "y": -407,
       "zOrder": 15,
       "numberProperties": [],
       "stringProperties": [],
@@ -7150,8 +7150,8 @@
       "persistentUuid": "40ae0451-e391-44e0-93a6-24f44cb20804",
       "width": 0,
       "x": -3441,
-      "y": 447,
-      "zOrder": 4,
+      "y": 493,
+      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -7165,9 +7165,9 @@
       "name": "Teia",
       "persistentUuid": "0888258d-2343-41c0-887b-931082889b08",
       "width": 0,
-      "x": -3055,
-      "y": 667,
-      "zOrder": 4,
+      "x": -3047,
+      "y": 710,
+      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -7182,8 +7182,8 @@
       "persistentUuid": "9a3a95eb-6b25-452a-b274-2c66fa650981",
       "width": 0,
       "x": 1441,
-      "y": 802,
-      "zOrder": 4,
+      "y": 845,
+      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -7198,8 +7198,8 @@
       "persistentUuid": "88072882-d7b8-4804-8d90-2ed75241ecd3",
       "width": 0,
       "x": 2695,
-      "y": 729,
-      "zOrder": 4,
+      "y": 772,
+      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -7214,8 +7214,8 @@
       "persistentUuid": "c3a9b7f8-a3b6-4bdb-b693-f7e9fb9d0ac7",
       "width": 0,
       "x": 4091,
-      "y": 729,
-      "zOrder": 4,
+      "y": 773,
+      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -7230,7 +7230,103 @@
       "persistentUuid": "50778b9e-ca6c-4dea-8299-c6e8804c7119",
       "width": 0,
       "x": 4688,
-      "y": 729,
+      "y": 772,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Game",
+      "locked": false,
+      "name": "TeiaAranha",
+      "persistentUuid": "9f4210e9-e604-4be4-89cb-33164efbeb5a",
+      "width": 0,
+      "x": -3464,
+      "y": 454,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Game",
+      "locked": false,
+      "name": "TeiaAranha",
+      "persistentUuid": "ef643aff-d69a-4586-ae6d-bf0ad6d93c7d",
+      "width": 0,
+      "x": -3070,
+      "y": 669,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Game",
+      "locked": false,
+      "name": "TeiaAranha",
+      "persistentUuid": "7bdb8fc6-35fe-4432-949d-7f808baa92ca",
+      "width": 0,
+      "x": 1418,
+      "y": 807,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Game",
+      "locked": false,
+      "name": "TeiaAranha",
+      "persistentUuid": "493089a4-4717-45a7-bcb4-2044f39f5995",
+      "width": 0,
+      "x": 2672,
+      "y": 733,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Game",
+      "locked": false,
+      "name": "TeiaAranha",
+      "persistentUuid": "c5fb60f9-e75f-4bc7-aaed-f8268fee48ac",
+      "width": 0,
+      "x": 4068,
+      "y": 733,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Game",
+      "locked": false,
+      "name": "TeiaAranha",
+      "persistentUuid": "adc020e0-7472-4b15-ac7b-120cb58bb9d1",
+      "width": 0,
+      "x": 4665,
+      "y": 733,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -10785,6 +10881,46 @@
           ]
         }
       ]
+    },
+    {
+      "name": "TeiaAranha",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Graphics\\Stages\\Stage 2\\TeiaAranha.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "events": [
@@ -12276,7 +12412,7 @@
       "colorR": 255,
       "creationTime": 0,
       "disabled": false,
-      "folded": false,
+      "folded": true,
       "name": "Afeta Player",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -12839,7 +12975,7 @@
           "colorR": 0,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Repulsão de Paredes",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -13255,7 +13391,7 @@
       "colorR": 184,
       "creationTime": 0,
       "disabled": false,
-      "folded": false,
+      "folded": true,
       "name": "Tutorial Arbusto",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",

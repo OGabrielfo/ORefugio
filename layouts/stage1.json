@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.09000000000000166,
+    "zoomFactor": 0.8500000000000014,
     "windowMask": false
   },
   "objectsGroups": [
@@ -338,7 +338,7 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 70,
+      "height": 68,
       "layer": "Game",
       "locked": false,
       "name": "Concreto",
@@ -1095,9 +1095,9 @@
       "locked": false,
       "name": "Concreto",
       "persistentUuid": "53a69818-2124-4ed0-b435-0b66df4e7c63",
-      "width": 1960,
-      "x": 35,
-      "y": 1084,
+      "width": 1962,
+      "x": 34,
+      "y": 1085,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -2614,7 +2614,7 @@
       "width": 0,
       "x": 980,
       "y": 2100,
-      "zOrder": 4,
+      "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -3758,12 +3758,12 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 56,
+      "height": 64,
       "layer": "Game",
       "locked": false,
       "name": "TutorialAgachar",
       "persistentUuid": "b82de01f-25ac-4726-b060-08392c292843",
-      "width": 410,
+      "width": 413,
       "x": 1203,
       "y": -3009,
       "zOrder": 20,
@@ -5526,7 +5526,7 @@
       "width": 325,
       "x": -1457.5,
       "y": 2719.5,
-      "zOrder": 113,
+      "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -5542,7 +5542,7 @@
       "width": 70,
       "x": -1120,
       "y": 2593,
-      "zOrder": 113,
+      "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -5558,7 +5558,7 @@
       "width": 70,
       "x": -910,
       "y": 2732,
-      "zOrder": 113,
+      "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -5638,7 +5638,7 @@
       "width": 50,
       "x": 751,
       "y": 2859,
-      "zOrder": 113,
+      "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -7602,7 +7602,7 @@
         }
       ],
       "content": {
-        "text": "[outline=black][shadow=Black]Para pular aperte [b]\"espaço\"[/b]\nPara pausar [b]\"p\"[/b] ou [b]\"esc\"[/b][/outline][/shadow]",
+        "text": "[outline=black][shadow=Black]Para pular aperte [b]\"espaço\"[/b]\nPara pausar [b]\"p\"[/b][/outline][/shadow]",
         "opacity": 255,
         "fontSize": 20,
         "visible": true,
@@ -7671,7 +7671,7 @@
         }
       ],
       "content": {
-        "text": "[outline=black][shadow=Black]Para lugares apertados é melhor se abaixar!\n[size=15]Aperte [b]\"seta para baixo\"[/b] para abaixar[/size][/outline][/shadow]",
+        "text": "[outline=black][shadow=Black]Para lugares apertados é melhor se abaixar!\n[size=15]Aperte [b]\"seta para baixo\"[/b] para abaixar[/size][/outline][/shadow]\n[size=15]e [b]\"seta para cima\"[/b] para levantar[/size][/outline][/shadow]",
         "opacity": 255,
         "fontSize": 20,
         "visible": true,
@@ -8578,7 +8578,7 @@
       "colorR": 0,
       "creationTime": 0,
       "disabled": false,
-      "folded": true,
+      "folded": false,
       "name": "Eventos Externos",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",

@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.07000000000000049,
+    "zoomFactor": 0.530000000000001,
     "windowMask": false
   },
   "objectsGroups": [
@@ -5642,8 +5642,8 @@
       "name": "Player",
       "persistentUuid": "babad6f2-f6d4-4ee2-8fe7-194dc326ecbd",
       "width": 0,
-      "x": -4624,
-      "y": -612,
+      "x": -4633,
+      "y": -611,
       "zOrder": 15,
       "numberProperties": [],
       "stringProperties": [],
@@ -9456,6 +9456,22 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Game",
+      "locked": false,
+      "name": "Caule",
+      "persistentUuid": "18af0009-8cda-421f-9556-f85fffff7e03",
+      "width": 0,
+      "x": 6845,
+      "y": 865,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -10379,6 +10395,46 @@
                       }
                     ]
                   ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Caule",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Graphics\\Stages\\Stage 3\\caule.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
                 }
               ]
             }
@@ -15961,7 +16017,7 @@
       "colorR": 139,
       "creationTime": 0,
       "disabled": false,
-      "folded": true,
+      "folded": false,
       "name": "Plataformas",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -16101,82 +16157,92 @@
             {
               "disabled": false,
               "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "PlataformaSecreta",
+              "conditions": [],
+              "actions": [],
+              "events": [
                 {
-                  "type": {
-                    "inverted": false,
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "PlataformaSecreta",
-                    "Player",
-                    "",
-                    "",
-                    ""
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "PlataformaSecreta",
+                        "Player",
+                        "",
+                        "",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
                   ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Tween::AddObjectOpacityTween"
+                      },
+                      "parameters": [
+                        "PlataformaSecreta",
+                        "Tween",
+                        "\"PlatAparecer\"",
+                        "255",
+                        "\"linear\"",
+                        "200",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
                 {
-                  "type": {
-                    "inverted": false,
-                    "value": "Tween::AddObjectOpacityTween"
-                  },
-                  "parameters": [
-                    "PlataformaSecreta",
-                    "Tween",
-                    "\"PlatAparecer\"",
-                    "255",
-                    "\"linear\"",
-                    "200",
-                    ""
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "PlataformaSecreta",
+                        "Player",
+                        "",
+                        "",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
                   ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "PlataformaSecreta",
-                    "Player",
-                    "",
-                    "",
-                    ""
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Tween::AddObjectOpacityTween"
+                      },
+                      "parameters": [
+                        "PlataformaSecreta",
+                        "Tween",
+                        "\"PlatSumir\"",
+                        "90",
+                        "\"linear\"",
+                        "200",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
                   ],
-                  "subInstructions": []
+                  "events": []
                 }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Tween::AddObjectOpacityTween"
-                  },
-                  "parameters": [
-                    "PlataformaSecreta",
-                    "Tween",
-                    "\"PlatSumir\"",
-                    "90",
-                    "\"linear\"",
-                    "200",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
+              ]
             }
           ],
           "parameters": []
@@ -16406,6 +16472,43 @@
             }
           ],
           "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "disabled": false,
+          "folded": false,
+          "name": "Movimento Horizontal",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "Caule",
+                    "=",
+                    "PlatMovHor.X()-505",
+                    "=",
+                    "PlatMovHor.Y()+20"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ],
+          "parameters": []
         }
       ],
       "parameters": []
@@ -16513,6 +16616,10 @@
     }
   ],
   "behaviorsSharedData": [
+    {
+      "name": "AdvancedJump",
+      "type": "AdvancedJump::AdvancedJump"
+    },
     {
       "name": "DraggableSliderControl",
       "type": "DraggableSliderControl::DraggableSliderControl"
